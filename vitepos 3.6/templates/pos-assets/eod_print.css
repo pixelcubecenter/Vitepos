@@ -1,0 +1,94 @@
+.footer {
+  display: none;
+}
+
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+  .payment-note,
+  .hide-on-print,
+  .btn,
+  .modal-footer {
+    display: none !important;
+  }
+  .purchase-details {
+    padding: 5mm;
+    margin: 0 auto;
+    max-width: 100%;
+    background: #fff;
+    font-family: Arial, Vrinda, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #000 !important;
+  }
+  .purchase-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+  }
+  .purchase-details table thead tr {
+    border-bottom: 2px solid #ccc;
+  }
+  .purchase-details table tbody td {
+    white-space: nowrap;
+  }
+  .purchase-details table tbody td .eod-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+  }
+  .purchase-details table tbody td .eod-row span {
+    font-size: 0.8em;
+  }
+  .purchase-details table th,
+  .purchase-details table td {
+    font-size: 12px;
+    padding: 3px;
+    border-bottom: 1px solid #ccc;
+  }
+  .purchase-details table th {
+    text-align: left;
+    font-weight: bold;
+  }
+  .purchase-details .text-end {
+    text-align: right !important;
+  }
+  .purchase-details .text-center {
+    text-align: center !important;
+  }
+  .purchase-details small {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+  .purchase-details strong {
+    font-weight: bold;
+  }
+  .modal-content {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .footer {
+    margin-top: 16px;
+    display: block !important;
+  }
+}
+@page {
+  margin: 0;
+  padding: 0;
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-left {
+    content: none;
+  }
+  @bottom-right {
+    content: none;
+  }
+}
+
+/*# sourceMappingURL=eod_print.css.map */

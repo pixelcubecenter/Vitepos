@@ -1,0 +1,5533 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VitePOS\n"
+"POT-Creation-Date: 2024-11-06 03:52+0000\n"
+"PO-Revision-Date: 2026-01-06 07:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: ;__;_e;_ee;___;add_error;add_info;SetTitle;AddInfo;"
+"AddError;SetSubtitle;___;AddModel;AddModelNonSearchable\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: dbscript\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+"X-Poedit-SearchPathExcluded-4: tmp\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: release\n"
+"X-Poedit-SearchPathExcluded-7: logs\n"
+"X-Poedit-SearchPathExcluded-8: template/client\n"
+"X-Poedit-SearchPathExcluded-9: template/main\n"
+"X-Poedit-SearchPathExcluded-10: dev_files\n"
+"X-Poedit-SearchPathExcluded-11: adminpanel\n"
+"X-Poedit-SearchPathExcluded-12: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-8.3.6"
+
+#, php-format
+msgid " %s are required"
+msgstr "%s مطلوبة"
+
+#, php-format
+msgid " %s is required"
+msgstr "%s مطلوب"
+
+#, php-format
+msgid " %s should be greater than %s"
+msgstr "يجب أن يكون %s أكبر من %s"
+
+#, php-format
+msgid " %s should be less than %s"
+msgstr "يجب أن يكون %s أقل من %s"
+
+msgid " Point of sale (POS) plugin for wordpress and Woocommerce"
+msgstr "إضافة نقاط البيع (POS) لـ wordpress و Woocommerce"
+
+msgid " should be hexadecimal"
+msgstr "يجب أن يكون سداسي عشري"
+
+#, php-format
+msgid "%s field is required"
+msgstr "حقل %s مطلوب"
+
+#, php-format
+msgid "%s out of stock"
+msgstr "%s نفدت"
+
+#, php-format
+msgid "%s role(s) added"
+msgstr "تمت إضافة %s من الأدوار"
+
+#, php-format
+msgid "%s role(s) failed to add"
+msgstr "فشل في إضافة %s من الأدوار"
+
+#, php-format
+msgid "%s should be a valid email address"
+msgstr "%s يجب أن يكون عنوان بريد إلكتروني صالحًا"
+
+#, php-format
+msgid "%s should be digit"
+msgstr "%s يجب أن يكون رقمًا"
+
+#, php-format
+msgid "%s should be numeric"
+msgstr "%s يجب أن يكون رقميًا"
+
+msgid "%{ row } rows"
+msgstr "%{row} صف"
+
+msgid "%{col} Products Per Row"
+msgstr "%{col} منتج لكل صف"
+
+msgid "%{fld_name} does not match with its password"
+msgstr "%{fld_name} لا يتطابق مع كلمة المرور الخاصة به"
+
+msgid "%{fld_name} is invalid"
+msgstr "%{fld_name} غير صالح"
+
+msgid "%{fld_name} is required"
+msgstr "%{fld_name} مطلوب"
+
+msgid ""
+"%{param} is not support split payment,are you sure to pay only with %{param}?"
+msgstr ""
+"%{param} لا يدعم الدفع المقسم، هل أنت متأكد من أنك تريد الدفع فقط باستخدام "
+"%{param}؟"
+
+msgid "%{qty} of %{items}"
+msgstr "%{qty} من %{items}"
+
+#, php-format
+msgid "(includes %s)"
+msgstr "(يشمل %s)"
+
+msgid "(Items : %{totalItem} and quantity : %{totalQty} )"
+msgstr "(العناصر: %{totalItem} والكمية: %{totalQty})"
+
+msgid "- Drawer counted amount"
+msgstr "- المبلغ المعدود في الدرج"
+
+msgid "- Expected cash"
+msgstr "- النقد المتوقع"
+
+msgid "- Net cash sale of the day"
+msgstr "- صافي مبيعات النقدية لليوم"
+
+msgid "- Opening balance"
+msgstr "- الرصيد الافتتاحي"
+
+msgid "- Total refund of the day"
+msgstr "- إجمالي المبالغ المستردة لليوم"
+
+msgid "- Total sale the day"
+msgstr "- إجمالي المبيعات لليوم"
+
+msgid "- Total withdrawn of the day"
+msgstr "- إجمالي السحب لليوم"
+
+msgid "[Coming Soon]"
+msgstr "[قريباً]"
+
+msgid "A category with the same name already exists with the selected parent."
+msgstr "فئة بنفس الاسم موجودة بالفعل مع الأصل المحدد."
+
+msgid "About"
+msgstr "حول"
+
+msgid "About VitePos"
+msgstr "حول VitePos"
+
+msgid "Above the buttons"
+msgstr "فوق الأزرار"
+
+msgid "Accept"
+msgstr "قبول"
+
+msgid "Accept Cancel Request"
+msgstr "قبول طلب الإلغاء"
+
+msgid "Accepted Cancel"
+msgstr "تم قبول الإلغاء"
+
+msgid "Action"
+msgstr "الإجراء"
+
+msgid "Activate"
+msgstr "تفعيل"
+
+msgid "Activate Pro"
+msgstr "تفعيل النسخة الاحترافية"
+
+msgid "Active"
+msgstr "نشط"
+
+msgid "Active Barcode Search"
+msgstr "بحث الباركود النشط"
+
+msgid "Active Product Search"
+msgstr "بحث المنتج النشط"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Add Addon"
+msgstr "إضافة ملحق"
+
+msgid "Add Addons"
+msgstr "إضافة ملحقات"
+
+msgid "Add Attribute"
+msgstr "إضافة سمة"
+
+msgid "Add Attributes"
+msgstr "أضف السمات"
+
+msgid "Add Category"
+msgstr "إضافة فئة"
+
+msgid "Add Counter"
+msgstr "إضافة عداد"
+
+msgid "Add Custom Field"
+msgstr "إضافة حقل مخصص"
+
+msgid "Add Customer"
+msgstr "إضافة عميل"
+
+msgid "Add Deny Reason"
+msgstr "إضافة سبب الرفض"
+
+msgid "Add Discount"
+msgstr "أضف خصم"
+
+msgid "Add extra input field if require"
+msgstr "أضف حقل إدخال إضافي إذا لزم الأمر"
+
+msgid "Add Fee"
+msgstr "أضف رسوم"
+
+msgid "Add Field"
+msgstr "إضافة حقل"
+
+msgid "Add Input"
+msgstr "أضف إدخال"
+
+msgid "Add item to an existing order"
+msgstr "إضافة عنصر إلى طلب قائم"
+
+msgid "Add items to add fee"
+msgstr "أضف عناصر لإضافة رسوم"
+
+msgid "Add items to give discount"
+msgstr "أضف عناصر لمنح خصم"
+
+msgid "Add Message"
+msgstr "إضافة رسالة"
+
+msgid "Add message"
+msgstr "إضافة رسالة"
+
+msgid "Add New"
+msgstr "أضف جديد"
+
+msgid "Add New Order"
+msgstr "إضافة طلب جديد"
+
+msgid "Add Note"
+msgstr "أضف ملاحظة"
+
+msgid "Add note befor decline"
+msgstr "إضافة ملاحظة قبل الرفض"
+
+msgid "Add Option"
+msgstr "إضافة خيار"
+
+msgid "Add Options"
+msgstr "إضافة خيارات"
+
+msgid "Add Outlet"
+msgstr "إضافة منفذ"
+
+msgid "Add page break counter"
+msgstr "إضافة عداد فاصل الصفحة"
+
+msgid "Add payment note"
+msgstr "إضافة ملاحظة للدفع"
+
+msgid "Add Product"
+msgstr "أضف منتج"
+
+msgid "Add Product Attribute"
+msgstr "إضافة سمة المنتج"
+
+msgid "Add Product Category"
+msgstr "إضافة فئة المنتج"
+
+msgid "Add Purchase"
+msgstr "إضافة شراء"
+
+msgid "Add Role"
+msgstr "إضافة دور"
+
+msgid "Add Rules"
+msgstr "إضافة قواعد"
+
+msgid "Add Rules Group"
+msgstr "إضافة مجموعة قواعد"
+
+msgid "Add Shortcut Message"
+msgstr "إضافة رسالة اختصار"
+
+msgid "Add Stock"
+msgstr "إضافة مخزون"
+
+msgid "Add Supplier"
+msgstr "إضافة مورد"
+
+msgid "Add Table"
+msgstr "إضافة جدول"
+
+msgid "Add tips"
+msgstr "إضافة إكراميات"
+
+msgid "Add To Cart"
+msgstr "أضف إلى سلة التسوق"
+
+msgid "Add to Cart"
+msgstr "أضف إلى سلة التسوق"
+
+msgid "Add to cart"
+msgstr "أضف إلى السلة"
+
+msgid "Add To Cart ("
+msgstr "أضف إلى سلة التسوق ("
+
+msgid "Add to this outlet"
+msgstr "أضف إلى هذا المنفذ"
+
+msgid "Add User"
+msgstr "إضافة مستخدم"
+
+msgid "Add Variation"
+msgstr "إضافة اختلاف"
+
+msgid "Add Variations"
+msgstr "أضف الاختلافات"
+
+msgid "Add Vendor"
+msgstr "إضافة بائع"
+
+msgid "Add waiter"
+msgstr "إضافة نادل"
+
+msgid "Add/Search Customer.."
+msgstr "إضافة / بحث عن عميل.."
+
+msgid "Adding category"
+msgstr "إضافة فئة"
+
+msgid "Adding Role"
+msgstr "إضافة دور"
+
+msgid "Adding wordpress Roles"
+msgstr "إضافة أدوار ووردبريس"
+
+msgid "Addon delete failed"
+msgstr "فشل حذف الوظيفة الإضافية"
+
+msgid "Addon deleted successfully"
+msgstr "تم حذف الوظيفة الإضافية بنجاح"
+
+msgid "Addon updated successfully"
+msgstr "تم تحديث الملحق بنجاح"
+
+msgid "Addons"
+msgstr "ملحقات"
+
+msgid "Addons List Loading..."
+msgstr "قائمة الملحقات قيد التحميل..."
+
+msgid "Addons Panel"
+msgstr "لوحة الملحقات"
+
+msgid "Address"
+msgstr "العنوان"
+
+msgid "Address:"
+msgstr "العنوان:"
+
+msgid "Administrator"
+msgstr "المسؤول"
+
+msgid "Administrator can not be reset"
+msgstr "لا يمكن إعادة تعيين المسؤول"
+
+msgid "All"
+msgstr "الكل"
+
+msgid "All Categories"
+msgstr "جميع الفئات"
+
+msgid "All Category"
+msgstr "جميع الفئات"
+
+msgid "All Customer Data"
+msgstr "جميع بيانات العملاء"
+
+msgid "All items refunded"
+msgstr "تم رد جميع العناصر"
+
+msgid "All Order"
+msgstr "جميع الطلبات"
+
+msgid "All Order Data"
+msgstr "جميع بيانات الطلبات"
+
+msgid "All outlet product stocks"
+msgstr "جميع مخزونات منتجات المخرج"
+
+msgid "All Refund"
+msgstr "جميع المبالغ المستردة"
+
+msgid "All Staff Data"
+msgstr "جميع بيانات الموظفين"
+
+msgid "Allowed Ip"
+msgstr "السماح بـ IP"
+
+msgid ""
+"Allowing the order to be completed by the chef rather than by the cashier."
+msgstr "السماح بإكمال الطلب من قبل الطاهي بدلاً من الصراف."
+
+msgid ""
+"Allows users to enter the counted cash amount before closing the drawer to "
+"ensure accurate cash management."
+msgstr ""
+"يسمح للمستخدمين بإدخال مبلغ النقد المعدود قبل إغلاق الدرج لضمان إدارة نقدية "
+"دقيقة."
+
+msgid ""
+"Allows users to input the counted cash amount before closing the drawer."
+msgstr "يسمح للمستخدمين بإدخال مبلغ النقد المعدود قبل إغلاق الدرج."
+
+msgid ""
+"Allows users to review and input the counted cash amount from the drawer "
+"before closing."
+msgstr ""
+"يسمح للمستخدمين بمراجعة وإدخال مبلغ النقد المعدود من الدرج قبل الإغلاق."
+
+msgid ""
+"Alternatively, you can be link your online sales to a specific outlet, and "
+"the system will use the stock from the linked outlet for online sales."
+msgstr ""
+"بدلاً من ذلك ، يمكنك ربط مبيعاتك عبر الإنترنت بمنفذ معين ، وسيستخدم النظام "
+"المخزون من المنفذ المرتبط للمبيعات عبر الإنترنت."
+
+msgid "Amount"
+msgstr "المبلغ"
+
+msgid "Amount:"
+msgstr "المبلغ:"
+
+msgid ""
+"Amounts are rounded to the nearest whole number using standard rounding "
+"rules (e.g., values ending in .5 or higher are rounded up, and below .5 are "
+"rounded down)."
+msgstr ""
+"يتم تقريب المبالغ إلى أقرب عدد صحيح باستخدام قواعد التقريب القياسية (على "
+"سبيل المثال، القيم التي تنتهي بـ .5 أو أعلى يتم تقريبها لأعلى، وما دون .5 "
+"يتم تقريبها لأسفل)."
+
+msgid ""
+"Amounts will be rounded using a custom method: values ending in .5 remain "
+"unchanged, amounts below .5 are rounded down, and amounts above .5 are "
+"rounded up."
+msgstr ""
+"سيتم تقريب المبالغ باستخدام طريقة مخصصة: القيم التي تنتهي بـ .5 تبقى كما هي، "
+"المبالغ أقل من .5 يتم تقريبها لأسفل، والمبالغ أكبر من .5 يتم تقريبها لأعلى."
+
+msgid "AND"
+msgstr "و"
+
+msgid "And More.."
+msgstr "و المزيد .."
+
+msgid "and person count"
+msgstr "وعدد الأشخاص"
+
+msgid "Any Options"
+msgstr "أي خيارات"
+
+msgid "App ID"
+msgstr "معرف التطبيق"
+
+msgid "Apply"
+msgstr "تطبيق"
+
+msgid "Aprox"
+msgstr "تقريبي"
+
+msgid "Are sure to accept cancel?"
+msgstr "هل أنت متأكد من قبول الإلغاء؟"
+
+msgid "Are sure to deny cancel request?"
+msgstr "هل أنت متأكد من رفض طلب الإلغاء؟"
+
+msgid "Are you sure clear cart?"
+msgstr "هل أنت متأكد من مسح سلة التسوق؟"
+
+msgid "Are you sure order is ready to serve?"
+msgstr "هل أنت متأكد أن الطلب جاهز للتقديم؟"
+
+msgid "Are you sure to %{status}?"
+msgstr "هل أنت متأكد من %{status}؟"
+
+msgid "Are you sure to accept cancel for this item?"
+msgstr "هل أنت متأكد من قبول إلغاء هذا العنصر؟"
+
+msgid "Are you sure to cancel the order?"
+msgstr "هل أنت متأكد من إلغاء الطلب؟"
+
+msgid "Are you sure to change status to active"
+msgstr "هل أنت متأكد من تغيير الحالة إلى نشط؟"
+
+msgid "Are you sure to change status to inactive"
+msgstr "هل أنت متأكد من تغيير الحالة إلى غير نشط؟"
+
+msgid "Are you sure to completing this order?"
+msgstr "هل أنت متأكد من إكمال هذا الطلب؟"
+
+msgid "Are you sure to delete this attribute: %{attribute}?"
+msgstr "هل أنت متأكد من حذف هذه السمة: %{attribute}؟"
+
+msgid "Are you sure to delete this category: %{category}?"
+msgstr "هل أنت متأكد من حذف هذه الفئة: %{category}؟"
+
+msgid "Are you sure to delete this counter: %{counter}?"
+msgstr "هل أنت متأكد من حذف هذا العداد: %{counter}؟"
+
+msgid "Are you sure to delete this custom field?"
+msgstr "هل أنت متأكد من حذف هذا الحقل المخصص؟"
+
+msgid "Are you sure to delete this Customer: %{customer}?"
+msgstr "هل أنت متأكد من حذف هذا العميل: %{customer}؟"
+
+msgid "Are you sure to delete this deny message?"
+msgstr "هل أنت متأكد من حذف رسالة الرفض هذه؟"
+
+msgid "Are you sure to delete this message?"
+msgstr "هل أنت متأكد من حذف هذه الرسالة؟"
+
+msgid "Are you sure to delete this outlet: %{outlet}?"
+msgstr "هل أنت متأكد من حذف هذا المنفذ: %{outlet}؟"
+
+msgid "Are you sure to delete this page style?"
+msgstr "هل أنت متأكد من حذف نمط هذه الصفحة؟"
+
+msgid "Are you sure to delete this product: %{product}?"
+msgstr "هل أنت متأكد من حذف هذا المنتج: %{product}؟"
+
+msgid "Are you sure to delete this Table: %{table}?"
+msgstr "هل أنت متأكد من حذف هذا الجدول: %{table}؟"
+
+msgid "Are you sure to delete this user: %{user}?"
+msgstr "هل أنت متأكد من حذف هذا المستخدم: %{user}؟"
+
+msgid "Are you sure to delete this vendor: %{vendor}?"
+msgstr "هل أنت متأكد من حذف هذا البائع: %{vendor}؟"
+
+msgid "Are you sure to deny cancel for this item?"
+msgstr "هل أنت متأكد من رفض إلغاء هذا العنصر؟"
+
+msgid "Are you sure to disable %{name}?"
+msgstr "هل أنت متأكد من تعطيل %{name}؟"
+
+msgid "Are you sure to enable %{name}?"
+msgstr "هل أنت متأكد من تمكين %{name}؟"
+
+msgid "Are you sure to give access to %{role}?"
+msgstr "هل أنت متأكد من منح حق الوصول إلى %{role}؟"
+
+msgid "Are you sure to hide this product on POS"
+msgstr "هل أنت متأكد من إخفاء هذا المنتج على POS؟"
+
+msgid "Are you sure to ignore this update of price ?"
+msgstr "هل أنت متأكد من تجاهل تحديث السعر هذا؟"
+
+msgid "Are you sure to make this active??"
+msgstr "هل أنت متأكد من تفعيل هذا؟"
+
+msgid "Are you sure to make this field hidden?"
+msgstr "هل أنت متأكد من جعل هذا الحقل مخفيًا؟"
+
+msgid "Are you sure to make this field not required?"
+msgstr "هل أنت متأكد من جعل هذا الحقل غير مطلوب؟"
+
+msgid "Are you sure to make this inactive?"
+msgstr "هل أنت متأكد من تعطيل هذا؟"
+
+msgid "Are you sure to make this main branch?"
+msgstr "هل أنت متأكد من جعل هذا الفرع الرئيسي؟"
+
+msgid "Are you sure to make this product favorite"
+msgstr "هل أنت متأكد من إضافة هذا المنتج إلى المفضلة؟"
+
+msgid "Are you sure to remove ?"
+msgstr "هل أنت متأكد من الحذف؟"
+
+msgid "Are you sure to remove access from %{role}?"
+msgstr "هل أنت متأكد من إزالة الوصول من %{role}؟"
+
+msgid "Are you sure to remove all item from cart?"
+msgstr "هل أنت متأكد من إزالة جميع العناصر من سلة التسوق؟"
+
+msgid "Are you sure to remove it?"
+msgstr "هل أنت متأكد من إزالته؟"
+
+msgid "Are you sure to remove item from cart?"
+msgstr "هل أنت متأكد من إزالة العنصر من سلة التسوق؟"
+
+msgid "Are you sure to remove item from Holds?"
+msgstr "هل أنت متأكد من إزالة العنصر من الاحتفاظ؟"
+
+msgid "Are you sure to remove this item?"
+msgstr "هل أنت متأكد من إزالة هذا العنصر؟"
+
+msgid "Are you sure to remove this user from this outlet ?"
+msgstr "هل أنت متأكد من حذف هذا المستخدم من هذا المنفذ؟"
+
+msgid "Are you sure to serve the order?"
+msgstr "هل أنت متأكد من تقديم الطلب؟"
+
+msgid "Are you sure to show this product on POS"
+msgstr "هل أنت متأكد من عرض هذا المنتج على POS؟"
+
+msgid "Are you sure to transfer online stock to  %{outlet}?"
+msgstr "هل أنت متأكد من نقل المخزون عبر الإنترنت إلى %{outlet}؟"
+
+msgid "Are you sure you are starting?"
+msgstr "هل أنت متأكد من البدء؟"
+
+msgid "Are you sure,want to make cancel request for this item?"
+msgstr "هل أنت متأكد من رغبتك في تقديم طلب إلغاء لهذا العنصر؟"
+
+msgid "Are you sure,want to make cancel request?"
+msgstr "هل أنت متأكد من رغبتك في تقديم طلب إلغاء؟"
+
+msgid "Are you sure,you want to change sound settings?"
+msgstr "هل أنت متأكد أنك تريد تغيير إعدادات الصوت؟"
+
+msgid "Are you sure?"
+msgstr "هل أنت متأكد؟"
+
+msgid "Attribute"
+msgstr "السمة"
+
+msgid "Attribute created successfully "
+msgstr "تم إنشاء السمة بنجاح"
+
+msgid "Attribute deleted successfully"
+msgstr "تم حذف السمة بنجاح"
+
+msgid "Attribute Loading ..."
+msgstr "جاري تحميل السمة ..."
+
+msgid "Attribute name is missing"
+msgstr "اسم السمة مفقود"
+
+msgid "Attribute not found"
+msgstr "لم يتم العثور على السمة"
+
+msgid "Attribute not found or could not be deleted"
+msgstr "لم يتم العثور على السمة أو تعذر حذفها"
+
+msgid "Attribute updated successfully"
+msgstr "تم تحديث السمة بنجاح"
+
+msgid "Attributes List"
+msgstr "قائمة السمات"
+
+msgid "Attributes Loading"
+msgstr "تحميل السمات"
+
+msgid "Authorize Settings"
+msgstr "إعدادات الموافقة"
+
+msgid "Auto capture on payment auth"
+msgstr "الدفع التلقائي عند تأكيد الدفع"
+
+msgid ""
+"Automatically rounds the order total to the nearest value for easier billing"
+msgstr "يقوم تلقائيًا بتقريب إجمالي الطلب إلى أقرب قيمة لتسهيل الفوترة"
+
+msgid "available on these outlets"
+msgstr "متاح في هذه المنافذ"
+
+msgid "Available Points"
+msgstr "النقاط المتاحة"
+
+msgid "Available Tips"
+msgstr "الإكراميات المتاحة"
+
+msgid "Back"
+msgstr "العودة"
+
+msgid "Balance"
+msgstr "الرصيد"
+
+msgid "Bar Code"
+msgstr "الباركود"
+
+msgid "Barcode"
+msgstr "رمز شريطي"
+
+msgid "Barcode Field"
+msgstr "حقل الباركود"
+
+msgid "Barcode Height"
+msgstr "ارتفاع رمز الاستجابة السريعة"
+
+msgid "Barcode Logo"
+msgstr "شعار الباركود"
+
+msgid "Barcode Position"
+msgstr "موضع رمز الشريط"
+
+msgid "Barcode Value"
+msgstr "قيمة رمز الاستجابة السريعة"
+
+msgid "Barcode width"
+msgstr "عرض رمز الاستجابة السريعة"
+
+msgid "Barcode width is required"
+msgstr "يُطلب عرض رمز الاستجابة السريعة"
+
+msgid "Barcode width must be numeric"
+msgstr "يجب أن يكون عرض رمز الاستجابة السريعة رقميًا"
+
+msgid "Based on outlet order(s)"
+msgstr "بناءً على طلبات المنفذ"
+
+msgid "Basic Help"
+msgstr "المساعدة الأساسية"
+
+msgid "Basic POS"
+msgstr "نقطة بيع أساسية"
+
+msgid "Basic Settings"
+msgstr "الإعدادات الأساسية"
+
+msgid ""
+"Below is the list of all active WooCommerce payment gateways. Please select "
+"the payment gateways you want to use for POS."
+msgstr ""
+"فيما يلي قائمة بجميع بوابات الدفع النشطة في ووكومرس. يرجى تحديد بوابات الدفع "
+"التي تريد استخدامها لنقطة البيع."
+
+msgid "Below the buttons"
+msgstr "أسفل الأزرار"
+
+msgid "Best size is %{logoWidth} in width and %{logoHeight} in height."
+msgstr "أفضل حجم هو %{logoWidth} في العرض و %{logoHeight} في الارتفاع."
+
+msgid "Best size is 100px in width and 60px in height."
+msgstr "أفضل حجم هو 100 بكسل عرضًا و 60 بكسل ارتفاعًا."
+
+msgid "Best size is 166px in width and 60px in height."
+msgstr "أفضل حجم هو 166 بكسل عرضًا و 60 بكسل ارتفاعًا."
+
+msgid "Blank for auto"
+msgstr "فارغ للتلقائي"
+
+msgid "Bottom"
+msgstr "أسفل"
+
+msgid "Brand"
+msgstr "العلامة التجارية"
+
+msgid "Branding"
+msgstr "التصميم"
+
+msgid "Build :"
+msgstr "البناء :"
+
+msgid "Built-in"
+msgstr "مُدمج"
+
+msgid "Calculate tax after discounts and fees"
+msgstr "حساب الضريبة بعد الخصومات والرسوم"
+
+msgid "Calculate tax before discounts and fees"
+msgstr "حساب الضريبة قبل الخصومات والرسوم"
+
+msgid "Calculator"
+msgstr "آلة حاسبة"
+
+msgid "Can create & manage unlimited counter for each outlet"
+msgstr "يمكن إنشاء وإدارة عدادات غير محدودة لكل منفذ"
+
+msgid "Can create & manage unlimited outlets"
+msgstr "يمكن إنشاء وإدارة منافذ غير محدودة"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Cancel Order"
+msgstr "إلغاء الطلب"
+
+msgid "Cancel requested"
+msgstr "تم طلب الإلغاء"
+
+msgid "Canceled"
+msgstr "تم الإلغاء"
+
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+msgid "Captcha error, please try again"
+msgstr "خطأ في الكابتشا ، يرجى المحاولة مرة أخرى"
+
+msgid "Capture Method"
+msgstr "طريقة الدفع"
+
+msgid "Capture on order complete (Recommended)"
+msgstr "الدفع عند اكتمال الطلب (موصى به)"
+
+msgid "Card"
+msgstr "البطاقة"
+
+msgid "Card number"
+msgstr "رقم البطاقة"
+
+msgid "Cart"
+msgstr "سلة التسوق"
+
+msgid "Cash"
+msgstr "نقد"
+
+msgid "Cash Drawer"
+msgstr "درج النقد"
+
+msgid "Cash Drawer Balance"
+msgstr "رصيد درج النقد"
+
+msgid "Cash Drawer Balance:"
+msgstr "رصيد درج النقد:"
+
+msgid "Cash Drawer Closing Counted Amount"
+msgstr "مبلغ الإغلاق المعدود لدرج النقد"
+
+msgid "Cash Drawer details"
+msgstr "تفاصيل درج النقد"
+
+msgid "Cash drawer loading..."
+msgstr "تحميل درج النقد..."
+
+msgid "Cash Drawer Tips details"
+msgstr "تفاصيل إكراميات درج النقدية"
+
+msgid "Cash Information"
+msgstr "معلومات النقد"
+
+msgid "Cash on delivery"
+msgstr "الدفع عند الاستلام"
+
+msgid "Cash Summary"
+msgstr "ملخص النقد"
+
+msgid "Cash withdraw failed"
+msgstr "فشل سحب النقد"
+
+msgid "Cash withdraw succeeded"
+msgstr "نجح سحب النقد"
+
+msgid "Cash withdraw succeeded and closed"
+msgstr "نجح سحب النقد وتم إغلاقه"
+
+msgid "Cashier"
+msgstr "الخزين"
+
+msgid "Cashier Panel"
+msgstr "لوحة التحكم الخاصة بكاشير"
+
+msgid "Cashier Report Summary"
+msgstr "ملخص تقرير أمين الصندوق"
+
+msgid "Category"
+msgstr "الفئة"
+
+msgid "Category created successfully"
+msgstr "تم إنشاء الفئة بنجاح"
+
+msgid "Category deleted successfully"
+msgstr "تم حذف الفئة بنجاح"
+
+msgid "Category description"
+msgstr "وصف الفئة"
+
+msgid "Category Image"
+msgstr "صورة الفئة"
+
+msgid "Category Loading"
+msgstr "جارِ تحميل الفئة"
+
+msgid "Category Loading ..."
+msgstr "جاري تحميل الفئة ..."
+
+msgid "Category name is required"
+msgstr "اسم الفئة مطلوب"
+
+msgid "Category updated successfully"
+msgstr "تم تحديث الفئة بنجاح"
+
+msgid "Change"
+msgstr "التغيير"
+
+msgid "Change Outlet"
+msgstr "تغيير المخرج"
+
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+msgid "Change password required"
+msgstr "تغيير كلمة المرور مطلوب"
+
+msgid "Changed"
+msgstr "تم التغيير"
+
+msgid "Changed Amount"
+msgstr "المبلغ المُغيّر"
+
+msgid "Channels"
+msgstr "القنوات"
+
+msgid ""
+"check for add this product to update price list, if need to update product "
+"price"
+msgstr ""
+"تحقق من إضافة هذا المنتج لتحديث قائمة الأسعار، إذا كنت بحاجة إلى تحديث سعر "
+"المنتج"
+
+msgid "Check payments"
+msgstr "الشيكات"
+
+msgid "Checkbox"
+msgstr "مربع الاختيار"
+
+msgid "Checkout"
+msgstr "الخروج"
+
+msgid "Checkout Page"
+msgstr "صفحة الدفع"
+
+msgid "Chef"
+msgstr "طباخ"
+
+msgid "Choose a Outlet"
+msgstr "اختر مخرجًا"
+
+msgid "Choose a paper settings"
+msgstr "اختر إعدادات الورق"
+
+msgid "Choose category"
+msgstr "اختر الفئة"
+
+msgid "Choose date"
+msgstr "اختر التاريخ"
+
+msgid "Choose favorite type"
+msgstr "اختر نوعك المفضل"
+
+msgid "Choose item(s) to refund"
+msgstr "اختر السلعة (السلع) لردها"
+
+msgid "Choose option"
+msgstr "اختر الخيار"
+
+msgid "Choose Outlet"
+msgstr "اختر مخرجًا"
+
+msgid "Choose Panel"
+msgstr "اختر لوحة التحكم"
+
+msgid "Choose Parent Category"
+msgstr "اختر الفئة الرئيسية"
+
+msgid "Choose property"
+msgstr "اختر الخاصية"
+
+msgid "Choose Role"
+msgstr "اختر الدور"
+
+msgid "Choose status"
+msgstr "اختر الحالة"
+
+msgid "Choose Table"
+msgstr "اختر الطاولة"
+
+msgid "Choose table and persons"
+msgstr "اختر الطاولة والأشخاص"
+
+msgid "Choose Table to enter person"
+msgstr "اختر الطاولة لإدخال الشخص"
+
+msgid "Choose type of code"
+msgstr "اختر نوع الكود"
+
+msgid "Choose Waiters"
+msgstr "اختر النادل"
+
+msgid "Choose/Search Product"
+msgstr "اختر/ابحث عن المنتج"
+
+msgid "Choose/Search Table"
+msgstr "اختر/ابحث عن طاولة"
+
+msgid "Choose/Search User"
+msgstr "اختر/ابحث عن مستخدم"
+
+msgid "Chose Operator"
+msgstr "اختر المشغل"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "Clear"
+msgstr "مسح"
+
+msgid "Clear Cache"
+msgstr "مسح ذاكرة التخزين المؤقت"
+
+msgid "Clear Cart"
+msgstr "مسح سلة التسوق"
+
+msgid "Click here"
+msgstr "انقر هنا"
+
+msgid "click here"
+msgstr "انقر هنا"
+
+msgid "Click the box to select or remove %{fileName}."
+msgstr "انقر فوق المربع لتحديد أو إزالة %{fileName}."
+
+msgid "Click to change sound settings"
+msgstr "انقر لتغيير إعدادات الصوت"
+
+msgid "Click to see offline order"
+msgstr "انقر لعرض الطلبات غير المتصلة بالإنترنت"
+
+msgid "Click to set custom price"
+msgstr "انقر لتعيين سعر مخصص"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Close & Create New"
+msgstr "إغلاق وإنشاء جديد"
+
+msgid "Close & Logout"
+msgstr "إغلاق والخروج"
+
+msgid "Close :"
+msgstr "إغلاق:"
+
+msgid "Close Drawer"
+msgstr "إغلاق الدرج"
+
+msgid "Close fullscreen"
+msgstr "إغلاق ملء الشاشة"
+
+msgid "Closed"
+msgstr "مُغلق"
+
+msgid "Closed By"
+msgstr "مُغلق بواسطة"
+
+msgid "Closing Balance"
+msgstr "رصيد الإغلاق"
+
+msgid "Closing Time"
+msgstr "وقت الإغلاق"
+
+msgid "Cluster"
+msgstr "العنقود"
+
+msgid "Code Type"
+msgstr "نوع الرمز"
+
+msgid "Code type is required"
+msgstr "نوع الكود مطلوب"
+
+msgid "Completed"
+msgstr "مُكمل"
+
+msgid "Conditional price round"
+msgstr "تقريب السعر الشرطي"
+
+msgid "Contact Author"
+msgstr "اتصل بالمؤلف"
+
+msgid "Contact Info"
+msgstr "معلومات الاتصال"
+
+msgid "Contact No"
+msgstr "رقم الهاتف"
+
+msgid "Contact no already exist."
+msgstr "رقم الاتصال موجود بالفعل."
+
+msgid "Contact Support Team"
+msgstr "اتصل بفريق الدعم"
+
+msgid "Contact:"
+msgstr "الاتصال:"
+
+msgid "Container Margin"
+msgstr "هامش الحاوية"
+
+msgid "Container margin left,right must be numeric"
+msgstr "يجب أن يكون هامش الحاوية الأيسر والأيمن رقميًا"
+
+msgid "Container margin top,bottom can not be empty"
+msgstr "لا يمكن أن يكون هامش الحاوية العلوي والسفلي فارغًا"
+
+msgid "Container margin top,bottom must be numeric"
+msgstr "يجب أن تكون هامش حاوية الأعلى والأسفل رقمي"
+
+msgid "Container Size"
+msgstr "حجم الحاوية"
+
+msgid "Continue with previous drawer"
+msgstr "متابعة مع الدرج السابق"
+
+msgid "Conversion rate"
+msgstr "معدل التحويل"
+
+msgid "Copy from"
+msgstr "نسخ من"
+
+msgid "Copy role"
+msgstr "نسخ الدور"
+
+msgid "Copy Role Permission"
+msgstr "نسخ إذن الدور"
+
+msgid "Copy to"
+msgstr "نسخ إلى"
+
+msgid "Copying role permission"
+msgstr "نسخ إذن الدور"
+
+msgid "Counted amount is required"
+msgstr "مبلغ العد مطلوب"
+
+msgid "Counter"
+msgstr "عداد"
+
+msgid "Counter :"
+msgstr "عداد :"
+
+msgid "Counter Info"
+msgstr "معلومات العداد"
+
+msgid "Counter Information"
+msgstr "معلومات العداد"
+
+msgid "Counter Name"
+msgstr "اسم العداد"
+
+msgid "Counter No"
+msgstr "رقم العداد"
+
+msgid "Counter No Label"
+msgstr "تسمية رقم العداد"
+
+msgid "Counter Number"
+msgstr "رقم العداد"
+
+msgid "Counter Operator Label"
+msgstr "تسمية مشغل العداد"
+
+msgid "Counters"
+msgstr "العدادات"
+
+msgid "Countries Loading"
+msgstr "جارٍ تحميل الدول"
+
+msgid "Country"
+msgstr "البلد"
+
+msgid "Coupon"
+msgstr "قسيمة"
+
+msgid "Coupon Can not applied on offline mode"
+msgstr "لا يمكن تطبيق القسيمة في وضع عدم الاتصال بالإنترنت"
+
+msgid "Create"
+msgstr "إنشاء"
+
+msgid "Create a channel or manage existing channel"
+msgstr "أنشئ قناة أو أدار القناة الموجودة"
+
+msgid "Create New"
+msgstr "إنشاء جديد"
+
+msgid "Create New Order"
+msgstr "إنشاء طلب جديد"
+
+msgid "Create Order"
+msgstr "إنشاء طلب"
+
+msgid "Create Purchase"
+msgstr "إنشاء عملية شراء"
+
+msgid "Created Time"
+msgstr "وقت الإنشاء"
+
+msgid "Creating Customer"
+msgstr "إنشاء عميل"
+
+msgid "Credentials not matched ! !"
+msgstr "بيانات الاعتماد غير متطابقة !!"
+
+msgid "Cross Sells"
+msgstr "البيع المتقاطع"
+
+msgid "Current"
+msgstr "حالي"
+
+msgid "Current Balance"
+msgstr "الرصيد الحالي"
+
+msgid "Current Cash"
+msgstr "النقد الحالي"
+
+msgid "Current Cash Drawer Information"
+msgstr "معلومات درج النقد الحالي"
+
+msgid "Current cash drawer order list"
+msgstr "قائمة طلبات درج النقد الحالي"
+
+msgid "Current Cost"
+msgstr "التكلفة الحالية"
+
+msgid "Current Outlet:"
+msgstr "المخرج الحالي:"
+
+msgid "Current password"
+msgstr "كلمة المرور الحالية"
+
+msgid "Current purchase cost :"
+msgstr "تكلفة الشراء الحالية :"
+
+msgid "Current Purchase Price"
+msgstr "سعر الشراء الحالي"
+
+msgid "Current Status"
+msgstr "الحالة الحالية"
+
+msgid "Current Stock"
+msgstr "المخزون الحالي"
+
+msgid "Custom"
+msgstr "مخصص"
+
+msgid "Custom Barcode"
+msgstr "باركود مخصص"
+
+msgid "Custom Field"
+msgstr "الحقل المخصص"
+
+msgid "custom field"
+msgstr "حقل مخصص"
+
+msgid "Custom Field List"
+msgstr "قائمة الحقول المخصصة"
+
+msgid "Custom Field Settings"
+msgstr "إعدادات الحقول المخصصة"
+
+msgid "Custom Fields"
+msgstr "الحقول المخصصة"
+
+msgid "Custom Method"
+msgstr "طريقة مخصصة"
+
+msgid "Custom Methods"
+msgstr "الأساليب المخصصة"
+
+msgid "Custom payment methode support in pro version only."
+msgstr "يدعم طرق الدفع المخصصة في النسخة الاحترافية فقط."
+
+msgid "Custom Price"
+msgstr "السعر المخصص"
+
+msgid "Custom Size Title"
+msgstr "عنوان حجم مخصص"
+
+msgid "Customer"
+msgstr "العميل"
+
+msgid "customer"
+msgstr "العميل"
+
+msgid "Customer add not supported in offline"
+msgstr "إضافة عميل غير مدعومة في وضع عدم الاتصال بالإنترنت"
+
+msgid "Customer Address"
+msgstr "عنوان العميل"
+
+msgid "Customer Custom Fields"
+msgstr "حقول العملاء المخصصة"
+
+msgid "Customer Form Fields "
+msgstr "حقول نموذج العميل"
+
+msgid "Customer haven't tapped the card yet"
+msgstr "لم يقم العميل بتنشيط البطاقة بعد"
+
+msgid "Customer Id"
+msgstr "معرف العميل"
+
+msgid "Customer Id Label"
+msgstr "تسمية معرف العميل"
+
+msgid "Customer Info"
+msgstr "معلومات العميل"
+
+msgid "Customer info"
+msgstr "معلومات العميل"
+
+msgid "Customer Info Label"
+msgstr "تسمية معلومات العميل"
+
+msgid "Customer List"
+msgstr "قائمة العملاء"
+
+msgid "Customer Loading ..."
+msgstr "تحميل العميل ..."
+
+msgid "Customer Name"
+msgstr "اسم العميل"
+
+msgid "Customer Phone"
+msgstr "هاتف العميل"
+
+msgid "Customer Phone Label"
+msgstr "تسمية هاتف العميل"
+
+msgid "Customer Report Summary"
+msgstr "ملخص تقرير العملاء"
+
+msgid "Customer View"
+msgstr "عرض العميل"
+
+msgid "Customers"
+msgstr "العملاء"
+
+msgid "Customization"
+msgstr "التخصيص"
+
+msgid "Customization of color support in pro version"
+msgstr "تخصيص دعم اللون في الإصدار الاحترافي"
+
+msgid "Daily Report"
+msgstr "التقرير اليومي"
+
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+msgid "Data missing"
+msgstr "البيانات مفقودة"
+
+msgid "data missing"
+msgstr "البيانات مفقودة"
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Date Between"
+msgstr "التاريخ بين"
+
+msgid "days"
+msgstr "أيام"
+
+msgid "Deactivate License"
+msgstr "تعطيل الترخيص"
+
+msgid "Decline"
+msgstr "رفض"
+
+msgid "Declined By"
+msgstr "رفض بواسطة"
+
+msgid "Declined Note"
+msgstr "ملاحظة الرفض"
+
+msgid "Default"
+msgstr "الافتراضي"
+
+msgid "Default Customer (Optional)"
+msgstr "العميل الافتراضي (اختياري)"
+
+msgid "Default Order Status (Optional)"
+msgstr "حالة الطلب الافتراضية (اختياري)"
+
+msgid "Default value"
+msgstr "القيمة الافتراضية"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete custom page size"
+msgstr "حذف حجم الصفحة المخصصة"
+
+msgid "Delete failed"
+msgstr "فشل الحذف"
+
+msgid "delete failed"
+msgstr "فشل الحذف"
+
+msgid "Delete failed try again"
+msgstr "فشل الحذف. حاول مرة أخرى"
+
+msgid "Delete Role"
+msgstr "حذف الدور"
+
+msgid "Delete Role Details"
+msgstr "حذف تفاصيل الدور"
+
+msgid "Denied"
+msgstr "رفض"
+
+msgid "Deny"
+msgstr "رفض"
+
+msgid "Deny Cancel Request"
+msgstr "رفض طلب الإلغاء"
+
+msgid "Deny item"
+msgstr "رفض العنصر"
+
+msgid "Deny Message"
+msgstr "رسالة الرفض"
+
+msgid "Deny Order"
+msgstr "رفض الطلب"
+
+msgid "Deny order"
+msgstr "رفض الطلب"
+
+msgid "Deny Reason"
+msgstr "سبب الرفض"
+
+msgid "deny reason"
+msgstr "سبب الرفض"
+
+msgid "Deny reason is required"
+msgstr "يُرجى إدخال سبب الرفض"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "Designation"
+msgstr "التعيين"
+
+msgid "Designation:"
+msgstr "التسمية:"
+
+msgid "Details"
+msgstr "التفاصيل"
+
+msgid ""
+"Different linked outlet found in database. Would you please save the setting "
+"before transfer the stock"
+msgstr ""
+"تم العثور على منفذ مرتبط مختلف في قاعدة البيانات. هل تريد حفظ الإعداد قبل "
+"نقل المخزون؟"
+
+msgid "Dimension and Tax"
+msgstr "البُعد والضريبة"
+
+msgid "Dimension as Parent"
+msgstr "البعد كأب"
+
+msgid "Direct bank transfer"
+msgstr "تحويل مصرفي مباشر"
+
+msgid "Disable"
+msgstr "تعطيل"
+
+msgid "Discount"
+msgstr "الخصم"
+
+msgid "Discount "
+msgstr "تخفيض"
+
+msgid "Do you want to close cash drawer & logout?"
+msgstr "هل تريد إغلاق درج النقود والخروج؟"
+
+msgid "Do you want to close current cash drawer & create new cash drawer?"
+msgstr "هل تريد إغلاق درج النقود الحالي وإنشاء درج نقود جديد؟"
+
+msgid "Do you want to skip the %{plugin_name} plugin in Vitepos API requests?"
+msgstr ""
+"هل تريد تخطي المكون الإضافي %{plugin_name} في طلبات API الخاصة بـ Vitepos؟"
+
+msgid "Does not found any method with the request param"
+msgstr "لم يتم العثور على أي طريقة مع معلمة الطلب"
+
+msgid "Done"
+msgstr "تم"
+
+msgid "Download"
+msgstr "تنزيل"
+
+msgid "Download "
+msgstr "تحميل"
+
+msgid "Download PDF"
+msgstr "تنزيل ملف PDF"
+
+msgid "Draft"
+msgstr "مسودة"
+
+msgid "Drawer close failed"
+msgstr "فشل إغلاق الدرج"
+
+msgid "Drawer closed"
+msgstr "أغلق الدرج"
+
+msgid "Drawer closed successfully"
+msgstr "تم إغلاق الدرج بنجاح"
+
+msgid "Drawer Counted Amount"
+msgstr "المبلغ المعدود في الدرج"
+
+msgid "Drawer list not found"
+msgstr "لم يتم العثور على قائمة الأدراج"
+
+msgid "Drawer Log"
+msgstr "سجل الدرج"
+
+msgid "Drawer Log Loading ..."
+msgstr "جارٍ تحميل سجل الدرج ..."
+
+msgid "drawer logs"
+msgstr "سجلات الدرج"
+
+msgid "Drawer Opened"
+msgstr "تم فتح الدرج"
+
+msgid "Drawer opened"
+msgstr "فتح الدرج"
+
+msgid "Dropdown"
+msgstr "القائمة المنسدلة"
+
+msgid "E004"
+msgstr "E004"
+
+msgid "Easy product manage (add,update,delete) based on role"
+msgstr "إدارة منتج سهلة (إضافة، تحديث، حذف) بناءً على الدور"
+
+msgid "Edit"
+msgstr "تحرير"
+
+msgid "Edit Counter"
+msgstr "تحرير العداد"
+
+msgid "Edit custom page size"
+msgstr "تعديل حجم الصفحة المخصصة"
+
+msgid "Edit Customer"
+msgstr "تعديل العميل"
+
+msgid "Edit Deny Reason"
+msgstr "تعديل سبب الرفض"
+
+msgid "Edit Message"
+msgstr "تعديل الرسالة"
+
+msgid "Edit Outlet"
+msgstr "تحرير المنفذ"
+
+msgid "Edit Product"
+msgstr "تعديل المنتج"
+
+msgid "Edit Role"
+msgstr "تحرير الدور"
+
+msgid "Edit Table"
+msgstr "تعديل الجدول"
+
+msgid "Edit User"
+msgstr "تعديل المستخدم"
+
+msgid "Edit Vendor"
+msgstr "تعديل المورد"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Email already exist"
+msgstr "البريد الإلكتروني موجود بالفعل"
+
+msgid "Email already exist."
+msgstr "البريد الإلكتروني موجود بالفعل."
+
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+msgid "Empowering Your WooCommerce Store with Vitepos"
+msgstr "تمكين متجر WooCommerce الخاص بك باستخدام Vitepos"
+
+msgid "Empty"
+msgstr "فارغ"
+
+msgid "Empty intend id"
+msgstr "معرف النية فارغ"
+
+msgid "Empty order id"
+msgstr "معرف الطلب فارغ"
+
+msgid "Empty seat:"
+msgstr "الجلوس فارغ:"
+
+msgid "Enable"
+msgstr "تمكين"
+
+msgid "Enable %{brand} Payment"
+msgstr "تمكين الدفع %{brand}"
+
+msgid "Enable Counted Amount Input on Drawer Close"
+msgstr "تمكين إدخال المبلغ المعدود عند إغلاق الدرج"
+
+msgid "Enable Drawer Previous Amount"
+msgstr "تمكين المبلغ السابق للدرج"
+
+msgid "Enable full stock management"
+msgstr "تمكين إدارة المخزون الكاملة"
+
+msgid "Enable Order Total Rounding"
+msgstr "تفعيل تقريب إجمالي الطلب"
+
+msgid "Enable Other Method"
+msgstr "تمكين الطرق الأخرى"
+
+msgid "Enable reCaptcha V3"
+msgstr "تمكين reCaptcha V3"
+
+msgid "Enable RTL"
+msgstr "تمكين RTL"
+
+msgid "Enable Single Cash Drawer"
+msgstr "تمكين درج نقد واحد"
+
+msgid "Enable Swipe Payment"
+msgstr "تمكين الدفع بالبطاقة"
+
+msgid ""
+"Enable this option to allow adding new items to an existing order. Once "
+"added, sending the updated order to the kitchen will be the responsibility "
+"of the cashier who added the items."
+msgstr ""
+"فعّل هذا الخيار للسماح بإضافة عناصر جديدة إلى طلب قائم. بعد الإضافة، سيكون "
+"إرسال الطلب المحدث إلى المطبخ مسؤولية أمين الصندوق الذي أضاف العناصر."
+
+msgid ""
+"Enable this option to allow removing items from an existing order. Once "
+"removed, ensuring the kitchen is updated will be the responsibility of the "
+"cashier who made the change."
+msgstr ""
+"فعّل هذا الخيار للسماح بإزالة العناصر من طلب قائم. بعد الإزالة، سيكون التأكد "
+"من تحديث المطبخ مسؤولية أمين الصندوق الذي أجرى التغيير."
+
+msgid "Enable this option to hide zero stock items from the POS product list"
+msgstr ""
+"قم بتمكين هذا الخيار لإخفاء العناصر ذات المخزون الصفري من قائمة منتجات نقطة "
+"البيع"
+
+msgid "Enable Token No"
+msgstr "تمكين رقم الرمز"
+
+msgid "Enable token resetting everyday"
+msgstr "تمكين إعادة تعيين الرمز يوميًا"
+
+msgid "Enabling the Kitchen Involvement, It does not support offline order."
+msgstr "تمكين مشاركة المطبخ ، لا يدعم الطلبات دون اتصال بالإنترنت."
+
+msgid ""
+"Enabling the toggle button, below can incorporate the kitchen procedure, "
+"allowing the order to be completed by the chef rather than by the cashier. "
+"Additionally, the order status can be displayed on a large screen for easy "
+"tracking."
+msgstr ""
+"تمكين زر التبديل أدناه يمكن دمج إجراءات المطبخ ، مما يسمح بإكمال الطلب من "
+"قبل الطاهي بدلاً من الصراف. بالإضافة إلى ذلك ، يمكن عرض حالة الطلب على شاشة "
+"كبيرة لتسهيل تتبعه."
+
+msgid "Enabling this feature, will enable RTL mode on POS."
+msgstr "سيؤدي تمكين هذه الميزة إلى تمكين وضع RTL على نظام نقاط البيع."
+
+msgid ""
+"Enabling this feature, will enable single cash drawer by outlet and counter."
+"After enabling this feature you can not create multiple cash drawer on same "
+"outlet with same counter."
+msgstr ""
+"سيؤدي تمكين هذه الميزة إلى تمكين درج نقد واحد حسب المنفذ والعداد. بعد تمكين "
+"هذه الميزة ، لن تتمكن من إنشاء درج نقد متعدد على نفس المنفذ بنفس العداد."
+
+msgid ""
+"Enabling this feature, will enable user to change price of any product while "
+"ordering (on cart)."
+msgstr ""
+"سيؤدي تمكين هذه الميزة إلى تمكين المستخدم من تغيير سعر أي منتج أثناء الطلب "
+"(على العربة)."
+
+msgid ""
+"Enabling this feature, will trigger an email to be sent to the customer once "
+"their order is complete."
+msgstr ""
+"تمكين هذه الميزة ، سيؤدي إلى إرسال بريد إلكتروني إلى العميل بمجرد اكتمال "
+"طلبه."
+
+msgid ""
+"Enabling this feature, will trigger an email to be sent to the user who will "
+"completed the order form vitepos."
+msgstr ""
+"سيؤدي تمكين هذه الميزة إلى إرسال بريد إلكتروني إلى المستخدم الذي سيكمل نموذج "
+"طلب vitepos."
+
+msgid ""
+"Enabling this will allow item wise interaction for a single order where the "
+"status of that order items can be change individually"
+msgstr ""
+"سيتيح تمكين هذا الخيار التفاعل حسب العنصر لطلب واحد حيث يمكن تغيير حالة "
+"عناصر ذلك الطلب بشكل فردي"
+
+msgid "End Of The Day Report"
+msgstr "تقرير نهاية اليوم"
+
+msgid "Enter amount"
+msgstr "أدخل المبلغ"
+
+msgid "Enter Barcode/Scan"
+msgstr "أدخل رمز شريطي/مسح ضوئي"
+
+msgid "Enter name"
+msgstr "أدخل الاسم"
+
+msgid "Enter SKU"
+msgstr "أدخل SKU"
+
+msgid "Enter the cash amount to start a new drawer."
+msgstr "أدخل مبلغ النقد لبدء درج جديد."
+
+msgid "Enter Value"
+msgstr "أدخل القيمة"
+
+msgid "Enter value"
+msgstr "أدخل القيمة"
+
+msgid "Enter/scan coupon code"
+msgstr "أدخل/امسح رمز القسيمة"
+
+msgid "Entry Date"
+msgstr "تاريخ الإدخال"
+
+msgid "EOD Report"
+msgstr "تقرير EOD"
+
+msgid "Equal to"
+msgstr "يساوي"
+
+msgid "Example `Color`"
+msgstr "مثال `اللون`"
+
+msgid "Example Red|Blue|Green "
+msgstr "مثال أحمر|أزرق|أخضر"
+
+msgid "Expected Cash Amount"
+msgstr "مبلغ النقد المتوقع"
+
+msgid "Export CSV"
+msgstr "تصدير CSV"
+
+msgid "Export Excel"
+msgstr "تصدير Excel"
+
+msgid "Failed"
+msgstr "فشل"
+
+msgid "Failed to add"
+msgstr "فشل في الإضافة"
+
+msgid "Failed to delete"
+msgstr "فشل في الحذف"
+
+msgid "Failed to ignore"
+msgstr "فشل تجاهل"
+
+msgid "Failed to reset try again"
+msgstr "فشل إعادة الضبط. حاول مرة أخرى"
+
+msgid "Failed to update"
+msgstr "فشل التحديث"
+
+msgid "Failed to update attribute label"
+msgstr "فشل تحديث تسمية السمة"
+
+msgid "Failed to update stock"
+msgstr "فشل تحديث المخزون"
+
+msgid "Favicon"
+msgstr "أيقونة الموقع"
+
+msgid "Favorite"
+msgstr "المفضلة"
+
+msgid "Feature Image"
+msgstr "صورة مميزة"
+
+msgid "Fee"
+msgstr "الرسوم"
+
+msgid "Field label"
+msgstr "عنوان الحقل"
+
+msgid "Field Name"
+msgstr "اسم الحقل"
+
+msgid "Fields"
+msgstr "الحقول"
+
+msgid "First Name"
+msgstr "الاسم الأول"
+
+msgid ""
+"First, It calculate the subtotal including any discounts and fees, and then "
+"it apply the tax based on the discounted price."
+msgstr ""
+"أولاً ، يتم حساب المجموع الفرعي بما في ذلك أي خصومات أو رسوم ، ثم يتم تطبيق "
+"الضريبة على السعر المخفض."
+
+msgid "Font Size"
+msgstr "حجم الخط"
+
+msgid "Font size is required"
+msgstr "يُرجى إدخال حجم الخط"
+
+msgid "Font size must be numeric"
+msgstr "يجب أن يكون حجم الخط رقميًا"
+
+msgid "Footer"
+msgstr "تذييل"
+
+msgid "Footer Panel"
+msgstr "لوحة التذييل"
+
+msgid "For add more than two counter it requires pro version."
+msgstr "لإضافة أكثر من عدادين، يلزم الإصدار الاحترافي."
+
+msgid "for more details please visit"
+msgstr "لمزيد من التفاصيل يرجى زيارة"
+
+msgid "For multiple outlet you need to active pro version."
+msgstr "لعدة منافذ، تحتاج إلى تفعيل الإصدار الاحترافي."
+
+msgid "For using coupon please install Vite Coupon Pro."
+msgstr "للاستفادة من القسيمة، يُرجى تثبيت Vite Coupon Pro."
+
+msgid "Form Customization"
+msgstr "تخصيص النموذج"
+
+msgid "Form is not valid"
+msgstr "النموذج غير صالح"
+
+msgid "From"
+msgstr "من"
+
+msgid "From Outlet"
+msgstr "من المنفذ"
+
+msgid "From outlet"
+msgstr "من المنفذ"
+
+msgid "From Outlet:"
+msgstr "من المنفذ:"
+
+msgid "Full Refund"
+msgstr "رد كامل"
+
+msgid "Full Withdraw"
+msgstr "سحب كامل"
+
+msgid "Full-screen/Normal-screen"
+msgstr "شاشة كاملة/شاشة عادية"
+
+msgid "Generate"
+msgstr "توليد"
+
+msgid "Generated by"
+msgstr "تم إنشاؤه بواسطة"
+
+msgid "Get Now"
+msgstr "احصل الآن"
+
+msgid "Get Pro"
+msgstr "احصل على النسخة الاحترافية"
+
+msgid "Get pro"
+msgstr "احصل على النسخة الاحترافية"
+
+msgid "Getting user list"
+msgstr "الحصول على قائمة المستخدمين"
+
+msgid "Given Amount"
+msgstr "المبلغ المدفوع"
+
+msgid "Go Back"
+msgstr "العودة"
+
+msgid "Go pro"
+msgstr "انتقل إلى الإصدار الاحترافي"
+
+msgid "Go to Pos"
+msgstr "انتقل إلى نقطة البيع"
+
+msgid "Go To Purchase"
+msgstr "انتقل إلى الشراء"
+
+msgid "Go With Current Balance"
+msgstr "اذهب مع الرصيد الحالي"
+
+msgid "Go With Current Drawer"
+msgstr "اذهب مع الدرج الحالي"
+
+msgid "Grand Total"
+msgstr "المجموع الكلي"
+
+msgid "Grand-total :"
+msgstr "الإجمالي الكلي: "
+
+msgid "Grocery"
+msgstr "البقالة"
+
+msgid "Half Field"
+msgstr "نصف الحقل"
+
+msgid "have two sides. One admin panel and another is client panel."
+msgstr "لها وجهان. لوحة تحكم إدارية وأخرى هي لوحة تحكم العميل."
+
+msgid "Header"
+msgstr "ترويسة"
+
+msgid "Header Panel"
+msgstr "لوحة العنوان"
+
+msgid "Height"
+msgstr "الارتفاع"
+
+msgid "Hello,"
+msgstr "مرحبا,"
+
+msgid "Help"
+msgstr "مساعدة"
+
+msgid "Help and info"
+msgstr "المساعدة والمعلومات"
+
+msgid "Help text"
+msgstr "نص المساعدة"
+
+msgid "Hide"
+msgstr "إخفاء"
+
+msgid "Hide on POS.Click to show"
+msgstr "إخفاء على نقطة البيع. انقر لعرض"
+
+msgid "Hide Out-of-Stock Products"
+msgstr "إخفاء المنتجات غير المتوفرة في المخزون"
+
+msgid "Hold"
+msgstr "احتجز"
+
+msgid "Hold cart"
+msgstr "امسك العربة"
+
+msgid "Hold cart applicable in pro version"
+msgstr "سلة التوقيف قابلة للتطبيق في الإصدار الاحترافي"
+
+msgid "Hold Cart Supported In Pro Version"
+msgstr "دعم عربة الاحتفاظ في إصدار Pro"
+
+msgid "hold items"
+msgstr "احتفظ بالسلع"
+
+msgid "Hold List"
+msgstr "قائمة الاحتفاظ"
+
+msgid "Hold no : %{holdNo}"
+msgstr "رقم الحجز: %{holdNo}"
+
+msgid "Hold Sale"
+msgstr "إيقاف البيع"
+
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+msgid ""
+"I agree to delete the %{rolename} and move all users of %{rolename} to the "
+"selected role"
+msgstr ""
+"أوافق على حذف %{rolename} ونقل جميع مستخدمي %{rolename} إلى الدور المحدد"
+
+msgid "Icons"
+msgstr "الرموز"
+
+msgid "ID"
+msgstr "المعرف"
+
+msgid ""
+"If you have previously used an older version or if you have not enabled the "
+"stockable feature before, you may need to transfer your online inventory to "
+"your linked outlet to %{outletname}"
+msgstr ""
+"إذا كنت قد استخدمت إصدارًا أقدم من قبل أو إذا لم تقم بتمكين ميزة التخزين من "
+"قبل، فقد تحتاج إلى نقل مخزونك عبر الإنترنت إلى منفذك المرتبط إلى "
+"%{outletname}"
+
+msgid ""
+"If you want to transfer your current online stock to %{outletname} then "
+"click the button below"
+msgstr ""
+"إذا كنت تريد نقل مخزونك الحالي عبر الإنترنت إلى %{outletname} فانقر فوق الزر "
+"أدناه"
+
+msgid "Ignore"
+msgstr "تجاهل"
+
+msgid "Ignore successful"
+msgstr "تم تجاهل بنجاح"
+
+msgid "Ignore Update"
+msgstr "تجاهل التحديث"
+
+msgid "Image"
+msgstr "الصورة"
+
+msgid "Import Wordpress Roles"
+msgstr "استيراد أدوار ووردبريس"
+
+msgid "Importing roles from wordpress"
+msgstr "جاري استيراد الأدوار من ووردبريس"
+
+msgid ""
+"In case of any problem, get in touch with the Vitepos team. We always "
+"support our clients until their satisfaction comes. And that is our "
+"responsibility and duty."
+msgstr ""
+"في حال وجود أي مشكلة ، اتصل بفريق Vitepos. نحن ندعم عملائنا دائمًا حتى يتم "
+"تحقيق رضاهم. وهذا هو واجبنا ومسؤوليتنا."
+
+msgid "In Dine"
+msgstr "في تناول الطعام"
+
+msgid "In Kitchen"
+msgstr "في المطبخ"
+
+msgid ""
+"In the traditional procedure, a waiter takes the customers order and sends "
+"it to the kitchen. Once the kitchen has prepared the order, the waiter is "
+"notified to serve it. After the order has been served, the cashier can "
+"process the payment."
+msgstr ""
+"في الإجراء التقليدي، يأخذ النادل طلب العميل ويرسله إلى المطبخ. بمجرد أن يُعد "
+"المطبخ الطلب، يُخطر النادل لتقديمه. بعد تقديم الطلب، يمكن للكاشير معالجة "
+"الدفع."
+
+msgid "In-stock"
+msgstr "متوفر في المخزون"
+
+msgid "Inactivate plugin"
+msgstr "تعطيل الإضافة"
+
+msgid "Inactive"
+msgstr "غير نشط"
+
+msgid "Input is empty"
+msgstr "الإدخال فارغ"
+
+msgid "Input Name"
+msgstr "اسم الإدخال"
+
+msgid "Install"
+msgstr "تثبيت"
+
+msgid "Intend is empty"
+msgstr "النية فارغة"
+
+msgid "Into the buttons"
+msgstr "داخل الأزرار"
+
+msgid "Invalid attribute ID"
+msgstr "معرّف سمة غير صالح"
+
+msgid "Invalid attribute id"
+msgstr "معرف السمة غير صالح"
+
+msgid "Invalid attribute to update"
+msgstr "سمة غير صالحة للتحديث"
+
+msgid "Invalid counted amount"
+msgstr "مبلغ معدود غير صالح"
+
+msgid "invalid counted amount"
+msgstr "مبلغ معدود غير صالح"
+
+msgid "Invalid id"
+msgstr "معرف غير صالح"
+
+msgid "Invalid login information"
+msgstr "بيانات تسجيل الدخول غير صحيحة"
+
+msgid "Invalid or duplicated GTIN, UPC, EAN or ISBN."
+msgstr "GTIN أو UPC أو EAN أو ISBN غير صالح أو مكرر."
+
+msgid "Invalid param"
+msgstr "معامل غير صحيح"
+
+msgid "Invalid Request"
+msgstr "طلب غير صالح"
+
+msgid "Invalid request"
+msgstr "طلب غير صالح"
+
+msgid "Invalid request param"
+msgstr "معامل طلب غير صالح"
+
+msgid "Invalid request!!"
+msgstr "طلب غير صالح!!"
+
+msgid "Invalid request3"
+msgstr "طلب غير صالح3"
+
+msgid "Invalid user for tips withdrawal"
+msgstr "مستخدم غير صالح لسحب الإكراميات"
+
+msgid "Invoice"
+msgstr "فاتورة"
+
+msgid "Invoice Print Settings"
+msgstr "إعدادات طباعة الفاتورة"
+
+msgid "Is Calculable"
+msgstr "هل قابل للحساب"
+
+msgid "Is Mergeable?"
+msgstr "هل يمكن دمجها؟"
+
+msgid "Is Required"
+msgstr "مطلوب"
+
+msgid "Is Required Card Last 4 Digit"
+msgstr "هل مطلوب آخر 4 أرقام من بطاقة الائتمان"
+
+msgid "Is Required?"
+msgstr "هل مطلوب؟"
+
+msgid "Is Selected?"
+msgstr "هل تم اختيارها؟"
+
+msgid "Is Separate Tax?"
+msgstr "هل الضريبة منفصلة؟"
+
+msgid "Is Show In Receipt"
+msgstr "هل يُظهر في الإيصال"
+
+msgid "Is the Drawer Previous Amount required before closing?"
+msgstr "هل المبلغ السابق للدرج مطلوب قبل الإغلاق؟"
+
+msgid "It is custom barcode data of woocommerce for vitepos"
+msgstr "هذه بيانات رمز شريطي مخصصة من ووكومرس لفايبوس"
+
+msgid "It requires vitepos lite, please install and active vitepos lite first"
+msgstr "يتطلب vitepos lite ، يرجى تثبيت vitepos lite وتنشيطه أولاً"
+
+msgid "It requires woocommerce, please install and active woocommerce first"
+msgstr "يتطلب ووكومرس ، يرجى تثبيت ووكومرس وتنشيطه أولاً"
+
+msgid ""
+"It will allow you to take payment using %{brand} Payment gateway, make sure "
+"you have added %{brand} api info in %{brand} settings tab."
+msgstr ""
+"سيسمح لك بتلقي الدفع باستخدام بوابة الدفع %{brand}، تأكد من إضافة معلومات "
+"واجهة برمجة التطبيقات %{brand} في علامة تبويب إعدادات %{brand}."
+
+msgid "It will allows to take payment using %{brand} payment methods."
+msgstr "سيسمح لك بتلقي الدفع باستخدام طرق الدفع %{brand}."
+
+msgid "It will allows to take payment using others method."
+msgstr "سيسمح ذلك بتلقي الدفع باستخدام طرق أخرى."
+
+msgid "It will allows to take payment using swipe machine."
+msgstr "سيسمح ذلك بتلقي الدفع باستخدام جهاز الدفع بالبطاقة."
+
+msgid "It will protect order if there is not stock of the item"
+msgstr "سوف يحمي الطلب إذا لم يكن هناك مخزون من العنصر"
+
+msgid "Item"
+msgstr "الصنف"
+
+msgid "Item cancel request is not possible"
+msgstr "طلب إلغاء السلعة غير ممكن"
+
+msgid "Item denied from kitchen"
+msgstr "رفض السلعة من المطبخ"
+
+msgid "Item deny not possible"
+msgstr "رفض السلعة غير ممكن"
+
+msgid "Item Details"
+msgstr "تفاصيل المنتج"
+
+msgid "Item has been cancelled"
+msgstr "تم إلغاء السلعة"
+
+msgid "Item has been served"
+msgstr "تم تقديم الطلب"
+
+msgid "Item is not available"
+msgstr "الصنف غير متوفر"
+
+msgid "Item is ready"
+msgstr "السلعة جاهزة"
+
+msgid "Item is ready to serve"
+msgstr "السلعة جاهزة للتقديم"
+
+msgid "Item Name"
+msgstr "اسم العنصر"
+
+msgid "Item no"
+msgstr "رقم السلعة"
+
+msgid "Item remove is not possible"
+msgstr "إزالة السلعة غير ممكنة"
+
+msgid "Item Sold"
+msgstr "العنصر المباع"
+
+msgid "Item started successfully"
+msgstr "بدء السلعة بنجاح"
+
+msgid "Item wise interaction"
+msgstr "التفاعل حسب العنصر"
+
+msgid "Items empty"
+msgstr "السلع فارغة"
+
+msgid "Items Price"
+msgstr "أسعار السلع"
+
+msgid "Keep blank for auto height"
+msgstr "اتركه فارغًا لارتفاع تلقائي"
+
+msgid "Keep blank to use default WordPress login."
+msgstr "اترك الخانة فارغة لاستخدام تسجيل الدخول WordPress الافتراضي."
+
+msgid ""
+"Keep in mind that this procedure will reset the stock of the WooCommerce "
+"product to zero."
+msgstr ""
+"ضع في اعتبارك أن هذه الإجراءات ستعيد تعيين مخزون منتج WooCommerce إلى الصفر."
+
+msgid "Key"
+msgstr "المفتاح"
+
+msgid "Kitchen"
+msgstr "المطبخ"
+
+msgid "Kitchen Involvement"
+msgstr "مشاركة المطبخ"
+
+msgid "Kitchen Panel"
+msgstr "لوحة تحكم المطبخ"
+
+msgid "Label"
+msgstr "العنوان"
+
+msgid "Label is required"
+msgstr "يُطلَب ملصق"
+
+msgid "Large Screen"
+msgstr "شاشة كبيرة"
+
+msgid "Last 4 Digit"
+msgstr "آخر 4 أرقام"
+
+msgid "Last 5 Purchase History"
+msgstr "آخر 5 سجلات شراء"
+
+msgid "Last 7 days cash drawer logs"
+msgstr "سجلات درج النقود لآخر 7 أيام"
+
+msgid "Last Four Digit of card"
+msgstr "آخر أربعة أرقام للبطاقة"
+
+msgid "Last Name"
+msgstr "الاسم الأخير"
+
+msgid "Last sync :"
+msgstr "آخر مزامنة :"
+
+msgid "Left,Right"
+msgstr "يسار، يمين"
+
+msgid "Length"
+msgstr "الطول"
+
+msgid "License Expired on"
+msgstr "انتهت صلاحية الترخيص في"
+
+msgid "License Info"
+msgstr "معلومات الترخيص"
+
+msgid "License Status"
+msgstr "حالة الترخيص"
+
+msgid "License Type"
+msgstr "نوع الترخيص"
+
+msgid "Loaded"
+msgstr "تم التحميل"
+
+msgid "Loading"
+msgstr "جار التحميل"
+
+msgid "Loading ..."
+msgstr "جار التحميل ..."
+
+msgid "Loading Addon Details..."
+msgstr "جار تحميل تفاصيل الإضافة..."
+
+msgid "Loading attribute"
+msgstr "جاري تحميل السمة"
+
+msgid "Loading cash drawer data"
+msgstr "جارٍ تحميل بيانات درج النقد"
+
+msgid "Loading cash drawer details..."
+msgstr "جار تحميل تفاصيل درج النقود..."
+
+msgid "Loading category"
+msgstr "جاري تحميل الفئة"
+
+msgid "Loading Custom Field Details"
+msgstr "تحميل تفاصيل الحقل المخصص"
+
+msgid "Loading Custom Fields..."
+msgstr "تحميل الحقول المخصصة..."
+
+msgid "Loading Customer Details..."
+msgstr "جار تحميل تفاصيل العميل..."
+
+msgid "Loading Data"
+msgstr "تحميل البيانات"
+
+msgid "Loading Deny Reasons..."
+msgstr "جاري تحميل أسباب الرفض..."
+
+msgid "Loading From"
+msgstr "جار التحميل من"
+
+msgid "Loading Message Details..."
+msgstr "جاري تحميل تفاصيل الرسالة..."
+
+msgid "Loading Messages..."
+msgstr "تحميل الرسائل..."
+
+msgid "Loading order details..."
+msgstr "جار تحميل تفاصيل الطلب..."
+
+msgid "Loading orders..."
+msgstr "جار تحميل الطلبات..."
+
+msgid "Loading Outlet"
+msgstr "تحميل المخرج"
+
+msgid "Loading Outlet Details"
+msgstr "تحميل تفاصيل المنفذ"
+
+msgid "Loading Product Details..."
+msgstr "جار تحميل تفاصيل المنتج..."
+
+msgid "Loading Purchase Details..."
+msgstr "جار تحميل تفاصيل الشراء..."
+
+msgid "Loading Role Access"
+msgstr "تحميل وصول الدور"
+
+msgid "Loading Role Details"
+msgstr "جاري تحميل تفاصيل الدور"
+
+msgid "Loading Roles"
+msgstr "تحميل الأدوار"
+
+msgid "Loading Settings"
+msgstr "تحميل الإعدادات"
+
+msgid "Loading Stock Logs..."
+msgstr "جار تحميل سجلات المخزون..."
+
+msgid "Loading table"
+msgstr "جارٍ تحميل الطاولة"
+
+msgid "Loading Table Details..."
+msgstr "جار تحميل تفاصيل الطاولة..."
+
+msgid "Loading tips log..."
+msgstr "جاري تحميل سجل الإكراميات..."
+
+msgid "Loading Transfer Details..."
+msgstr "جار تحميل تفاصيل التحويل..."
+
+msgid "Loading User Details..."
+msgstr "جار تحميل تفاصيل المستخدم..."
+
+msgid "Loading Vendor Details..."
+msgstr "جار تحميل تفاصيل المورد..."
+
+msgid "Loading.."
+msgstr "جار التحميل.."
+
+msgid "Loading..."
+msgstr "جار التحميل..."
+
+msgid "Lock"
+msgstr "قفل"
+
+msgid "Lock Screen"
+msgstr "شاشة القفل"
+
+msgid "Log"
+msgstr "سجل"
+
+msgid "Login to pusher.com"
+msgstr "تسجيل الدخول إلى pusher.com"
+
+msgid "Logo"
+msgstr "الشعار"
+
+msgid "Logout"
+msgstr "الخروج"
+
+msgid "Main Branch"
+msgstr "الفرع الرئيسي"
+
+msgid "Make Active"
+msgstr "تفعيل"
+
+msgid "Make Completed"
+msgstr "وضع كـ مكتمل"
+
+msgid "Make favorite"
+msgstr "إضافة إلى المفضلة"
+
+msgid "Make Inactive"
+msgstr "تعطيل"
+
+msgid "Make Main"
+msgstr "جعل رئيسي"
+
+msgid "Make Order"
+msgstr "إنشاء طلب"
+
+msgid "Make Serve"
+msgstr "إعداد الخدمة"
+
+msgid "Manage Barcode"
+msgstr "إدارة الرمز الشريطي"
+
+msgid "Manage Customer"
+msgstr "إدارة العملاء"
+
+msgid "Manage Drawer Log"
+msgstr "إدارة سجل درج النقود"
+
+msgid "Manage Orders"
+msgstr "إدارة الطلبات"
+
+msgid "Manage Product"
+msgstr "إدارة المنتج"
+
+msgid "Manage Profile"
+msgstr "إدارة الملف الشخصي"
+
+msgid "Manage Purchases"
+msgstr "إدارة المشتريات"
+
+msgid "Manage Stock"
+msgstr "إدارة المخزون"
+
+msgid "Manage User"
+msgstr "إدارة المستخدم"
+
+msgid "Manage Vendor"
+msgstr "إدارة البائع"
+
+msgid "Map With Readers"
+msgstr "خريطة مع قارئات"
+
+msgid "Margin Left"
+msgstr "هامش يسار"
+
+msgid "Margin Right"
+msgstr "هامش يمين"
+
+msgid "Max"
+msgstr "أقصى"
+
+msgid "Max Discount"
+msgstr "أقصى خصم"
+
+msgid "Max Limit"
+msgstr "الحد الأقصى"
+
+msgid "Max usage"
+msgstr "استخدام الحد الأقصى"
+
+msgid "May be canceled form terminal, need to resend data to the terminal"
+msgstr "يمكن إلغاؤه من الجهاز، يجب إعادة إرسال البيانات إلى الجهاز"
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Message"
+msgstr "الرسالة"
+
+msgid "Message Type"
+msgstr "نوع الرسالة"
+
+msgid "Messages"
+msgstr "الرسائل"
+
+msgid "Method Name"
+msgstr "اسم الطريقة"
+
+msgid "Min"
+msgstr "أدنى"
+
+msgid "Missing dependency"
+msgstr "مُكوّن مفقود"
+
+msgid "mm"
+msgstr "مم"
+
+msgid "Mobile"
+msgstr "الجوال"
+
+msgid "Mobile Screen"
+msgstr "شاشة الهاتف المحمول"
+
+msgid "Module"
+msgstr "الوحدة النمطية"
+
+msgid "More Details"
+msgstr "مزيد من التفاصيل"
+
+msgid "Move to Role "
+msgstr "الانتقال إلى الدور"
+
+msgid "Move to role does not exists"
+msgstr "لا يوجد دور لنقله إليه"
+
+msgid "Mute"
+msgstr "كتم الصوت"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Name :"
+msgstr "الاسم :"
+
+msgid "Name of the attribute is already exist"
+msgstr "اسم السمة موجود بالفعل"
+
+msgid "Need to close cash drawer to change outlet. Do you want to close now?"
+msgstr "يجب إغلاق درج النقود لتغيير المنفذ. هل تريد إغلاقه الآن؟"
+
+msgid "Net Unit Cost"
+msgstr "تكلفة الوحدة الصافية"
+
+msgid "new"
+msgstr "جديد"
+
+msgid "New Drawer"
+msgstr "درج جديد"
+
+msgid "New Field"
+msgstr "حقل جديد"
+
+msgid "New Order"
+msgstr "طلب جديد"
+
+msgid "New password"
+msgstr "كلمة مرور جديدة"
+
+msgid "New Product Badge Duration"
+msgstr "مدة شارة المنتج الجديدة"
+
+msgid "New sale"
+msgstr "بيع جديد"
+
+msgid "No"
+msgstr "لا"
+
+msgid "No %{type} found"
+msgstr "لم يتم العثور على %{type}"
+
+msgid "No action initialize"
+msgstr "لا يوجد إجراء بدء"
+
+msgid "No active order found."
+msgstr "لم يتم العثور على أي طلب نشط."
+
+msgid "No active orders found"
+msgstr "لم يتم العثور على طلبات نشطة"
+
+msgid "No addon found with this param"
+msgstr "لم يتم العثور على أي وظيفة إضافية باستخدام هذه المعلمة"
+
+msgid "No address found"
+msgstr "لم يتم العثور على عنوان"
+
+msgid "No attribute found with this id"
+msgstr "لم يتم العثور على سمة بهذا المعرف"
+
+msgid "No barcode found for this product"
+msgstr "لم يتم العثور على رمز شريطي لهذا المنتج"
+
+msgid "No cancelled order found"
+msgstr "لم يتم العثور على طلب ملغى"
+
+msgid "No cash drawer info found"
+msgstr "لم يتم العثور على معلومات درج النقد"
+
+msgid "No cash drawer information found"
+msgstr "لم يتم العثور على معلومات درج النقود"
+
+msgid "No change for update"
+msgstr "لا يوجد تغيير للتحديث"
+
+msgid "No change for update "
+msgstr "لا يوجد تغيير في التحديث"
+
+msgid "No counter found with these ids"
+msgstr "لم يتم العثور على عداد بهذه المعرفات"
+
+msgid "No custom field found with these ids"
+msgstr "لم يتم العثور على حقل مخصص بهذه المعرفات"
+
+msgid "No Customer found"
+msgstr "لم يتم العثور على عميل"
+
+msgid "No customer found"
+msgstr "لم يتم العثور على عميل"
+
+msgid "No customer found to add"
+msgstr "لم يتم العثور على أي عميل لإضافته"
+
+msgid "No designation found"
+msgstr "لم يتم العثور على تسمية"
+
+msgid "No expiry"
+msgstr "لا يوجد تاريخ انتهاء صلاحية"
+
+msgid "No fields Added"
+msgstr "لم يتم إضافة أي حقول"
+
+msgid "No history found"
+msgstr "لم يتم العثور على سجل"
+
+msgid "No item found for this category or search"
+msgstr "لم يتم العثور على عنصر لهذه الفئة أو البحث"
+
+msgid "No item found to transfer"
+msgstr "لم يتم العثور على أي عنصر لنقله"
+
+msgid "No lined outlet found"
+msgstr "لم يتم العثور على منفذ متصل"
+
+msgid "No logged in user"
+msgstr "لا يوجد مستخدم مسجل دخول"
+
+msgid "No logs found for this product"
+msgstr "لم يتم العثور على سجلات لهذا المنتج"
+
+msgid "No message found"
+msgstr "لم يتم العثور على رسالة"
+
+msgid "No name found"
+msgstr "لم يتم العثور على اسم"
+
+msgid "No number found"
+msgstr "لم يتم العثور على رقم"
+
+msgid "No Offline order for restaurent"
+msgstr "لا يوجد طلب غير متصل للمطعم"
+
+msgid "No offline outlet and counter found"
+msgstr "لم يتم العثور على أي منفذ أو عداد غير متصل بالإنترنت"
+
+msgid "No option added"
+msgstr "لم يتم إضافة أي خيار"
+
+msgid "No order found"
+msgstr "لم يتم العثور على طلب"
+
+msgid "No outlet found"
+msgstr "لم يتم العثور على منفذ"
+
+msgid "No Outlet found with these ids"
+msgstr "لم يتم العثور على منفذ بهذه المعرفات"
+
+msgid "No outlet found:"
+msgstr "لم يتم العثور على منفذ: "
+
+msgid "No permission to add discount"
+msgstr "لا يوجد إذن لإضافة خصم"
+
+msgid "No placed order found"
+msgstr "لم يتم العثور على أي طلب تم وضعه"
+
+msgid "No record found"
+msgstr "لم يتم العثور على سجل"
+
+msgid "No role data found"
+msgstr "لم يتم العثور على بيانات الدور"
+
+msgid "No role found with this request param"
+msgstr "لم يتم العثور على دور بهذه معلمة الطلب"
+
+msgid "No roles to add"
+msgstr "لا توجد أدوار للإضافة"
+
+msgid "No Rules Added"
+msgstr "لم يتم إضافة أي قواعد"
+
+msgid "No Rules Group Added"
+msgstr "لم يتم إضافة أي مجموعة قواعد"
+
+msgid "No short messages found"
+msgstr "لم يتم العثور على رسائل قصيرة"
+
+msgid "No table found please add some table"
+msgstr "لم يتم العثور على طاولة يرجى إضافة بعض الطاولات"
+
+msgid "No Table found please add table first"
+msgstr "لم يتم العثور على طاولة يرجى إضافة طاولة أولاً"
+
+msgid "No table found to make an order. Please add a table first."
+msgstr "لم يتم العثور على طاولة لإنشاء طلب. يرجى إضافة طاولة أولاً."
+
+msgid "No Table found with this param"
+msgstr "لم يتم العثور على طاولة باستخدام هذه المعلمة"
+
+msgid "No Terms Added"
+msgstr "لم تتم إضافة أي شروط"
+
+msgid "No transfer %{type} found"
+msgstr "لم يتم العثور على نقل %{type}"
+
+msgid "No Variants Selected"
+msgstr "لم يتم تحديد أي متغيرات"
+
+msgid "No variations"
+msgstr "لا توجد اختلافات"
+
+msgid "No vendor found with this param"
+msgstr "لم يتم العثور على أي بائع بهذه المعلمة"
+
+msgid "No Waiter"
+msgstr "لا يوجد نادِل"
+
+msgid "No waiter"
+msgstr "لا يوجد نادل"
+
+msgid "Non editable role"
+msgstr "دور غير قابل للتعديل"
+
+msgid "Nonce error"
+msgstr "خطأ غير متوقع"
+
+msgid "None"
+msgstr "لا شيء"
+
+msgid "Not equal to"
+msgstr "لا يساوي"
+
+msgid "Not Received yet"
+msgstr "لم يتم استلامه بعد"
+
+msgid "Not saved yet"
+msgstr "لم يتم حفظها بعد"
+
+msgid "Not Updated"
+msgstr "لم يتم تحديثه"
+
+msgid "Not updated"
+msgstr "لم يتم تحديثه"
+
+msgid "Not valid"
+msgstr "غير صالح"
+
+msgid "Note"
+msgstr "ملاحظة"
+
+msgid "Note :"
+msgstr "ملاحظة:"
+
+msgid "NOTE : Regular price is less than purchase price"
+msgstr "ملاحظة: السعر العادي أقل من سعر الشراء"
+
+msgid "Note Font Size"
+msgstr "حجم خط الملاحظة"
+
+msgid "Note:"
+msgstr "ملاحظة:"
+
+msgid "Notes"
+msgstr "ملاحظات"
+
+msgid "Notification details"
+msgstr "تفاصيل الإشعار"
+
+msgid ""
+"Now each outlet will have its own separate stock in Vitepos. For online "
+"sales on your website, the system will use the default stock from "
+"WooCommerce. To manage online sales stock, simply add stock from the "
+"WooCommerce admin panel. Vitepos purchase or add stock will not work for "
+"online stock."
+msgstr ""
+"الآن سيكون لكل منفذ مخزونه الخاص المنفصل في Vitepos. بالنسبة للمبيعات عبر "
+"الإنترنت على موقع الويب الخاص بك ، سيستخدم النظام المخزون الافتراضي من "
+"WooCommerce. لإدارة مخزون المبيعات عبر الإنترنت ، ما عليك سوى إضافة مخزون من "
+"لوحة تحكم WooCommerce. لن تعمل عملية شراء Vitepos أو إضافة المخزون بالنسبة "
+"للمخزون عبر الإنترنت."
+
+msgid "Number"
+msgstr "الرقم"
+
+msgid "Number of barcode in a page"
+msgstr "عدد رموز الشريط في الصفحة"
+
+msgid "Number of person"
+msgstr "عدد الأشخاص"
+
+msgid "Offline"
+msgstr "غير متصل"
+
+msgid "Offline feature support in pro version only."
+msgstr "دعم ميزة عدم الاتصال بالإنترنت في الإصدار الاحترافي فقط."
+
+msgid "Offline id is missing"
+msgstr "رقم التعريف غير متصل بالإنترنت مفقود"
+
+msgid "Offline Order"
+msgstr "طلب غير متصل بالإنترنت"
+
+msgid "Offline Sale"
+msgstr "بيع غير متصل بالإنترنت"
+
+msgid "Offline sale allowed in pro version"
+msgstr "يُسمح ببيع غير متصل بالإنترنت في الإصدار الاحترافي"
+
+msgid "On Cart/Invoice"
+msgstr "في سلة التسوق/فاتورة"
+
+msgid "On going"
+msgstr "جارٍ"
+
+msgid "On hold"
+msgstr "معلق"
+
+msgid "On POS"
+msgstr "على نقطة البيع"
+
+msgid "On Printed Receipt/Invoice"
+msgstr "في إيصال مطبوع/فاتورة"
+
+msgid ""
+"On the other hand, on the client side, you can set the outlet agents you "
+"want, according to their role."
+msgstr ""
+"من ناحية أخرى ، على جانب العميل ، يمكنك تعيين وكلاء المنفذ الذين تريد ، "
+"وفقًا لدورهم."
+
+msgid "Online"
+msgstr "متصل"
+
+msgid "Online stock link with outlet"
+msgstr "رابط مخزون عبر الإنترنت مع المنفذ"
+
+msgid "Online Stock Outlet"
+msgstr "منفذ مخزون عبر الإنترنت"
+
+msgid "Oops !! "
+msgstr "أُووبس !!"
+
+msgid "Open"
+msgstr "افتح"
+
+msgid "Open :"
+msgstr "افتح :"
+
+msgid "Open fullscreen"
+msgstr "افتح ملء الشاشة"
+
+msgid "Opened By"
+msgstr "مُفتَح بواسطة"
+
+msgid "Opening"
+msgstr "افتتاح"
+
+msgid "Opening - Closing"
+msgstr "الافتتاح - الإغلاق"
+
+msgid "Opening Balance"
+msgstr "الرصيد الافتتاحي"
+
+msgid "Opening Cash"
+msgstr "النقد الافتتاحي"
+
+msgid "Opening Date"
+msgstr "تاريخ الافتتاح"
+
+msgid "Opening time"
+msgstr "وقت الافتتاح"
+
+msgid "Operate By"
+msgstr "تُشغّل بواسطة"
+
+msgid "Options"
+msgstr "الخيارات"
+
+msgid "OR"
+msgstr "أو"
+
+msgid "Order"
+msgstr "طلب"
+
+msgid "Order # %{ordNumber}"
+msgstr "رقم الطلب %{ordNumber}"
+
+msgid "Order already in completed status, it is not cancelable"
+msgstr "الطّلب مُكمّل بالفعل، لا يمكن إلغاؤه"
+
+msgid "Order already refunded"
+msgstr "تم رد مبلغ الطلب بالفعل"
+
+msgid "Order Amount"
+msgstr "قيمة الطلب"
+
+msgid "Order canceled successfully"
+msgstr "تم إلغاء الطلب بنجاح"
+
+msgid "Order cancellation is not possible"
+msgstr "لا يُمكن إلغاء الطّلب"
+
+msgid "Order Count"
+msgstr "عدد الطلبات"
+
+msgid "Order Custom Fields"
+msgstr "حقول طلبات التخصيص"
+
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+msgid "Order Details"
+msgstr "تفاصيل الطّلب"
+
+msgid "Order details loading"
+msgstr "جاري تحميل تفاصيل الطلب"
+
+msgid "Order Details Loading..."
+msgstr "جارِ تحميل تفاصيل الطّلب..."
+
+msgid "Order has been completed"
+msgstr "تمّ إتمام الطّلب"
+
+msgid "Order has been partially refunded before this request"
+msgstr "تم رد جزء من مبلغ الطلب قبل هذا الطلب"
+
+msgid "Order Has been refunded successfully"
+msgstr "تم رد الطلب بنجاح"
+
+msgid "Order has been served"
+msgstr "تم تقديم الطلب"
+
+msgid "Order ID"
+msgstr "معرف الطلب"
+
+msgid "Order Id"
+msgstr "معرف الطلب"
+
+msgid "Order Info"
+msgstr "معلومات الطلب"
+
+msgid "Order info"
+msgstr "معلومات الطلب"
+
+msgid "Order is cancelled"
+msgstr "تمّ إلغاء الطّلب"
+
+msgid "Order is in processing"
+msgstr "الطلب قيد المعالجة"
+
+msgid "Order is loading..."
+msgstr "جارٍ تحميل الطلب..."
+
+msgid "Order is ready to serve"
+msgstr "الطلب جاهز للتقديم"
+
+msgid "Order List Loading ..."
+msgstr "جارِ تحميل قائمة الطلبات..."
+
+msgid "Order No"
+msgstr "رقم الطلب"
+
+msgid "Order no label"
+msgstr "تسمية رقم الطلب"
+
+msgid "Order No:"
+msgstr "رقم الطلب: "
+
+msgid "Order not found"
+msgstr "لم يُعثر على الطّلب"
+
+msgid "Order Note"
+msgstr "ملاحظة الطّلب"
+
+msgid "Order pick failed"
+msgstr "فشل انتقاء الطلب"
+
+msgid "Order preparing in kitchen"
+msgstr "الطَبْخ جارٍ في المطبخ"
+
+msgid "Order Received Point Label"
+msgstr "تسمية النقاط المستلمة مع الطلب"
+
+msgid "Order Received Points"
+msgstr "نقاط الطلب المستلمة"
+
+msgid "Order Report Summary"
+msgstr "ملخص تقرير الطلب"
+
+msgid "Order requires payment process"
+msgstr "يُطلَب منك إتمام عملية الدّفع للطّلب"
+
+msgid "Order stated cooking"
+msgstr "بدأ تحضير الطّلب"
+
+msgid "Order Status"
+msgstr "حالة الطلب"
+
+msgid "Order Status :"
+msgstr "حالة الطّلب :"
+
+msgid "Order successful"
+msgstr "تمّ الطّلب بنجاح"
+
+msgid "Order successfully picked"
+msgstr "تم انتقاء الطلب بنجاح"
+
+msgid "Order successfully picked and sent to kitchen"
+msgstr "تم انتقاء الطلب بنجاح وإرساله إلى المطبخ"
+
+msgid "Order successfully sent to kitchen"
+msgstr "تمّ إرسال الطّلب بنجاح إلى المطبخ"
+
+msgid "Order Sync Interval"
+msgstr "فاصل مزامنة الطلب"
+
+msgid "Order syncing"
+msgstr "مزامنة الطلب"
+
+msgid "Order Tax"
+msgstr "ضريبة الطلب"
+
+msgid "Order Time"
+msgstr "وقت الطّلب"
+
+msgid "Order Total"
+msgstr "إجمالي الطلب"
+
+msgid "Order Total Rounding Type"
+msgstr "نوع تقريب إجمالي الطلب"
+
+msgid "Order Type"
+msgstr "نوع الطّلب"
+
+msgid "Order update failed"
+msgstr "فشل تحديث الطّلب"
+
+msgid "Order updated successfully"
+msgstr "تمّ تحديث الطّلب بنجاح"
+
+msgid "Order Used Point Label"
+msgstr "تسمية النقاط المستخدمة مع الطلب"
+
+msgid "Order Used Points"
+msgstr "نقاط الطلب المستخدمة"
+
+msgid "Ordered Date"
+msgstr "تاريخ الطلب"
+
+msgid "Orders"
+msgstr "الطلبات"
+
+msgid "Orders Details"
+msgstr "تفاصيل الطلبات"
+
+msgid "Orders Item*"
+msgstr "طلبات البند*"
+
+msgid "Other"
+msgstr "آخر"
+
+msgid "Others"
+msgstr "أخرى"
+
+msgid "others"
+msgstr "أخرى"
+
+msgid "Out of Stock"
+msgstr "نفدت الكميّة"
+
+msgid "Out of stock"
+msgstr "نفدت الكميّة"
+
+msgid "Outlet"
+msgstr "المخرج"
+
+msgid "outlet"
+msgstr "منفذ"
+
+msgid "Outlet - Counter"
+msgstr "منفذ - كاونتر"
+
+msgid "Outlet :"
+msgstr "منفذ :"
+
+msgid "Outlet added successfully"
+msgstr "تمّ إضافة المنفذ بنجاح"
+
+msgid "Outlet Address"
+msgstr "عنوان المنفذ"
+
+msgid "Outlet Details"
+msgstr "تفاصيل المنفذ"
+
+msgid "Outlet Email"
+msgstr "بريد إلكتروني للمنفذ"
+
+msgid "Outlet Info"
+msgstr "معلومات المنفذ"
+
+msgid "Outlet Information"
+msgstr "معلومات المنفذ"
+
+msgid "Outlet Manager"
+msgstr "مدير المنفذ"
+
+msgid "Outlet Name"
+msgstr "اسم المنفذ"
+
+msgid "Outlet param missing"
+msgstr "معلمة المنفذ مفقودة"
+
+msgid "Outlet Phone"
+msgstr "هاتف المنفذ"
+
+msgid "Outlet removed successfully"
+msgstr "تمّ إزالة المنفذ بنجاح"
+
+msgid "Outlet Stock"
+msgstr "مخزون المنفذ"
+
+msgid "Outlet User List"
+msgstr "قائمة مستخدمي المنفذ"
+
+msgid "Outlet wise stock (Multi stocks)"
+msgstr "مخزون حسب المنفذ (مخزونات متعددة)"
+
+msgid "Outlet:"
+msgstr "منفذ:"
+
+msgid "Page"
+msgstr "الصفحة"
+
+msgid "Page break counter"
+msgstr "عداد فاصل الصفحات"
+
+msgid "Page Height"
+msgstr "ارتفاع الصفحة"
+
+msgid "Page height must be numeric"
+msgstr "يجب أن يكون ارتفاع الصفحة رقميًا"
+
+msgid "Page Padding"
+msgstr "حشو الصفحة"
+
+msgid "Page padding left,right can not be empty"
+msgstr "لا يمكن أن يكون حشو الصفحة الأيسر والأيمن فارغًا"
+
+msgid "Page padding left,right must be numeric"
+msgstr "يجب أن يكون حشو الصفحة الأيسر والأيمن رقميًا"
+
+msgid "Page padding top,bottom can not be empty"
+msgstr "لا يمكن أن يكون حشو الصفحة العلوي والسفلي فارغًا"
+
+msgid "Page padding top,bottom must be numeric"
+msgstr "يجب أن يكون حشو الصفحة العلوي والسفلي رقميًا"
+
+msgid "Page Settings"
+msgstr "إعدادات الصفحة"
+
+msgid "Page Width"
+msgstr "عرض الصفحة"
+
+msgid "Page width is required"
+msgstr "يُطلب عرض الصفحة"
+
+msgid "Page width must be numeric"
+msgstr "يجب أن يكون عرض الصفحة رقميًا"
+
+msgid "Paid"
+msgstr "مدفوع"
+
+msgid "Paid amount must be greater or equal to grand total amount"
+msgstr "يجب أن يكون المبلغ المدفوع أكبر من أو يساوي المبلغ الإجمالي"
+
+msgid "Paper Size"
+msgstr "حجم الورق"
+
+msgid "Parcel"
+msgstr "الطرد"
+
+msgid "Parcel mode is chosen"
+msgstr "تم اختيار وضع الطرد"
+
+msgid "Parcel Table"
+msgstr "جدول الطرود"
+
+msgid "Parent Category"
+msgstr "الفئة الرئيسية"
+
+msgid "Partial"
+msgstr "جزئي"
+
+msgid "Password"
+msgstr "كلمة السر"
+
+msgid "Password can not be set as empty"
+msgstr "لا يمكن تعيين كلمة المرور فارغة"
+
+msgid "Password changed successfully."
+msgstr "تم تغيير كلمة المرور بنجاح."
+
+msgid "Pay"
+msgstr "دفع"
+
+msgid "Pay First"
+msgstr "الدفع أولاً"
+
+msgid ""
+"Pay first procedure, customers are required to pay for their meal upfront at "
+"a designated location, typically at the cashiers counter, before they are "
+"seated or served. After paying, the customer is given a receipt or a token, "
+"which they can then present to the server to receive their food."
+msgstr ""
+"في إجراء الدفع أولاً، يُطلب من العملاء دفع ثمن وجبتهم مقدماً في مكان محدد، "
+"عادةً عند مكتب الكاشير، قبل جلوسهم أو تقديم الخدمة. بعد الدفع، يُمنح العميل "
+"إيصالًا أو رمزًا، يمكنه بعد ذلك تقديمه للنادل لتلقي طعامه."
+
+msgid "Pay Now"
+msgstr "ادفع الآن"
+
+msgid "Payment"
+msgstr "الدفع"
+
+msgid "Payment Amount"
+msgstr "مبلغ الدفع"
+
+msgid "Payment data missing"
+msgstr "بيانات الدفع مفقودة"
+
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+msgid "Payment Method Report Summary"
+msgstr "ملخص تقرير طرق الدفع"
+
+msgid "Payment Methods"
+msgstr "طرق الدفع"
+
+msgid "Payment Note"
+msgstr "ملاحظة الدفع"
+
+msgid "Payment processing ..."
+msgstr "معالجة الدفع ..."
+
+msgid "Payment Settings"
+msgstr "إعدادات الدفع"
+
+#| msgid "Payment Status:"
+msgid "Payment Status"
+msgstr "حالة الدفع"
+
+msgid "Payment Type"
+msgstr "نوع الدفع"
+
+msgid "PDF"
+msgstr "PDF"
+
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+msgid "Pending payment"
+msgstr "انتظار الدفع"
+
+msgid "Personal Information"
+msgstr "المعلومات الشخصية"
+
+msgid "Phone"
+msgstr "هاتف"
+
+msgid "Pick"
+msgstr "اختر"
+
+msgid "Place to show"
+msgstr "مكان العرض"
+
+msgid "Placed"
+msgstr "تم وضعه"
+
+msgid "Placed Order"
+msgstr "تم وضع الطلب"
+
+msgid "Placeholder"
+msgstr "حامل مكان"
+
+msgid "Please add a width for paper size"
+msgstr "يرجى إضافة عرض لحجم الورق"
+
+msgid "Please add customer to add rewards"
+msgstr "يرجى إضافة عميل لإضافة المكافآت"
+
+msgid "Please add items to add coupons"
+msgstr "يرجى إضافة عناصر لإضافة كوبونات"
+
+msgid "Please add items to apply coupons"
+msgstr "يرجى إضافة عناصر لتطبيق القسائم"
+
+msgid ""
+"Please help us by contributing anonymous usage data to improve our product, "
+"without collecting any sensitive information."
+msgstr ""
+"من فضلك ساعدنا بالمشاركة ببيانات الاستخدام المجهولة لتحسين منتجنا ، دون جمع "
+"أي معلومات حساسة."
+
+msgid ""
+"Please install and activate Vitepos Lite version greater than 2.0.3 as there "
+"is a mismatch with the Vitepos Lite version."
+msgstr ""
+"يرجى تثبيت وتنشيط إصدار Vitepos Lite أكبر من 2.0.3 نظرًا لوجود عدم تطابق مع "
+"إصدار Vitepos Lite."
+
+msgid "Please login again,no user found logged in."
+msgstr ""
+"الرجاء تسجيل الدخول مرة أخرى ، لم يتم العثور على أي مستخدم مسجل الدخول."
+
+msgid "Please provide a SKU or change the name of product"
+msgstr "يرجى تقديم SKU أو تغيير اسم المنتج"
+
+msgid "Please provide valid variation SKU or change name of product"
+msgstr "يرجى تقديم SKU اختلاف صالح أو تغيير اسم المنتج"
+
+msgid "Please return amount"
+msgstr "يرجى إعادة المبلغ"
+
+msgid "Please wait .."
+msgstr "الرجاء الانتظار .."
+
+msgid "Plugin Activated"
+msgstr "تم تفعيل الإضافة"
+
+msgid "Plugin installation failed!"
+msgstr "فشل تثبيت الإضافة!"
+
+msgid "Plugin installed and activated successfully!"
+msgstr "تم تثبيت الإضافة وتفعيلها بنجاح!"
+
+msgid "Plugin not found"
+msgstr "لم يتم العثور على الإضافة"
+
+msgid "POS"
+msgstr "نظام نقاط البيع"
+
+msgid "POS Color"
+msgstr "لون POS"
+
+msgid "POS Link"
+msgstr "رابط POS"
+
+msgid "POS Link Type"
+msgstr "نوع رابط POS"
+
+msgid "POS Link:"
+msgstr "رابط نقاط البيع:"
+
+msgid "POS Login Type"
+msgstr "نوع تسجيل الدخول POS"
+
+msgid "POS Logo"
+msgstr "شعار نظام نقاط البيع"
+
+msgid "Pos Menu"
+msgstr "قائمة نظام نقاط البيع"
+
+msgid "POS Mode"
+msgstr "وضع نقاط البيع"
+
+msgid "POS Page"
+msgstr "صفحة POS"
+
+msgid "POS Products Per Row"
+msgstr "منتجات نقاط البيع لكل صف"
+
+msgid "Position"
+msgstr "الموقع"
+
+msgid "Post Code"
+msgstr "الرمز البريدي"
+
+msgid "Premium Support"
+msgstr "دعم ممتاز"
+
+msgid "Preparing"
+msgstr "قيد التحضير"
+
+msgid "Previous"
+msgstr "السابق"
+
+msgid "Previous Amount"
+msgstr "المبلغ السابق"
+
+msgid "Previous Balance"
+msgstr "الرصيد السابق"
+
+msgid "Previous Balance :"
+msgstr "الرصيد السابق:"
+
+msgid "Previous Cash Drawer Amount:"
+msgstr "المبلغ السابق لدرج النقد:"
+
+msgid "Previous Cost"
+msgstr "التكلفة السابقة"
+
+msgid "Previous purchase cost :"
+msgstr "تكلفة الشراء السابقة:"
+
+msgid "Previous Purchase Price"
+msgstr "سعر الشراء السابق"
+
+msgid "Price"
+msgstr "السعر"
+
+msgid "Price :"
+msgstr "السعر:"
+
+msgid "Price Customization"
+msgstr "تخصيص السعر"
+
+msgid "Price Font Size"
+msgstr "حجم خط السعر"
+
+msgid "Price Update list"
+msgstr "قائمة تحديث السعر"
+
+msgid "price updated product"
+msgstr "منتج تم تحديث سعره"
+
+msgid "Price will be "
+msgstr "السعر سيكون"
+
+msgid "Prices not updated "
+msgstr "الأسعار لم يتم تحديثها"
+
+msgid "Prices updated "
+msgstr "تم تحديث الأسعار"
+
+msgid "Print"
+msgstr "طباعة"
+
+msgid "Print Kitchen Receipt"
+msgstr "طباعة إيصال المطبخ"
+
+msgid "Print kitchen slip"
+msgstr "طباعة ورقة المطبخ"
+
+msgid "Print Order"
+msgstr "طباعة الطلب"
+
+msgid "Print Receipt"
+msgstr "طباعة الإيصال"
+
+msgid "Print Settings"
+msgstr "إعدادات الطباعة"
+
+msgid "Private"
+msgstr "خاص"
+
+msgid "Pro"
+msgstr "احترافي"
+
+msgid "Pro version required"
+msgstr "مطلوب الإصدار الاحترافي"
+
+msgid "Pro Version Required for this feature"
+msgstr "الإصدار الاحترافي مطلوب لهذه الميزة"
+
+msgid "Process failed"
+msgstr "فشل العملية"
+
+msgid "Processed By"
+msgstr "معالج بواسطة"
+
+msgid "Processing"
+msgstr "قيد المعالجة"
+
+msgid "Product"
+msgstr "منتج"
+
+msgid "Product added successfully"
+msgstr "تم إضافة المنتج بنجاح"
+
+msgid "Product Attribute"
+msgstr "سمة المنتج"
+
+msgid "Product Category"
+msgstr "فئة المنتج"
+
+msgid "Product created successfully"
+msgstr "تم إنشاء المنتج بنجاح"
+
+msgid "Product creation failed"
+msgstr "فشل إنشاء المنتج"
+
+msgid "Product creation limit exceeded"
+msgstr "تم تجاوز حد إنشاء المنتجات"
+
+msgid "Product Details"
+msgstr "تفاصيل المنتج"
+
+msgid "Product ID"
+msgstr "معرف المنتج"
+
+msgid "Product Info"
+msgstr "معلومات المنتج"
+
+msgid "Product List"
+msgstr "قائمة المنتجات"
+
+msgid "Product Loading"
+msgstr "جارِ تحميل المنتج"
+
+msgid "Product Loading ..."
+msgstr "جارٍ تحميل المنتج ..."
+
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+msgid "Product name :"
+msgstr "اسم المنتج :"
+
+msgid "Product not found with this barcode."
+msgstr "لم يتم العثور على المنتج باستخدام هذا الرمز الشريطي."
+
+msgid "Product Report Summary"
+msgstr "ملخص تقرير المنتج"
+
+msgid "Product Status"
+msgstr "حالة المنتج"
+
+msgid "Product Stock Logs"
+msgstr "سجلات مخزون المنتج"
+
+msgid "Product Sync Interval"
+msgstr "فاصل مزامنة المنتج"
+
+msgid "Product Syncing"
+msgstr "مزامنة المنتج"
+
+msgid "Product Syncing."
+msgstr "مزامنة المنتج."
+
+msgid "Product Unit"
+msgstr "وحدة المنتج"
+
+msgid "Product Videos"
+msgstr "فيديوهات المنتج"
+
+msgid "Products"
+msgstr "المنتجات"
+
+msgid "products"
+msgstr "المنتجات"
+
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+msgid "Profile Info"
+msgstr "معلومات الملف الشخصي"
+
+msgid "Property"
+msgstr "الميزة"
+
+msgid "Publish"
+msgstr "نشر"
+
+msgid "Publishable key"
+msgstr "المفتاح القابل للنشر"
+
+msgid "Published"
+msgstr "منشور"
+
+msgid "Purchase"
+msgstr "الشراء"
+
+msgid "Purchase Date"
+msgstr "تاريخ الشراء"
+
+msgid "Purchase Details"
+msgstr "تفاصيل الشراء"
+
+msgid "Purchase List"
+msgstr "قائمة المشتريات"
+
+msgid "Purchase List Loading ..."
+msgstr "جارٍ تحميل قائمة المشتريات ..."
+
+msgid "Purchase Price"
+msgstr "سعر الشراء"
+
+msgid "Purchased By:"
+msgstr "تم الشراء بواسطة:"
+
+msgid "Purchased Date:"
+msgstr "تاريخ الشراء:"
+
+msgid "Purchased Items"
+msgstr "العناصر المشتراة"
+
+msgid "Purchased No:"
+msgstr "رقم الشراء:"
+
+msgid "Push Settings"
+msgstr "إعدادات الدفع"
+
+msgid "px"
+msgstr "بكسل"
+
+msgid "QR-code"
+msgstr "رمز الاستجابة السريعة"
+
+msgid "Qrcode"
+msgstr "رمز الاستجابة السريعة"
+
+msgid "Qty:"
+msgstr "الكمية:"
+
+msgid "Quantity"
+msgstr "الكمية"
+
+msgid "quantity is"
+msgstr "الكمية هي"
+
+msgid "Radio"
+msgstr "راديو"
+
+msgid "Re-type New password"
+msgstr "أعد كتابة كلمة المرور الجديدة"
+
+msgid "Ready"
+msgstr "جاهز"
+
+msgid "Ready to Serve"
+msgstr "جاهز للخدمة"
+
+msgid "Ready to serve"
+msgstr "جاهز للخدمة"
+
+msgid "Receive"
+msgstr "تلقّي"
+
+msgid "Receive By"
+msgstr "تلقّي بواسطة"
+
+msgid "Receive Date"
+msgstr "تاريخ الاستلام"
+
+msgid "Receive Note:"
+msgstr "ملاحظة الاستلام:"
+
+msgid "Receive Transfer"
+msgstr "نقل الاستلام"
+
+msgid "Receiving Stocks"
+msgstr "استلام المخزون"
+
+msgid "Recommend barcode logo height %{logoHeight}."
+msgstr "يوصى بارتفاع شعار الباركود بنسبة %{logoHeight}."
+
+msgid "Recommend barcode logo height 256px."
+msgstr "يوصى بارتفاع شعار الباركود 256 بكسل."
+
+msgid "Recommend logo height %{logoHeight}."
+msgstr "يوصى بارتفاع الشعار %{logoHeight}."
+
+msgid "Recommend logo height 60px."
+msgstr "نوصي بارتفاع الشعار 60 بكسل."
+
+msgid "Reduced rate"
+msgstr "سعر مخفض"
+
+msgid "Ref"
+msgstr "رد"
+
+msgid "Refresh App"
+msgstr "تحديث التطبيق"
+
+msgid "Refund"
+msgstr "رد"
+
+msgid "Refund Amount"
+msgstr "مبلغ الاسترداد"
+
+msgid "Refund Discount:"
+msgstr "خصم الرد: "
+
+msgid "Refund Fee :"
+msgstr "رسوم الرد: "
+
+msgid "Refund Grand-total :"
+msgstr "إجمالي الرد الكلي: "
+
+msgid "Refund Id "
+msgstr "معرف الاسترداد"
+
+msgid "Refund Info"
+msgstr "معلومات الرد"
+
+msgid "Refund is not possible, no cash drawer found"
+msgstr "لا يمكن رد المبلغ ، لم يتم العثور على درج نقدي"
+
+msgid "Refund List"
+msgstr "قائمة الرد"
+
+msgid "Refund Orders"
+msgstr "رد الطلبات"
+
+msgid "Refund Qty"
+msgstr "كمية الرد"
+
+msgid "Refund Quantity"
+msgstr "كمية المبالغ المستردة"
+
+msgid "Refund Reason"
+msgstr "سبب الرد"
+
+msgid "Refund Report Summary"
+msgstr "ملخص تقرير المبالغ المستردة"
+
+msgid "Refund Sub-total :"
+msgstr "المجموع الفرعي للرد: "
+
+msgid "Refund Tax-total :"
+msgstr "إجمالي ضريبة الرد: "
+
+msgid "Refunded"
+msgstr "تم ردها"
+
+msgid "Refunded but cash drawer amount update failed"
+msgstr "تم رد المبلغ ولكن فشل تحديث مبلغ درج النقد"
+
+msgid "Refunded-total :"
+msgstr "المبلغ المسترد:"
+
+msgid "Refunding Order..."
+msgstr "جارٍ رد الطلب..."
+
+msgid "Regular Price"
+msgstr "السعر العادي"
+
+msgid "Regular unit price: %{reg_price}, sale price: %{sale}"
+msgstr "سعر الوحدة العادي: %{reg_price}، سعر البيع: %{sale}"
+
+msgid "Related App"
+msgstr "التطبيق ذو الصلة"
+
+msgid "Related Apps"
+msgstr "التطبيقات ذات الصلة"
+
+msgid "Reload Caps"
+msgstr "إعادة تحميل القبعات"
+
+msgid "Remove"
+msgstr "إزالة"
+
+msgid "Remove from cart?"
+msgstr "إزالة من سلة التسوق؟"
+
+msgid "Remove from favorite"
+msgstr "إزالة من المفضلة"
+
+msgid "Remove from hold"
+msgstr "إزالة من الاحتفاظ"
+
+msgid "Remove is not possible, cause it has been used in order"
+msgstr "لا يمكن إزالة العنصر، لأنه تم استخدامه في الطلب"
+
+msgid "Remove Item"
+msgstr "إزالة العنصر"
+
+msgid "Remove item"
+msgstr "إزالة العنصر"
+
+msgid "Remove item from an existing order"
+msgstr "إزالة عنصر من طلب قائم"
+
+msgid "Report"
+msgstr "تقرير"
+
+msgid "Report data is loading"
+msgstr "جارٍ تحميل بيانات التقرير"
+
+msgid "Report loading"
+msgstr "جارٍ تحميل التقرير"
+
+msgid "Reports"
+msgstr "التقارير"
+
+msgid "Request Cancel"
+msgstr "طلب الإلغاء"
+
+msgid "Request canceled"
+msgstr "تم إلغاء الطلب"
+
+msgid "Request failed: %{errorMsg}"
+msgstr "فشل الطلب: %{errorMsg}"
+
+msgid "Request outlet or counter empty"
+msgstr "طلب منفذ أو عداد فارغ"
+
+msgid "Request param is empty"
+msgstr "معلمة الطلب فارغة"
+
+msgid "Request to cancel order"
+msgstr "طلب إلغاء الطلب"
+
+msgid "Request to cancel this item"
+msgstr "طلب إلغاء هذا العنصر"
+
+msgid "Requested Cancel"
+msgstr "تم طلب الإلغاء"
+
+msgid "Requested for cancel"
+msgstr "تم طلب الإلغاء"
+
+msgid "Requested outlet or counter is empty"
+msgstr "منفذ الطلب أو العداد فارغ"
+
+msgid "Requested to cancel"
+msgstr "تم طلب الإلغاء"
+
+msgid "Require Counted Cash Input Before Drawer Close"
+msgstr "يتطلب إدخال النقد المعدود قبل إغلاق الدرج"
+
+msgid "Required"
+msgstr "مطلوب"
+
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+msgid "Reset has been successfully done"
+msgstr "تم إعادة الضبط بنجاح"
+
+msgid "Reset Role"
+msgstr "إعادة تعيين الدور"
+
+msgid "Reset Time"
+msgstr "إعادة تعيين الوقت"
+
+msgid "Resetting role"
+msgstr "إعادة ضبط الدور"
+
+msgid "Resolve Conflict"
+msgstr "حل النزاع"
+
+msgid "Restaurant"
+msgstr "مطعم"
+
+#| msgid ""
+#| "Traditional POS mode allows the cashier to manage table-wise orders from "
+#| "the POS panel, assign orders to tables, print kitchen slips directly "
+#| "(with no separate kitchen panel), and perform checkout from the same "
+#| "interface."
+msgid ""
+"Restaurant basic mode allows the cashier to manage table-wise orders from "
+"the POS panel, assign orders to tables, print kitchen slips directly (with "
+"no separate kitchen panel), and perform checkout from the same interface."
+msgstr ""
+"وضع نقاط البيع التقليدي يسمح للكاشير بإدارة الطلبات حسب الطاولة من لوحة نقاط "
+"البيع، تعيين الطلبات للطاولات، طباعة أوراق المطبخ مباشرة (بدون لوحة مطبخ "
+"منفصلة)، وإجراء الدفع من نفس الواجهة."
+
+msgid "Restaurant Payment Type"
+msgstr "نوع دفع المطعم"
+
+msgid "Restore From Hold"
+msgstr "استعادة من الاحتفاظ"
+
+msgid "Return"
+msgstr "المرتجع"
+
+msgid "Reward Points"
+msgstr "نقاط المكافآت"
+
+msgid "Role"
+msgstr "الدور"
+
+msgid "Role :"
+msgstr "الدور :"
+
+msgid "Role Access"
+msgstr "وصول الدور"
+
+msgid "Role copied successfully"
+msgstr "تم نسخ الدور بنجاح"
+
+msgid "Role Description"
+msgstr "وصف الدور"
+
+msgid "Role does not exists"
+msgstr "الدور غير موجود"
+
+msgid "Role List"
+msgstr "قائمة الأدوار"
+
+msgid "Role Name"
+msgstr "اسم الدور"
+
+msgid "Role wise discount manage"
+msgstr "إدارة الخصم حسب الدور"
+
+msgid "Roles"
+msgstr "الأدوار"
+
+msgid "Roles Loading"
+msgstr "تحميل الأدوار"
+
+msgid "Round Factor"
+msgstr "عامل التقريب"
+
+msgid "Rule Group"
+msgstr "مجموعة القواعد"
+
+msgid "Rules"
+msgstr "القواعد"
+
+msgid "Sale Amount"
+msgstr "قيمة المبيعات"
+
+msgid "Sale History"
+msgstr "تاريخ المبيعات"
+
+msgid "Sale Price"
+msgstr "سعر البيع"
+
+msgid "Sale Tax"
+msgstr "ضريبة المبيعات"
+
+msgid "Sales Quantity"
+msgstr "كمية المبيعات"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Save failed"
+msgstr "فشل الحفظ"
+
+msgid "Saved Successfully"
+msgstr "تم الحفظ بنجاح"
+
+msgid "Saving Custom Field"
+msgstr "حفظ الحقل المخصص"
+
+msgid "Saving message..."
+msgstr "جارٍ حفظ الرسالة..."
+
+msgid "Scan"
+msgstr "مسح"
+
+msgid "Scan barcode..."
+msgstr "مسح الباركود..."
+
+msgid "Scan Product"
+msgstr "مسح المنتج"
+
+msgid "Scan to search"
+msgstr "مسح للبحث"
+
+msgid "Search"
+msgstr "بحث"
+
+msgid "Search Again"
+msgstr "البحث مرة أخرى"
+
+msgid "Search or add a tag"
+msgstr "البحث أو إضافة علامة"
+
+msgid "Search Product"
+msgstr "بحث عن منتج"
+
+msgid "Search products..."
+msgstr "البحث عن المنتجات..."
+
+msgid "Search/Choose Category"
+msgstr "البحث / اختيار الفئة"
+
+msgid "Search/Choose country"
+msgstr "البحث / اختيار البلد"
+
+msgid "Search/Choose customer"
+msgstr "بحث/اختر عميل"
+
+msgid "Search/Choose Page"
+msgstr "البحث / اختيار الصفحة"
+
+msgid "Search/Choose Time Zone"
+msgstr "البحث / اختيار المنطقة الزمنية"
+
+msgid "Search/Select Country"
+msgstr "البحث / اختيار الدولة"
+
+msgid "Seat Capability"
+msgstr "قدرة المقعد"
+
+msgid "Seat capacity : %{seat_cap}"
+msgstr "سعة المقعد: %{seat_cap}"
+
+msgid "Seat capacity is low than person number"
+msgstr "سعة المقعد أقل من عدد الأشخاص"
+
+msgid "Secret"
+msgstr "السر"
+
+msgid "Secret Key"
+msgstr "مفتاح سري"
+
+msgid "See Details"
+msgstr "عرض التفاصيل"
+
+msgid "See/edit table and person info"
+msgstr "عرض / تعديل معلومات الطاولة والشخص"
+
+msgid "Select"
+msgstr "اختيار"
+
+msgid "Select / Custom Attributes"
+msgstr "اختيار / خصائص مخصصة"
+
+msgid "Select a Role to Reset"
+msgstr "حدد دورًا لإعادة تعيينه"
+
+msgid "Select Addons"
+msgstr "اختيار الإضافات"
+
+msgid "Select Category"
+msgstr "اختر الفئة"
+
+msgid "Select Counter"
+msgstr "اختيار العداد"
+
+msgid "Select Country"
+msgstr "اختيار الدولة"
+
+msgid "Select Module"
+msgstr "اختر الوحدة النمطية"
+
+msgid "Select number of guest to create order (Seat Capacity"
+msgstr "اختر عدد الضيوف لإنشاء الطلب (سعة المقاعد)"
+
+msgid "Select Options"
+msgstr "اختيار الخيارات"
+
+msgid "Select Outlet"
+msgstr "اختيار المنفذ"
+
+msgid "Select Panel"
+msgstr "حدد اللوحة"
+
+msgid "Select Role"
+msgstr "اختيار الدور"
+
+msgid "Select State"
+msgstr "اختيار الولاية"
+
+msgid "Select Status"
+msgstr "اختيار الحالة"
+
+msgid "Select Sub-category"
+msgstr "اختيار الفئة الفرعية"
+
+msgid "Select Supplier"
+msgstr "اختيار المورد"
+
+msgid "Select Type"
+msgstr "اختر النوع"
+
+msgid "Select variation"
+msgstr "اختيار الاختلاف"
+
+msgid "Select Variations"
+msgstr "اختر الاختلافات"
+
+msgid "Select Vendor"
+msgstr "اختيار البائع"
+
+msgid "Select waiter"
+msgstr "اختر النادل"
+
+msgid "Select Waiters"
+msgstr "اختيار النادل"
+
+msgid "Select Woocommerce Payements"
+msgstr "اختر مدفوعات ووكومرس"
+
+msgid "Select/Search Country"
+msgstr "اختر/ابحث عن دولة"
+
+msgid "Select/Search Product"
+msgstr "اختيار/بحث المنتج"
+
+msgid "Select/Search Role"
+msgstr "حدد/ابحث عن الدور"
+
+msgid "Select/Search role copy from"
+msgstr "اختر/ابحث عن دور نسخ من"
+
+msgid "Select/Search role copy to"
+msgstr "اختر/ابحث عن دور نسخ إلى"
+
+msgid "Select/Search State or Dist"
+msgstr "اختر/ابحث عن ولاية أو منطقة"
+
+msgid "Select/Search Timezone"
+msgstr "اختر/ابحث عن المنطقة الزمنية"
+
+msgid "Select/Search user to add"
+msgstr "حدد/ابحث عن مستخدم لإضافته"
+
+msgid "Selected Product"
+msgstr "المنتج المحدد"
+
+msgid "Seller"
+msgstr "البائع"
+
+msgid "Send Email To Cashier"
+msgstr "إرسال بريد إلكتروني إلى الصراف"
+
+msgid "Send Email To Customer"
+msgstr "إرسال بريد إلكتروني للعميل"
+
+msgid "Send To Kitchen"
+msgstr "إرسال إلى المطبخ"
+
+msgid "Serve this item"
+msgstr "خدم هذا العنصر"
+
+msgid "Served"
+msgstr "مقدم"
+
+msgid "Served By"
+msgstr "مقدم بواسطة"
+
+msgid "Set Password"
+msgstr "تعيين كلمة المرور"
+
+msgid "Set password"
+msgstr "تعيين كلمة المرور"
+
+msgid "Set the duration in days for new badge on product"
+msgstr "تعيين المدة بالأيام لشارة جديدة على المنتج"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Settings Loading"
+msgstr "تحميل الإعدادات"
+
+msgid "Shipment"
+msgstr "الشحن"
+
+msgid "Shipping"
+msgstr "الشحن"
+
+msgid "Shipping and Tax Will be same as Parent"
+msgstr "الشحن والضريبة ستكون نفس الأصل"
+
+msgid "Shipping Cost"
+msgstr "تكلفة الشحن"
+
+msgid "Shipping only"
+msgstr "الشحن فقط"
+
+msgid "Shortcut"
+msgstr "اختصار"
+
+msgid "Shortcut Message"
+msgstr "رسالة الاختصار"
+
+msgid "shortcut message"
+msgstr "رسالة مختصرة"
+
+msgid "Shortcut Message Settings"
+msgstr "إعدادات رسائل الاختصار"
+
+msgid "Shortcut Messages"
+msgstr "رسائل الاختصار"
+
+msgid "Shortcuts"
+msgstr "اختصارات"
+
+msgid "Show"
+msgstr "عرض"
+
+msgid "Show Available Label"
+msgstr "عرض التسمية المتاحة"
+
+msgid "Show Available Reward Points"
+msgstr "عرض نقاط المكافآت المتاحة"
+
+msgid "Show cash drawer log"
+msgstr "إظهار سجل درج النقود"
+
+msgid "Show Counter info"
+msgstr "إظهار معلومات العداد"
+
+msgid "Show Counter No"
+msgstr "إظهار رقم العداد"
+
+msgid "Show customer info"
+msgstr "إظهار معلومات العميل"
+
+msgid "Show Details"
+msgstr "عرض التفاصيل"
+
+msgid "Show Discount Row"
+msgstr "إظهار صف الخصم"
+
+msgid "Show end of the day report"
+msgstr "عرض تقرير نهاية اليوم"
+
+msgid "Show Fee Row"
+msgstr "عرض صف الرسوم"
+
+msgid "Show Footer"
+msgstr "عرض التذييل"
+
+msgid "Show Full Row Item Name"
+msgstr "عرض اسم العنصر بالكامل في الصف"
+
+msgid "Show Header"
+msgstr "إظهار الرأس"
+
+msgid "Show Item Price"
+msgstr "عرض سعر العنصر"
+
+msgid "Show Item Serial"
+msgstr "إظهار رقم مسلسل المنتج"
+
+msgid "Show Logo"
+msgstr "إظهار الشعار"
+
+msgid "Show Order Barcode"
+msgstr "عرض رمز شريط طلب"
+
+msgid "Show order no"
+msgstr "إظهار رقم الطلب"
+
+msgid "Show Order Received Points"
+msgstr "عرض نقاط الطلب المستلمة"
+
+msgid "Show Order Status"
+msgstr "عرض حالة الطلب"
+
+msgid "Show Order Tax Qr Code"
+msgstr "عرض رمز الاستجابة السريعة لضريبة الطلب"
+
+msgid "Show Order Type"
+msgstr "عرض نوع الطلب"
+
+msgid "Show Order Used Points"
+msgstr "عرض نقاط الطلب المستخدمة"
+
+msgid "Show Outlet"
+msgstr "عرض المنفذ"
+
+msgid "Show outlet info"
+msgstr "إظهار معلومات المنفذ"
+
+msgid "Show Payment Method"
+msgstr "عرض طريقة الدفع"
+
+msgid "Show Price"
+msgstr "عرض السعر"
+
+msgid "Show price on barcode label"
+msgstr "عرض السعر على ملصق الباركود"
+
+msgid "Show Table Info"
+msgstr "عرض معلومات الطاولة"
+
+msgid "Show Tax Row"
+msgstr "إظهار صف الضريبة"
+
+msgid "Show token no"
+msgstr "عرض رقم الرمز"
+
+msgid "Show Unit Cost"
+msgstr "إظهار تكلفة الوحدة"
+
+msgid "Show Unit Tax Percentage"
+msgstr "عرض نسبة ضريبة الوحدة"
+
+msgid "Show Vat Reg no"
+msgstr "إظهار رقم تسجيل ضريبة القيمة المضافة"
+
+msgid "Show Waiter Info"
+msgstr "عرض معلومات النادل"
+
+msgid "Shown on POS.Click to hide"
+msgstr "مُعرَض على نظام نقاط البيع. انقر لإخفاء"
+
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+msgid "Sign in using another account."
+msgstr "سجّل الدخول باستخدام حساب آخر."
+
+msgid "Single cash drawer only support in pro version."
+msgstr "يدعم درج نقدي واحد فقط في النسخة الاحترافية."
+
+msgid "Site Key"
+msgstr "مفتاح الموقع"
+
+msgid ""
+"Skip unnecessary plugins in Vitepos requests to improve speed and reduce "
+"conflicts."
+msgstr ""
+"تخطي الإضافات غير الضرورية في طلبات Vitepos لتحسين السرعة وتقليل التعارضات."
+
+msgid "Skiped same item multiple line"
+msgstr "تم تخطي نفس العنصر في سطر متعدد"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "SKU already Exist"
+msgstr "SKU موجود بالفعل"
+
+msgid "SKU already exist"
+msgstr "SKU موجود بالفعل"
+
+msgid "SKU already exists"
+msgstr "SKU موجود بالفعل"
+
+msgid "SL"
+msgstr "SL"
+
+msgid "Slug"
+msgstr "العنوان الدائم"
+
+msgid "Something went wrong, please cancel the order"
+msgstr "حدث خطأ ما، يرجى إلغاء الطلب"
+
+msgid ""
+"Soon, we will be adding more options such as Stripe Terminal and Authorize."
+"net to our platform.Thank you for your understand."
+msgstr ""
+"سيتم قريبًا إضافة المزيد من الخيارات مثل Stripe Terminal و Authorize.net إلى "
+"منصتنا. شكرًا لتفهمك."
+
+msgid "Sound settings updated."
+msgstr "تم تحديث إعدادات الصوت."
+
+msgid "Space Id"
+msgstr "معرف المساحة"
+
+msgid "Split payment support in pro version"
+msgstr "دعم تقسيم الدفع في الإصدار الاحترافي"
+
+msgid "Staffs"
+msgstr "الموظفون"
+
+msgid "Standard"
+msgstr "قياسي"
+
+msgid "Standard price round"
+msgstr "تقريب السعر القياسي"
+
+msgid "Start Preparing"
+msgstr "ابدأ التحضير"
+
+msgid "Start preparing item"
+msgstr "ابدأ تحضير العنصر"
+
+msgid "State"
+msgstr "الولاية"
+
+msgid "State/District"
+msgstr "الولاية / المنطقة"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Status change failed,please try again"
+msgstr "فشل تغيير الحالة ، يرجى المحاولة مرة أخرى"
+
+msgid "Status changed successfully"
+msgstr "تم تغيير الحالة بنجاح"
+
+msgid "Status:"
+msgstr "الحالة:"
+
+msgid "Stock"
+msgstr "المخزون"
+
+msgid "Stock add is not possible"
+msgstr "لا يمكن إضافة المخزون"
+
+msgid "Stock Alert"
+msgstr "تنبيه المخزون"
+
+msgid "Stock Alert!"
+msgstr "تنبيه المخزون!"
+
+msgid "Stock Counter"
+msgstr "عداد المخزون"
+
+msgid "Stock Details"
+msgstr "تفاصيل المخزون"
+
+msgid "Stock increased"
+msgstr "تم زيادة المخزون"
+
+msgid "Stock is running low Please purchase item to increase stock"
+msgstr "المخزون منخفض. يرجى شراء العنصر لزيادة المخزون"
+
+msgid "Stock List Loading ..."
+msgstr "تحميل قائمة المخزون ..."
+
+msgid "Stock Log"
+msgstr "سجل المخزون"
+
+msgid "Stock not updated"
+msgstr "لم يتم تحديث المخزون"
+
+msgid "Stock Quantity"
+msgstr "كمية المخزون"
+
+msgid "Stock reduced"
+msgstr "تم تقليل المخزون"
+
+msgid "Stock Settings"
+msgstr "إعدادات المخزون"
+
+msgid "Stock Transfer"
+msgstr "نقل المخزون"
+
+msgid "Stock Type"
+msgstr "نوع المخزون"
+
+msgid "Stock update is not possible"
+msgstr "لا يمكن تحديث المخزون"
+
+msgid "Street"
+msgstr "الشارع"
+
+msgid "Street Address"
+msgstr "عنوان الشارع"
+
+msgid "Stripe"
+msgstr "سترايب"
+
+msgid "stripe"
+msgstr "stripe"
+
+msgid "Stripe configuration error in server"
+msgstr "خطأ في تكوين Stripe على الخادم"
+
+msgid "Stripe Info Missing"
+msgstr "معلومات Stripe مفقودة"
+
+msgid "Stripe Settings"
+msgstr "إعدادات سترايب"
+
+msgid "Stripe Terminal"
+msgstr "شريط الطرفية"
+
+msgid "Stripe Terminal Settings"
+msgstr "إعدادات محطة Stripe"
+
+msgid "Sub Total"
+msgstr "المجموع الفرعي"
+
+msgid "Sub-total :"
+msgstr "المجموع الفرعي: "
+
+msgid "Submit"
+msgstr "إرسال"
+
+msgid "Success "
+msgstr "نجاح"
+
+msgid "Successfully added"
+msgstr "تم الإضافة بنجاح"
+
+msgid "Successfully closed"
+msgstr "تم الإغلاق بنجاح"
+
+msgid "Successfully created"
+msgstr "تم الإنشاء بنجاح"
+
+msgid "Successfully deleted"
+msgstr "تم الحذف بنجاح"
+
+msgid "Successfully purchased"
+msgstr "تم الشراء بنجاح"
+
+msgid "Successfully refreshed"
+msgstr "تم التحديث بنجاح"
+
+msgid "successfully saved"
+msgstr "تم الحفظ بنجاح"
+
+#, php-format
+msgid "Successfully Transferred,Product %s Stocks %s"
+msgstr "تم النقل بنجاح، منتج %s مخزون %s"
+
+msgid "Successfully Updated"
+msgstr "تم التحديث بنجاح"
+
+msgid "Successfully updated"
+msgstr "تم التحديث بنجاح"
+
+msgid "Supplier"
+msgstr "المُورّد"
+
+msgid "Supplier List"
+msgstr "قائمة الموردين"
+
+msgid "Supplier:"
+msgstr "المُورّد:"
+
+msgid "Support Expired on"
+msgstr "انتهت صلاحية الدعم في"
+
+msgid "Swipe"
+msgstr "مرر"
+
+msgid "swipe"
+msgstr "مسح"
+
+msgid "Swipe Machine"
+msgstr "جهاز المسح"
+
+msgid "Swipe Settings"
+msgstr "إعدادات التمرير"
+
+msgid "Sync from database"
+msgstr "مزامنة من قاعدة البيانات"
+
+msgid "Sync Orders"
+msgstr "مزامنة الطلبات"
+
+msgid "Sync restaurant order list"
+msgstr "مزامنة قائمة طلبات المطعم"
+
+msgid "Sync Settings"
+msgstr "إعدادات المزامنة"
+
+msgid "Syncing offline orders"
+msgstr "مزامنة الطلبات غير المتصلة بالإنترنت"
+
+msgid "TABLE"
+msgstr "الجدول"
+
+msgid "Table"
+msgstr "الجدول"
+
+msgid "Table "
+msgstr "طاولة"
+
+msgid "TABLE :"
+msgstr "الجدول:"
+
+msgid "Table delete failed"
+msgstr "فشل حذف الطاولة"
+
+msgid "Table deleted successfully"
+msgstr "تم حذف الطاولة بنجاح"
+
+msgid "Table Description"
+msgstr "وصف الجدول"
+
+msgid "Table Engaged"
+msgstr "الطاولة مشغولة"
+
+msgid "Table ID"
+msgstr "معرف الطاولة"
+
+msgid "Table Image"
+msgstr "صورة الجدول"
+
+msgid "Table is"
+msgstr "الجدول هو"
+
+msgid "Table Not Engaged"
+msgstr "الطاولة غير مشغولة"
+
+msgid "Table Order List"
+msgstr "قائمة طلبات الطاولة"
+
+msgid "Table Orders"
+msgstr "طلبات الطاولة"
+
+msgid "Table Panel"
+msgstr "لوحة الجدول"
+
+msgid "Table Title"
+msgstr "عنوان الجدول"
+
+msgid "Table-wise"
+msgstr "حسب الجدول"
+
+msgid "Tables"
+msgstr "الجداول"
+
+msgid "Tax"
+msgstr "الضريبة"
+
+msgid ""
+"Tax calculation is based on the subtotal of the purchase. Discounts and fees "
+"will be added after the tax calculation."
+msgstr ""
+"يعتمد حساب الضريبة على المجموع الفرعي للشراء. سيتم إضافة الخصومات والرسوم "
+"بعد حساب الضريبة."
+
+msgid "Tax Calculation Method"
+msgstr "طريقة حساب الضريبة"
+
+msgid "Tax Calculation Method (Only for exclusive tax)"
+msgstr "طريقة حساب الضريبة (للضريبة الحصرية فقط)"
+
+msgid "Tax Class"
+msgstr "فئة الضريبة"
+
+msgid "Tax Included"
+msgstr "يشمل الضريبة"
+
+msgid "Tax Qr Code Position"
+msgstr "موضع رمز الاستجابة السريعة للضريبة"
+
+msgid "Tax Report Summary"
+msgstr "ملخص تقرير الضريبة"
+
+msgid "Tax Status"
+msgstr "حالة الضريبة"
+
+msgid "Tax-total"
+msgstr "إجمالي الضريبة"
+
+msgid "Tax-total :"
+msgstr "إجمالي الضريبة:"
+
+msgid "Taxable"
+msgstr "خاضع للضريبة"
+
+msgid "Term Description"
+msgstr "وصف المصطلح"
+
+msgid "Term Name"
+msgstr "اسم المصطلح"
+
+msgid "Terms"
+msgstr "المصطلحات"
+
+msgid "Textbox"
+msgstr "مربع نص"
+
+msgid "Textbox (Multiline)"
+msgstr "مربع نص (متعدد الأسطر)"
+
+msgid "Thank You"
+msgstr "شكرًا لك"
+
+msgid "Thank You For Purchasing"
+msgstr "شكرًا لك على الشراء"
+
+msgid ""
+"The admin can add some settings in the admin panel, such as: Outlet Create, "
+"Counter Create, Roll Access Management, Custom Invoice, Barcode Settings and "
+"License Panel."
+msgstr ""
+"يمكن للمسؤول إضافة بعض الإعدادات في لوحة التحكم الإدارية ، مثل: إنشاء المنفذ "
+"، إنشاء العداد ، إدارة الوصول للرول ، الفاتورة المخصصة ، إعدادات الباركود "
+"ولوحة الترخيص."
+
+msgid ""
+"The new badge will display up to %{dayset} days from product creation date."
+msgstr ""
+"سيتم عرض الشارة الجديدة لمدة تصل إلى %{dayset} يومًا من تاريخ إنشاء المنتج."
+
+msgid "The page is redirecting to home page withing few seconds"
+msgstr "سيتم إعادة توجيه الصفحة إلى الصفحة الرئيسية خلال بضع ثوانٍ"
+
+#, php-format
+msgid "The product ( %s ) does not have any stock"
+msgstr "المنتج ( %s ) ليس لديه مخزون"
+
+msgid "The role user can change any users password"
+msgstr "يمكن لمستخدم الدور تغيير كلمة مرور أي مستخدم"
+
+msgid "The role user can create any outlets user if get this access"
+msgstr "يمكن لمستخدم الدور إنشاء أي مستخدمي منافذ إذا حصل على هذا الوصول"
+
+msgid ""
+"The stock of this selected outlet product will serve as the inventory for "
+"your online orders"
+msgstr ""
+"سيكون مخزون هذا المنتج من المنفذ المحدد هو المخزون لطلباتك عبر الإنترنت"
+
+msgid ""
+"The stock of this selected outlet product will serve as the inventory for "
+"your online orders."
+msgstr "سيكون مخزون منتج المنفذ المحدد هذا بمثابة مخزون لطلباتك عبر الإنترنت."
+
+msgid ""
+"The Ultimate Coupon Management System.Point of sale (POS) plugin for "
+"wordpress and Woocommerce"
+msgstr ""
+"نظام إدارة الكوبونات النهائي. ملحق نقطة البيع (POS) لـ WordPress و "
+"WooCommerce"
+
+msgid "Then select the menu App Keys"
+msgstr "ثم حدد قائمة مفاتيح التطبيق"
+
+msgid "This drawer will close on create new drawer."
+msgstr "سيتم إغلاق هذا الدرج عند إنشاء درج جديد."
+
+msgid "This email already exist"
+msgstr "هذا البريد الإلكتروني موجود بالفعل."
+
+msgid "This mobile number is already exist"
+msgstr "هذا رقم الهاتف المحمول موجود بالفعل."
+
+msgid "This module is not support in offline"
+msgstr "لا يدعم هذا الوحدة في وضع عدم الاتصال بالإنترنت."
+
+msgid ""
+"This plugin adds a beautiful mini cart feature to your WooCommerce website, "
+"allowing easy customization to match your preferences."
+msgstr ""
+"يضيف هذا الملحق ميزة سلة تسوق صغيرة جميلة إلى موقع WooCommerce الخاص بك، مما "
+"يتيح لك التخصيص بسهولة لتتناسب مع تفضيلاتك."
+
+msgid "This product already added in the list"
+msgstr "تم إضافة هذا المنتج بالفعل إلى القائمة."
+
+msgid "This Property Should not be update"
+msgstr "لا يجب تحديث هذه الخاصية."
+
+msgid "This roles user can change their password"
+msgstr "يمكن لمستخدمي هذه الأدوار تغيير كلمة المرور الخاصة بهم"
+
+msgid "This roles user can see payment notes on order details"
+msgstr "يمكن لمستخدمي هذه الأدوار رؤية ملاحظات الدفع على تفاصيل الطلب"
+
+msgid "This user is not allowed to withdraw tips from this outlet"
+msgstr "هذا المستخدم غير مسموح له بسحب الإكراميات من هذا الفرع"
+
+msgid "This username already exist"
+msgstr "اسم المستخدم هذا موجود بالفعل."
+
+msgid ""
+"This will close all drawers previously opened except the last drawer opened "
+"in any counter."
+msgstr ""
+"سيؤدي ذلك إلى إغلاق جميع الأدراج التي تم فتحها مسبقًا باستثناء آخر درج تم "
+"فتحه في أي عداد."
+
+msgid ""
+"This would be a temporary password.The user have to change their password on "
+"first login."
+msgstr ""
+"ستكون هذه كلمة مرور مؤقتة. يجب على المستخدم تغيير كلمة المرور عند تسجيل "
+"الدخول لأول مرة."
+
+msgid "Time"
+msgstr "الوقت"
+
+msgid "Time Spent"
+msgstr "الوقت المستغرق"
+
+msgid "Time Zone"
+msgstr "المنطقة الزمنية"
+
+msgid "Tips"
+msgstr "الإكراميات"
+
+msgid "Tips Information"
+msgstr "معلومات الإكراميات"
+
+msgid "Tips Log"
+msgstr "سجل الإكراميات"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Title is required"
+msgstr "العنوان مطلوب"
+
+msgid "Title/Label"
+msgstr "العنوان/التسمية"
+
+msgid "To"
+msgstr "إلى"
+
+msgid "To change color you need pro version"
+msgstr "لتغيير اللون، تحتاج إلى الإصدار الاحترافي"
+
+msgid ""
+"To delete role, you need to move current users of this roles to another role."
+" Please choose move to role below"
+msgstr ""
+"لحذف الدور ، تحتاج إلى نقل المستخدمين الحاليين لهذا الدور إلى دور آخر. "
+"الرجاء اختيار نقل إلى الدور أدناه."
+
+msgid "To get a complete idea of what your agent needs to do to run an outlet "
+msgstr "للحصول على فكرة كاملة عما يجب على وكيلك القيام به لتشغيل منفذ"
+
+msgid ""
+"To get more benefits, enabling the pusher to reduce the load on your server "
+"is recommended. The free pusher package should be enough for you."
+msgstr ""
+"للحصول على المزيد من الفوائد، يُوصى بتمكين Pusher لتقليل الحمل على الخادم "
+"الخاص بك. حزمة Pusher المجانية يجب أن تكون كافية لك."
+
+msgid "To get pusher server key follow this instruction"
+msgstr "للحصول على مفتاح خادم pusher اتبع هذه التعليمات"
+
+msgid "To Kitchen"
+msgstr "إلى المطبخ"
+
+msgid "To Outlet"
+msgstr "إلى منفذ البيع"
+
+msgid "To Outlet:"
+msgstr "إلى منفذ البيع:"
+
+msgid "To POS"
+msgstr "إلى نظام نقاط البيع"
+
+msgid ""
+"To process order offline please ask your admin to enable offline order "
+"feature."
+msgstr ""
+"لمعالجة الطلبات دون اتصال بالإنترنت ، يرجى طلب من المسؤول تمكين ميزة الطلبات "
+"دون اتصال بالإنترنت."
+
+msgid "To watch our all video tutorial click on the button"
+msgstr "لمشاهدة جميع دروس الفيديو التعليمية الخاصة بنا ، انقر على الزر."
+
+msgid "Token font size(px)"
+msgstr "حجم خط الرمز (بكسل)"
+
+msgid "Token No"
+msgstr "رقم الرمز"
+
+msgid "Token no label"
+msgstr "تسمية رقم الرمز"
+
+msgid "Token Position"
+msgstr "موضع الرمز"
+
+msgid "Token Prefix"
+msgstr "بادئة الرمز"
+
+msgid "Top"
+msgstr "أعلى"
+
+msgid "Top 10 Customer"
+msgstr "أفضل 10 عملاء"
+
+msgid "Top 10 Order"
+msgstr "أفضل 10 طلبات"
+
+msgid "Top 10 Product"
+msgstr "أفضل 10 منتجات"
+
+msgid "Top 10 Refund"
+msgstr "أفضل 10 عمليات استرداد"
+
+msgid "Top 100 Product Data"
+msgstr "بيانات أفضل 100 منتج"
+
+msgid "Top Cashier"
+msgstr "أفضل أمين صندوق"
+
+msgid "Top Cashier List"
+msgstr "قائمة أفضل أمناء الصندوق"
+
+msgid "Top Customers"
+msgstr "أفضل العملاء"
+
+msgid "Top Payment Methods"
+msgstr "أفضل طرق الدفع"
+
+msgid "Top Products"
+msgstr "أفضل المنتجات"
+
+msgid "Top,Bottom"
+msgstr "أعلى، أسفل"
+
+msgid "Total"
+msgstr "المجموع"
+
+msgid "Total Amount"
+msgstr "المبلغ الإجمالي"
+
+msgid "Total Cost"
+msgstr "التكلفة الإجمالية"
+
+msgid "Total cost"
+msgstr "التكلفة الإجمالية"
+
+msgid "Total Discount :"
+msgstr "إجمالي الخصم: "
+
+msgid "Total Fee :"
+msgstr "الرسوم الإجمالية:"
+
+msgid "Total Income"
+msgstr "إجمالي الدخل"
+
+msgid "Total Order"
+msgstr "إجمالي الطلبات"
+
+msgid "Total Orders"
+msgstr "إجمالي الطلبات"
+
+msgid "Total Outlet:"
+msgstr "إجمالي منفذ البيع:"
+
+msgid "Total Outlets"
+msgstr "إجمالي المنافذ"
+
+msgid "Total Purchase"
+msgstr "إجمالي المشتريات"
+
+msgid "Total Quantity"
+msgstr "الكمية الإجمالية"
+
+msgid "Total Refund"
+msgstr "إجمالي المبلغ المسترد"
+
+msgid "Total Refunds"
+msgstr "إجمالي المبالغ المستردة"
+
+msgid "Total stocks"
+msgstr "إجمالي المخزون"
+
+msgid "Total Tax"
+msgstr "إجمالي الضريبة"
+
+msgid "Total Tips"
+msgstr "إجمالي الإكراميات"
+
+msgid "Traditional"
+msgstr "تقليدي"
+
+msgid "Transfer"
+msgstr "نقل"
+
+msgid "Transfer by"
+msgstr "تحويل عن طريق"
+
+msgid "Transfer By:"
+msgstr "نقل بواسطة:"
+
+msgid "Transfer current online stocks to"
+msgstr "نقل الأسهم عبر الإنترنت الحالية إلى"
+
+msgid "Transfer Date"
+msgstr "تاريخ النقل"
+
+msgid "Transfer date:"
+msgstr "تاريخ النقل:"
+
+msgid "Transfer Details"
+msgstr "تفاصيل النقل"
+
+msgid "Transfer Item*"
+msgstr "نقل العنصر*"
+
+msgid "Transfer List Loading ..."
+msgstr "جارٍ تحميل قائمة النقل ..."
+
+msgid "Transfer Note"
+msgstr "ملاحظة النقل"
+
+msgid "Transfer Quantity"
+msgstr "كمية النقل"
+
+msgid "Transfer Status:"
+msgstr "حالة النقل:"
+
+msgid "Transfer Stock"
+msgstr "نقل المخزون"
+
+msgid "Transfer to %{outletname}"
+msgstr "v"
+
+msgid "Transferred Items"
+msgstr "العناصر المنقولة"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "Type to search"
+msgstr "اكتب للبحث"
+
+msgid "Types"
+msgstr "أنواع"
+
+msgid "Unit Tax Label"
+msgstr "تسمية ضريبة الوحدة"
+
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgid "Unlimited"
+msgstr "غير محدود"
+
+msgid "Unpaid"
+msgstr "غير مدفوع"
+
+msgid "Up Sale"
+msgstr "بيع إضافي"
+
+msgid "Up Sells"
+msgstr "عروض إضافية"
+
+msgid "Update"
+msgstr "تحديث"
+
+msgid "Update Failed"
+msgstr "فشل التحديث"
+
+msgid "Update failed"
+msgstr "فشل التحديث"
+
+msgid "Update failed try again"
+msgstr "فشل التحديث ، حاول مرة أخرى"
+
+msgid "Update failed unknown error"
+msgstr "فشل التحديث خطأ غير معروف"
+
+msgid "Update failed,please try again"
+msgstr "فشل التحديث ، يرجى المحاولة مرة أخرى"
+
+msgid "Update Note"
+msgstr "ملاحظة التحديث"
+
+msgid "Update order"
+msgstr "تحديث الطلب"
+
+msgid "Update Prices"
+msgstr "تحديث الأسعار"
+
+msgid "Update Product Attribute"
+msgstr "تحديث سمة المنتج"
+
+msgid "Update Product Category"
+msgstr "تحديث فئة المنتج"
+
+msgid "Update Product Price"
+msgstr "تحديث سعر المنتج"
+
+msgid "Update Status?"
+msgstr "تحديث الحالة؟"
+
+msgid "Updated successfully"
+msgstr "تم التحديث بنجاح"
+
+msgid "Updating category"
+msgstr "جارٍ تحديث الفئة"
+
+msgid "Updating Custom Fields"
+msgstr "تحديث الحقول المخصصة"
+
+msgid "Updating Customer"
+msgstr "تحديث العميل"
+
+msgid "Updating message..."
+msgstr "جارٍ تحديث الرسالة..."
+
+msgid "Updating Role Details"
+msgstr "تحديث تفاصيل الدور"
+
+msgid "Upload a Feature Image"
+msgstr "تحميل صورة مميزة"
+
+msgid "Upload category Image"
+msgstr "رفع صورة الفئة"
+
+msgid "Upload Image For This Variation"
+msgstr "تحميل صورة لهذا الاختلاف"
+
+msgid "Upload More Images For This Product"
+msgstr "تحميل المزيد من الصور لهذا المنتج"
+
+msgid "Upload Table Image"
+msgstr "تحميل صورة الطاولة"
+
+msgid "Upload User Image"
+msgstr "رفع صورة المستخدم"
+
+msgid "Uploaded file type not allowed"
+msgstr "نوع الملف المرفوع غير مسموح به"
+
+msgid "Use camera on barcode scanning"
+msgstr "استخدام الكاميرا في مسح رمز الشريط"
+
+msgid "Use For Variation"
+msgstr "استخدم للاختلاف"
+
+msgid "User"
+msgstr "المستخدم"
+
+msgid "User creation limit exceeded"
+msgstr "تم تجاوز حد إنشاء المستخدمين"
+
+msgid "User Id"
+msgstr "معرف المستخدم"
+
+msgid "User List"
+msgstr "قائمة المستخدمين"
+
+msgid "User List Loading ..."
+msgstr "قائمة المستخدمين قيد التحميل ..."
+
+msgid "User loading ..."
+msgstr "تحميل المستخدم ..."
+
+msgid "User Move to"
+msgstr "نقل المستخدم إلى"
+
+msgid "User Name:"
+msgstr "اسم المستخدم:"
+
+msgid "Username"
+msgstr "اسم المستخدم"
+
+msgid "Username already exist"
+msgstr "اسم المستخدم موجود بالفعل"
+
+msgid "Username already exist."
+msgstr "اسم المستخدم موجود بالفعل."
+
+msgid "Username is required"
+msgstr "اسم المستخدم مطلوب"
+
+msgid "Username or Email address"
+msgstr "اسم المستخدم أو عنوان البريد الإلكتروني"
+
+msgid "Users"
+msgstr "المستخدمون"
+
+msgid "Valid"
+msgstr "ساري المفعول"
+
+msgid "Value"
+msgstr "القيمة"
+
+msgid "Variation SKU already exist"
+msgstr "SKU الاختلاف موجود بالفعل"
+
+msgid "Vat No"
+msgstr "رقم ضريبة القيمة المضافة"
+
+msgid "Vat/Tax No"
+msgstr "رقم ضريبة القيمة المضافة"
+
+msgid "Vat/Tax No Label"
+msgstr "تسمية رقم ضريبة القيمة المضافة"
+
+msgid "Vendor"
+msgstr "المورد"
+
+msgid "Vendor delete failed"
+msgstr "فشل حذف البائع"
+
+msgid "Vendor deleted successfully"
+msgstr "تم حذف البائع بنجاح"
+
+msgid "Vendor Description"
+msgstr "وصف البائع"
+
+msgid "Vendor List Loading ..."
+msgstr "قائمة البائعين قيد التحميل ..."
+
+msgid "Version"
+msgstr "الإصدار"
+
+msgid "Video Tutorial"
+msgstr "فيديو تعليمي"
+
+msgid "Videos"
+msgstr "الفيديوهات"
+
+msgid "View All Settings"
+msgstr "عرض جميع الإعدادات"
+
+msgid "View POS"
+msgstr "عرض نظام نقاط البيع"
+
+msgid "Viewing %{ startRecord } to %{ endRecord } of %{ totalRecord } records"
+msgstr "عرض %{ startRecord } إلى %{ endRecord } من %{ TotalRecord } من السجلات"
+
+msgid "Visit"
+msgstr "زيارة"
+
+msgid ""
+"Vite Coupon is a comprehensive coupon management system designed to simplify "
+"the creation, distribution, and tracking of discount coupons for online "
+"businesses."
+msgstr ""
+"Vite Coupon هو نظام شامل لإدارة الكوبونات مصمم لتبسيط إنشاء وتوزيع وتتبع "
+"كوبونات الخصم للشركات عبر الإنترنت."
+
+msgid "Vite Coupon Pro is Needed"
+msgstr "تُطلَب Vite Coupon Pro"
+
+msgid ""
+"Vite Rewards is a comprehensive loyalty points plugin designed to "
+"incentivize customer engagement and boost sales on your WooCommerce store. "
+"With a wide range of features, ViteRewards allows you to reward customers "
+"for various actions and interactions, creating a more engaging shopping "
+"experience."
+msgstr ""
+"Vite Rewards هو مكون إضافي شامل لنقاط الولاء مصمم لتحفيز التفاعل مع العملاء "
+"وزيادة المبيعات في متجرك WooCommerce. مع مجموعة واسعة من الميزات، يتيح لك "
+"ViteRewards مكافأة العملاء مقابل مختلف الأفعال والتفاعلات، مما يخلق تجربة "
+"تسوق أكثر جذبًا."
+
+msgid ""
+"Vitepos is a POS specialized software which is the right solution for your "
+"business."
+msgstr "Vitepos هو برنامج POS متخصص وهو الحل الأمثل لعملك."
+
+msgid "Vitepos Login"
+msgstr "تسجيل الدخول Vitepos"
+
+msgid "Vitepos Only"
+msgstr "Vitepos فقط"
+
+msgid ""
+"Vitepos will use the WooCommerce stock, ensuring that a single stock is used "
+"both on the website and in the POS system."
+msgstr ""
+"سيستخدم Vitepos مخزون WooCommerce ، مما يضمن استخدام مخزون واحد على موقع "
+"الويب ونظام POS."
+
+msgid "Waiter"
+msgstr "نادل"
+
+msgid "Waiter Panel"
+msgstr "لوحة التحكم الخاصة بالنادل"
+
+msgid "Waiter POS"
+msgstr "نظام نقاط البيع للنادل"
+
+msgid "Waiter requested to cancel"
+msgstr "طلب النادل الإلغاء"
+
+msgid "Waiting"
+msgstr "في انتظار"
+
+msgid "Wallee"
+msgstr "Wallee"
+
+msgid "Wallee configuration error in server"
+msgstr "خطأ في إعداد Wallee على الخادم"
+
+msgid "Wallee Settings"
+msgstr "إعدادات Wallee"
+
+msgid "Wallee terminal server configuration error"
+msgstr "خطأ في إعداد خادم طرفية Wallee"
+
+msgid "Want to clear cache and logout?"
+msgstr "هل تريد مسح ذاكرة التخزين المؤقت والخروج؟"
+
+msgid "Want to close cash drawer?"
+msgstr "هل تريد إغلاق درج النقود؟"
+
+msgid "Want You like to do with current cart ?"
+msgstr "ماذا تريد أن تفعل بالسلة الحالية؟"
+
+msgid "Warning, all role access will be deleted for this role."
+msgstr "تحذير، سيتم حذف جميع وصولات الدور لهذا الدور."
+
+msgid ""
+"Warning, offline orders are stored in the database of browser (Chrome, "
+"Firefox, Opera, etc.) . And as soon as the app comes online, it syncs with "
+"the main server. If someone deletes the database  of browser before syncing, "
+"the order will no longer sync. In this case, the order information will be "
+"deleted forever."
+msgstr ""
+"تحذير، يتم تخزين الطلبات غير المتصلة بالإنترنت في قاعدة بيانات المتصفح "
+"(Chrome، Firefox، Opera، إلخ). وبمجرد اتصال التطبيق بالإنترنت، يتم مزامنته "
+"مع الخادم الرئيسي. إذا قام شخص ما بحذف قاعدة بيانات المتصفح قبل المزامنة، "
+"فلن تتم مزامنة الطلب بعد الآن. في هذه الحالة، سيتم حذف معلومات الطلب إلى "
+"الأبد."
+
+msgid ""
+"Warning, vitepos lock screen might not work properly if 2FA is enabled on "
+"login."
+msgstr ""
+"تحذير، قد لا تعمل شاشة قفل vitepos بشكل صحيح إذا تم تمكين مصادقة ثنائية عند "
+"تسجيل الدخول."
+
+msgid "Watch tutorial"
+msgstr "شاهد البرنامج التعليمي"
+
+msgid ""
+"We're sorry but pos doesn't work properly without JavaScript enabled. Please "
+"enable it to continue."
+msgstr ""
+"نعتذر ، ولكن pos لا يعمل بشكل صحيح بدون تمكين JavaScript. يرجى تمكينه "
+"للمتابعة."
+
+msgid "Weight"
+msgstr "الوزن"
+
+msgid "Welcome to"
+msgstr "أهلاً بك في"
+
+msgid "When Pusher Is Enabled"
+msgstr "عندما يكون Pusher مفعلاً"
+
+msgid "When Pusher Is Not Enabled"
+msgstr "عندما لا يكون Pusher مفعلاً"
+
+msgid "Where will show"
+msgstr "أين سيتم العرض"
+
+msgid ""
+"Whether it’s the User App for mobile ordering or the Kiosk Mode for self-"
+"service, Vitepos empowers your business with features like payment "
+"processing, rewards, coupons, and more. Perfect for restaurants, retail "
+"stores, and online shops – boost efficiency, enhance customer satisfaction, "
+"and grow your sales effortlessly!"
+msgstr ""
+"سواء كان تطبيق المستخدم للطلبات عبر الهاتف المحمول أو وضع الكشك للخدمة "
+"الذاتية، فإن Vitepos يمنح عملك القوة مع ميزات مثل معالجة الدفع، والمكافآت، "
+"والقسائم، والمزيد. مثالي للمطاعم، ومتاجر البيع بالتجزئة، والمتاجر "
+"الإلكترونية – زيادة الكفاءة، وتعزيز رضا العملاء، وزيادة مبيعاتك بكل سهولة!"
+
+msgid "Why are denying this order?"
+msgstr "لماذا ترفض هذا الطلب؟"
+
+msgid "Why are you denying this item?"
+msgstr "لماذا ترفض هذا العنصر؟"
+
+msgid "Width"
+msgstr "العرض"
+
+msgid "Withdraw"
+msgstr "سحب"
+
+msgid "Withdraw amount"
+msgstr "مبلغ السحب"
+
+msgid "Withdraw and close"
+msgstr "السحب والإغلاق"
+
+msgid "Withdraw from cash drawer"
+msgstr "السحب من درج النقود"
+
+msgid "Withdraw is not possible, no cash drawer found"
+msgstr "لا يمكن سحب الأموال، لم يتم العثور على درج نقدي"
+
+msgid "Withdraw Note"
+msgstr "ملاحظة السحب"
+
+msgid "Withdraw Tips from cash drawer"
+msgstr "سحب الإكراميات من درج النقود"
+
+msgid "Withdrawn"
+msgstr "تم السحب"
+
+msgid "Withdrawn Tips"
+msgstr "الإكراميات المسحوبة"
+
+msgid "Woocomerce Payment"
+msgstr "مدفوعات ووكومرس"
+
+msgid "Woocommerce configuration error in server"
+msgstr "خطأ في تكوين Woocommerce على الخادم"
+
+msgid "Woocommerce stock (Single stock)"
+msgstr "مخزون WooCommerce (مخزون واحد)"
+
+msgid "WordPress Login"
+msgstr "تسجيل الدخول WordPress"
+
+msgid "WordPress Login URL"
+msgstr "رابط تسجيل الدخول WordPress"
+
+msgid "Wordpress Roles"
+msgstr "أدوار ووردبريس"
+
+msgid "Write your message"
+msgstr "اكتب رسالتك"
+
+msgid "Yes"
+msgstr "نعم"
+
+msgid "You are Connected"
+msgstr "أنت متصل"
+
+msgid "You are not connected"
+msgstr "أنت غير متصل"
+
+msgid "You can not add this much of discount"
+msgstr "لا يمكنك إضافة هذا القدر من الخصم"
+
+msgid "You can not checkout this in current status"
+msgstr "لا يمكنك إتمام عملية الشراء في هذه الحالة"
+
+msgid "You can not close current cash drawer"
+msgstr "لا يمكنك إغلاق درج النقد الحالي"
+
+msgid "You can not give this much discount"
+msgstr "لا يمكنك منح هذا القدر من الخصم"
+
+msgid "You can not order less than 0 amount"
+msgstr "لا يمكنك طلب أقل من 0"
+
+msgid "You can not update paid order"
+msgstr "لا يمكنك تحديث الطلب المدفوع"
+
+msgid ""
+"You can select the default customer for order processing. If not selected "
+"then the order will be processed as a guest user. Note that, if the customer "
+"is selected from the POS, that customer will remain in the selected state."
+msgstr ""
+"يمكنك تحديد العميل الافتراضي لمعالجة الطلب. إذا لم يتم تحديده، سيتم معالجة "
+"الطلب كضيف. لاحظ أنه إذا تم تحديد العميل من نقاط البيع، فسوف يظل هذا العميل "
+"في حالة التحديد."
+
+msgid ""
+"You can select the default order status for VitePOS orders. By default order "
+"status will be completed."
+msgstr ""
+"يمكنك تحديد حالة الطلب الافتراضية لطلبات VitePOS. ستكون حالة الطلب "
+"الافتراضية مكتملة."
+
+msgid ""
+"You cannot modify the information of this user because they have a higher-"
+"level role."
+msgstr "لا يمكنك تعديل معلومات هذا المستخدم لأنه يمتلك دورًا بمستوى أعلى."
+
+msgid ""
+"You do not have permission of add customer, contact your admin to get this "
+"permission."
+msgstr "ليس لديك إذن لإضافة عميل ، اتصل بمسؤولك للحصول على هذا الإذن."
+
+msgid "You do not have permission to access this link"
+msgstr "ليس لديك إذن للوصول إلى هذا الرابط"
+
+msgid "You do not have permission to do this"
+msgstr "ليس لديك إذن للقيام بذلك"
+
+msgid "You do not have permission to give discount"
+msgstr "ليس لديك إذن لمنح خصم"
+
+msgid "You do not have permission to have fees"
+msgstr "ليس لديك إذن لوجود رسوم"
+
+msgid "You don't have permission to access this link"
+msgstr "ليس لديك إذن للوصول إلى هذا الرابط"
+
+msgid "You don't have permission to view details of this outlet"
+msgstr "ليس لديك إذن لعرض تفاصيل هذا المنفذ"
+
+msgid "You don't have permission to view user of this outlet"
+msgstr "ليس لديك إذن لعرض مستخدم هذا المنفذ"
+
+msgid "You don't have permission to view waiter of this outlet"
+msgstr "ليس لديك إذن لعرض النادل لهذا المنفذ"
+
+msgid "You have no permission to create order"
+msgstr "ليس لديك إذن لإنشاء طلب"
+
+msgid "You Need To Check Your Connection"
+msgstr "يجب عليك التحقق من اتصالك بالإنترنت"
+
+msgid ""
+"You will get separate stock for each outlet, stock transfer, receive feature "
+"will be available in the vitepos.You need to purchase or add stock product "
+"for each outlet"
+msgstr ""
+"ستحصل على مخزون منفصل لكل منفذ ، ونقل المخزون ، وستكون ميزة الاستلام متاحة "
+"في vitepos. ستحتاج إلى شراء أو إضافة منتج مخزون لكل منفذ"
+
+msgid "Your License Key"
+msgstr "مفتاح الترخيص الخاص بك"
+
+msgid "Zero rate"
+msgstr "معدل صفر"
+
+msgid "Zip Code"
+msgstr "الرمز البريدي"

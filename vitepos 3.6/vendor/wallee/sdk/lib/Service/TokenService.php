@@ -1,0 +1,1327 @@
+<?php
+/**
+ * wallee SDK
+ *
+ * This library allows to interact with the wallee payment service.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+namespace Wallee\Sdk\Service;
+
+use Wallee\Sdk\ApiClient;
+use Wallee\Sdk\ApiException;
+use Wallee\Sdk\ApiResponse;
+use Wallee\Sdk\Http\HttpRequest;
+use Wallee\Sdk\ObjectSerializer;
+
+/**
+ * TokenService service
+ *
+ * @category Class
+ * @package  Wallee\Sdk
+ * @author   wallee AG
+ * @license  http://www.apache.org/licenses/LICENSE-2.0 Apache License v2
+ */
+class TokenService {
+
+	/**
+	 * The API client instance.
+	 *
+	 * @var ApiClient
+	 */
+	private $apiClient;
+
+	/**
+	 * Constructor.
+	 *
+	 * @param ApiClient $apiClient the api client
+	 */
+	public function __construct(ApiClient $apiClient) {
+		if (is_null($apiClient)) {
+			throw new \InvalidArgumentException('The api client is required.');
+		}
+
+		$this->apiClient = $apiClient;
+	}
+
+	/**
+	 * Returns the API client instance.
+	 *
+	 * @return ApiClient
+	 */
+	public function getApiClient() {
+		return $this->apiClient;
+	}
+
+
+	/**
+	 * Operation checkTokenCreationPossible
+	 *
+	 * Check If Token Creation Is Possible
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to check if the token can be created or not. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return bool
+	 */
+	public function checkTokenCreationPossible($space_id, $transaction_id) {
+		return $this->checkTokenCreationPossibleWithHttpInfo($space_id, $transaction_id)->getData();
+	}
+
+	/**
+	 * Operation checkTokenCreationPossibleWithHttpInfo
+	 *
+	 * Check If Token Creation Is Possible
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to check if the token can be created or not. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function checkTokenCreationPossibleWithHttpInfo($space_id, $transaction_id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling checkTokenCreationPossible');
+		}
+		
+		if (is_null($transaction_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $transaction_id when calling checkTokenCreationPossible');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept([]);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType([]);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+		if (!is_null($transaction_id)) {
+			$queryParams['transactionId'] = $this->apiClient->getSerializer()->toQueryValue($transaction_id);
+		}
+
+		
+		$resourcePath = '/token/check-token-creation-possible';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'bool',
+				'/token/check-token-creation-possible'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), 'bool', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        'bool',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation count
+	 *
+	 * Count
+	 *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\EntityQueryFilter $filter The filter which restricts the entities which are used to calculate the count. (optional)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return int
+	 */
+	public function count($space_id, $filter = null) {
+		return $this->countWithHttpInfo($space_id, $filter)->getData();
+	}
+
+	/**
+	 * Operation countWithHttpInfo
+	 *
+	 * Count
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\EntityQueryFilter $filter The filter which restricts the entities which are used to calculate the count. (optional)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function countWithHttpInfo($space_id, $filter = null) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling count');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept(['application/json;charset=utf-8']);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType(['application/json;charset=utf-8']);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+
+		
+		$resourcePath = '/token/count';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		$tempBody = null;
+		if (isset($filter)) {
+			$tempBody = $filter;
+		}
+
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'int',
+				'/token/count'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), 'int', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        'int',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation create
+	 *
+	 * Create
+	 *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\TokenCreate $entity The token object with the properties which should be created. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Token
+	 */
+	public function create($space_id, $entity) {
+		return $this->createWithHttpInfo($space_id, $entity)->getData();
+	}
+
+	/**
+	 * Operation createWithHttpInfo
+	 *
+	 * Create
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\TokenCreate $entity The token object with the properties which should be created. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function createWithHttpInfo($space_id, $entity) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling create');
+		}
+		
+		if (is_null($entity)) {
+			throw new \InvalidArgumentException('Missing the required parameter $entity when calling create');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept(['application/json;charset=utf-8']);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType(['application/json;charset=utf-8']);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+
+		
+		$resourcePath = '/token/create';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		$tempBody = null;
+		if (isset($entity)) {
+			$tempBody = $entity;
+		}
+
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Token',
+				'/token/create'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Token', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Token',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation createToken
+	 *
+	 * Create Token
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to create the token. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Token
+	 */
+	public function createToken($space_id, $transaction_id) {
+		return $this->createTokenWithHttpInfo($space_id, $transaction_id)->getData();
+	}
+
+	/**
+	 * Operation createTokenWithHttpInfo
+	 *
+	 * Create Token
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to create the token. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function createTokenWithHttpInfo($space_id, $transaction_id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling createToken');
+		}
+		
+		if (is_null($transaction_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $transaction_id when calling createToken');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept([]);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType([]);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+		if (!is_null($transaction_id)) {
+			$queryParams['transactionId'] = $this->apiClient->getSerializer()->toQueryValue($transaction_id);
+		}
+
+		
+		$resourcePath = '/token/create-token';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Token',
+				'/token/create-token'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Token', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Token',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation createTokenBasedOnTransaction
+	 *
+	 * Create Token Based On Transaction And Fill It With Stored Payment Information
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to create the token. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\TokenVersion
+	 */
+	public function createTokenBasedOnTransaction($space_id, $transaction_id) {
+		return $this->createTokenBasedOnTransactionWithHttpInfo($space_id, $transaction_id)->getData();
+	}
+
+	/**
+	 * Operation createTokenBasedOnTransactionWithHttpInfo
+	 *
+	 * Create Token Based On Transaction And Fill It With Stored Payment Information
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to create the token. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function createTokenBasedOnTransactionWithHttpInfo($space_id, $transaction_id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling createTokenBasedOnTransaction');
+		}
+		
+		if (is_null($transaction_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $transaction_id when calling createTokenBasedOnTransaction');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept([]);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType([]);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+		if (!is_null($transaction_id)) {
+			$queryParams['transactionId'] = $this->apiClient->getSerializer()->toQueryValue($transaction_id);
+		}
+
+		
+		$resourcePath = '/token/create-token-based-on-transaction';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\TokenVersion',
+				'/token/create-token-based-on-transaction'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\TokenVersion', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\TokenVersion',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation createTransactionForTokenUpdate
+	 *
+	 * Create Transaction for Token Update
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $token_id The id of the token which should be updated. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Transaction
+	 */
+	public function createTransactionForTokenUpdate($space_id, $token_id) {
+		return $this->createTransactionForTokenUpdateWithHttpInfo($space_id, $token_id)->getData();
+	}
+
+	/**
+	 * Operation createTransactionForTokenUpdateWithHttpInfo
+	 *
+	 * Create Transaction for Token Update
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $token_id The id of the token which should be updated. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function createTransactionForTokenUpdateWithHttpInfo($space_id, $token_id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling createTransactionForTokenUpdate');
+		}
+		
+		if (is_null($token_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $token_id when calling createTransactionForTokenUpdate');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept([]);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType([]);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+		if (!is_null($token_id)) {
+			$queryParams['tokenId'] = $this->apiClient->getSerializer()->toQueryValue($token_id);
+		}
+
+		
+		$resourcePath = '/token/createTransactionForTokenUpdate';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Transaction',
+				'/token/createTransactionForTokenUpdate'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Transaction', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Transaction',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation delete
+	 *
+	 * Delete
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $id  (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return void
+	 */
+	public function delete($space_id, $id) {
+		return $this->deleteWithHttpInfo($space_id, $id)->getData();
+	}
+
+	/**
+	 * Operation deleteWithHttpInfo
+	 *
+	 * Delete
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $id  (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function deleteWithHttpInfo($space_id, $id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling delete');
+		}
+		
+		if (is_null($id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $id when calling delete');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept(['application/json;charset=utf-8']);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType(['application/json;charset=utf-8']);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+
+		
+		$resourcePath = '/token/delete';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		$tempBody = null;
+		if (isset($id)) {
+			$tempBody = $id;
+		}
+
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				null,
+				'/token/delete'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders());
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 409:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation processTransaction
+	 *
+	 * Process Transaction
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to check if the token can be created or not. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Charge
+	 */
+	public function processTransaction($space_id, $transaction_id) {
+		return $this->processTransactionWithHttpInfo($space_id, $transaction_id)->getData();
+	}
+
+	/**
+	 * Operation processTransactionWithHttpInfo
+	 *
+	 * Process Transaction
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $transaction_id The id of the transaction for which we want to check if the token can be created or not. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function processTransactionWithHttpInfo($space_id, $transaction_id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling processTransaction');
+		}
+		
+		if (is_null($transaction_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $transaction_id when calling processTransaction');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept([]);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType([]);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+		if (!is_null($transaction_id)) {
+			$queryParams['transactionId'] = $this->apiClient->getSerializer()->toQueryValue($transaction_id);
+		}
+
+		
+		$resourcePath = '/token/process-transaction';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Charge',
+				'/token/process-transaction'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Charge', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Charge',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation read
+	 *
+	 * Read
+	 *
+	 * @param int $space_id  (required)
+	 * @param int $id The id of the token which should be returned. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Token
+	 */
+	public function read($space_id, $id) {
+		return $this->readWithHttpInfo($space_id, $id)->getData();
+	}
+
+	/**
+	 * Operation readWithHttpInfo
+	 *
+	 * Read
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param int $id The id of the token which should be returned. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function readWithHttpInfo($space_id, $id) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling read');
+		}
+		
+		if (is_null($id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $id when calling read');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept(['application/json;charset=utf-8']);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType(['*/*']);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+		if (!is_null($id)) {
+			$queryParams['id'] = $this->apiClient->getSerializer()->toQueryValue($id);
+		}
+
+		
+		$resourcePath = '/token/read';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'GET',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Token',
+				'/token/read'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Token', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Token',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation search
+	 *
+	 * Search
+	 *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\EntityQuery $query The query restricts the tokens which are returned by the search. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Token[]
+	 */
+	public function search($space_id, $query) {
+		return $this->searchWithHttpInfo($space_id, $query)->getData();
+	}
+
+	/**
+	 * Operation searchWithHttpInfo
+	 *
+	 * Search
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\EntityQuery $query The query restricts the tokens which are returned by the search. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function searchWithHttpInfo($space_id, $query) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling search');
+		}
+		
+		if (is_null($query)) {
+			throw new \InvalidArgumentException('Missing the required parameter $query when calling search');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept(['application/json;charset=utf-8']);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType(['application/json;charset=utf-8']);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+
+		
+		$resourcePath = '/token/search';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		$tempBody = null;
+		if (isset($query)) {
+			$tempBody = $query;
+		}
+
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Token[]',
+				'/token/search'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Token[]', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Token[]',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+	/**
+	 * Operation update
+	 *
+	 * Update
+	 *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\TokenUpdate $entity The object with all the properties which should be updated. The id and the version are required properties. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return \Wallee\Sdk\Model\Token
+	 */
+	public function update($space_id, $entity) {
+		return $this->updateWithHttpInfo($space_id, $entity)->getData();
+	}
+
+	/**
+	 * Operation updateWithHttpInfo
+	 *
+	 * Update
+     
+     *
+	 * @param int $space_id  (required)
+	 * @param \Wallee\Sdk\Model\TokenUpdate $entity The object with all the properties which should be updated. The id and the version are required properties. (required)
+	 * @throws \Wallee\Sdk\ApiException
+	 * @throws \Wallee\Sdk\VersioningException
+	 * @throws \Wallee\Sdk\Http\ConnectionException
+	 * @return ApiResponse
+	 */
+	public function updateWithHttpInfo($space_id, $entity) {
+		
+		if (is_null($space_id)) {
+			throw new \InvalidArgumentException('Missing the required parameter $space_id when calling update');
+		}
+		
+		if (is_null($entity)) {
+			throw new \InvalidArgumentException('Missing the required parameter $entity when calling update');
+		}
+		
+		$headerParams = [];
+		$headerAccept = $this->apiClient->selectHeaderAccept(['application/json;charset=utf-8']);
+		if (!is_null($headerAccept)) {
+			$headerParams[HttpRequest::HEADER_KEY_ACCEPT] = $headerAccept;
+		}
+		$headerParams[HttpRequest::HEADER_KEY_CONTENT_TYPE] = $this->apiClient->selectHeaderContentType(['application/json;charset=utf-8']);
+
+		
+		$queryParams = [];
+		if (!is_null($space_id)) {
+			$queryParams['spaceId'] = $this->apiClient->getSerializer()->toQueryValue($space_id);
+		}
+
+		
+		$resourcePath = '/token/update';
+		
+		$resourcePath = str_replace('{format}', 'json', $resourcePath);
+
+		
+		$formParams = [];
+		
+		$tempBody = null;
+		if (isset($entity)) {
+			$tempBody = $entity;
+		}
+
+		
+		$httpBody = '';
+		if (isset($tempBody)) {
+			$httpBody = $tempBody; 
+		} elseif (!empty($formParams)) {
+			$httpBody = $formParams; 
+		}
+		
+		try {
+			$response = $this->apiClient->callApi(
+				$resourcePath,
+				'POST',
+				$queryParams,
+				$httpBody,
+				$headerParams,
+				'\Wallee\Sdk\Model\Token',
+				'/token/update'
+            );
+			return new ApiResponse($response->getStatusCode(), $response->getHeaders(), $this->apiClient->getSerializer()->deserialize($response->getData(), '\Wallee\Sdk\Model\Token', $response->getHeaders()));
+		} catch (ApiException $e) {
+			switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\Token',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 409:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 442:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ClientError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+                case 542:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\Wallee\Sdk\Model\ServerError',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                break;
+			}
+			throw $e;
+		}
+	}
+
+
+}
