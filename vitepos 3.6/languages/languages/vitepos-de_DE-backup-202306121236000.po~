@@ -1,0 +1,2417 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VitePOS\n"
+"POT-Creation-Date: 2022-11-05 10:46+0000\n"
+"PO-Revision-Date: 2022-11-05 10:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: ;__;_e;_ee;___;add_error;add_info;SetTitle;AddInfo;"
+"AddError;SetSubtitle;___;AddModel;AddModelNonSearchable\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: dbscript\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+"X-Poedit-SearchPathExcluded-4: tmp\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: release\n"
+"X-Poedit-SearchPathExcluded-7: logs\n"
+"X-Poedit-SearchPathExcluded-8: template/client\n"
+"X-Poedit-SearchPathExcluded-9: template/main\n"
+"X-Poedit-SearchPathExcluded-10: dev_files\n"
+"X-Poedit-SearchPathExcluded-11: adminpanel\n"
+"X-Poedit-SearchPathExcluded-12: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3"
+
+#, php-format
+msgid "%s should be digit"
+msgstr "%s sollte eine Ziffer sein"
+
+#, php-format
+msgid "%s should be numeric"
+msgstr "%s sollte numerisch sein"
+
+#, php-format
+msgid " %s should be less than %s"
+msgstr "%s sollte kleiner als %s sein"
+
+#, php-format
+msgid "%s should be a valid email address"
+msgstr "%s sollte eine gültige E-Mail-Adresse sein"
+
+msgid " should be hexadecimal"
+msgstr "sollte hexadezimal sein"
+
+#, php-format
+msgid " %s are required"
+msgstr "%s sind erforderlich"
+
+#, php-format
+msgid " %s is required"
+msgstr "%s ist erforderlich"
+
+msgid "E004"
+msgstr "E004"
+
+msgid "No change for update"
+msgstr "Keine Änderung für Update"
+
+msgid "Saved Successfully"
+msgstr "Erfolgreich gespeichert"
+
+msgid ""
+"We're sorry but pos doesn't work properly without JavaScript enabled. Please "
+"enable it to continue."
+msgstr ""
+"Es tut uns leid, aber pos funktioniert nicht richtig, wenn JavaScript nicht "
+"aktiviert ist. Bitte aktivieren Sie es, um fortzufahren."
+
+msgid "Please wait .."
+msgstr "Warten Sie mal .."
+
+msgid "You do not have permission to access this link"
+msgstr "Sie sind nicht berechtigt, auf diesen Link zuzugreifen"
+
+msgid "The page is redirecting to home page withing few seconds"
+msgstr ""
+"Die Seite wird innerhalb weniger Sekunden auf die Startseite umgeleitet"
+
+msgid "Drawer opened"
+msgstr "Schublade geöffnet"
+
+msgid "Drawer closed"
+msgstr "Schublade geschlossen"
+
+msgid "Successfully deleted"
+msgstr "Erfolgreich gelöscht"
+
+msgid "Delete failed"
+msgstr "Löschen fehlgeschlagen"
+
+msgid "Successfully updated"
+msgstr "Erfolgreich aktualisiert"
+
+msgid "Successfully created"
+msgstr "Erfolgreich erstellt"
+
+msgid "No customer found to add"
+msgstr "Kein Kunde zum Hinzufügen gefunden"
+
+msgid "Offline id is missing"
+msgstr "Offline-ID fehlt"
+
+msgid "No offline outlet and counter found"
+msgstr "Keine Offline-Verkaufsstelle und kein Zähler gefunden"
+
+msgid "Paid amount must be greater or equal to grand total amount"
+msgstr "Der bezahlte Betrag muss größer oder gleich dem Gesamtbetrag sein"
+
+msgid "Fee"
+msgstr "Gebühr"
+
+msgid "Discount"
+msgstr "Rabatt"
+
+msgid "You don't have permission to view details of this outlet"
+msgstr "Sie sind nicht berechtigt, Details zu diesem Outlet anzuzeigen"
+
+msgid "No cash drawer info found"
+msgstr "Keine Informationen zur Kassenschublade gefunden"
+
+msgid "Invalid request"
+msgstr "Ungültige Anfrage"
+
+msgid "invalid requiest"
+msgstr "ungültige Anfrage"
+
+msgid "Product created successfully"
+msgstr "Produkt erfolgreich erstellt"
+
+msgid "Product creation failed"
+msgstr "Produkterstellung fehlgeschlagen"
+
+msgid "Please Provide a SKU or Change The name of Product"
+msgstr "Bitte geben Sie eine SKU an oder ändern Sie den Produktnamen"
+
+msgid "SKU already Exist"
+msgstr "SKU ist bereits vorhanden"
+
+msgid "Product added successfully"
+msgstr "Produkt erfolgreich hinzugefügt"
+
+msgid "data missing"
+msgstr "Daten fehlen"
+
+msgid "Please provide a SKU or change the name of product"
+msgstr "Bitte geben Sie eine SKU an oder ändern Sie den Produktnamen"
+
+msgid "SKU already exist"
+msgstr "SKU ist bereits vorhanden"
+
+msgid "Data missing"
+msgstr "Daten fehlen"
+
+msgid "Variation SKU already exist"
+msgstr "Varianten-SKU sind bereits vorhanden"
+
+msgid "Please provide valid variation SKU or change name of product"
+msgstr ""
+"Bitte geben Sie eine gültige Varianten-SKU an oder ändern Sie den "
+"Produktnamen"
+
+msgid "Stock not updated"
+msgstr "Bestand nicht aktualisiert"
+
+msgid "Manage stock is not enabled"
+msgstr "Bestand verwalten ist nicht aktiviert"
+
+msgid "Purchased failed"
+msgstr "Gekauft fehlgeschlagen"
+
+msgid "No item found"
+msgstr "Kein Artikel gefunden"
+
+msgid "No data found with request param"
+msgstr "Keine Daten mit Anforderungsparameter gefunden"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "Invalid login information"
+msgstr "Falsche login Daten"
+
+msgid "Username is required"
+msgstr "Benutzername wird benötigt"
+
+msgid "You don't have permission to access this link"
+msgstr "Sie sind nicht berechtigt, auf diesen Link zuzugreifen"
+
+msgid "No logged in user"
+msgstr "Kein angemeldeter Benutzer"
+
+msgid "Password changed successfully."
+msgstr "Das Passwort wurde erfolgreich geändert."
+
+msgid "Please login again,no user found logged in."
+msgstr ""
+"Bitte melden Sie sich erneut an, es wurde kein angemeldeter Benutzer "
+"gefunden."
+
+msgid "Invalid Request"
+msgstr "ungültige Anfrage"
+
+msgid "Password can not be set as empty"
+msgstr "Das Passwort kann nicht leer gesetzt werden"
+
+msgid "You don't have permission to view user of this outlet"
+msgstr "Sie sind nicht berechtigt, den Benutzer dieses Outlets anzuzeigen"
+
+msgid "Request outlet or counter empty"
+msgstr "Verkaufsstelle oder Theke leer anfordern"
+
+msgid "Successfully closed"
+msgstr "Erfolgreich geschlossen"
+
+msgid "Drawer close failed"
+msgstr "Schließen der Schublade fehlgeschlagen"
+
+msgid "Drawer list not found"
+msgstr "Schubladenliste nicht gefunden"
+
+msgid "You do not have permission to do this"
+msgstr "Du hast keine Erlaubnis das zu tun"
+
+msgid "Not updated"
+msgstr "Nicht aktualisiert"
+
+msgid "Form is not valid"
+msgstr "Formular ist nicht gültig"
+
+msgid "Vendor deleted successfully"
+msgstr "Anbieter erfolgreich gelöscht"
+
+msgid "Vendor delete failed"
+msgstr "Anbieterlöschung fehlgeschlagen"
+
+msgid "No vendor found with this param"
+msgstr "Kein Anbieter mit diesem Parameter gefunden"
+
+msgid "Missing dependency"
+msgstr "Fehlende Abhängigkeit"
+
+msgid "It requires woocommerce, please install woocommerce first"
+msgstr "Es erfordert WooCommerce, bitte installieren Sie zuerst WooCommerce"
+
+msgid "Counter Name"
+msgstr "Zählername"
+
+msgid "Counter No"
+msgstr "Zähler Nr"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Contact No"
+msgstr "Kontakt Nr"
+
+msgid "Street"
+msgstr "Straße"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "State"
+msgstr "Bundesland"
+
+msgid "State/District"
+msgstr "Staat/Bezirk"
+
+msgid "Zip Code"
+msgstr "Postleitzahl"
+
+msgid "Select Country"
+msgstr "Land auswählen"
+
+msgid "Time Zone"
+msgstr "Zeitzone"
+
+msgid "Allowed Ip"
+msgstr "Zulässige IP"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Add Outlet"
+msgstr "Steckdose hinzufügen"
+
+msgid "Edit Outlet"
+msgstr "Ausgang bearbeiten"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Add Counter"
+msgstr "Zähler hinzufügen"
+
+msgid "Edit Counter"
+msgstr "Zähler bearbeiten"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Cancel"
+msgstr "Absagen"
+
+msgid "Close"
+msgstr "Nah dran"
+
+msgid "Outlet Details"
+msgstr "Outlet-Details"
+
+msgid "Outlet Name"
+msgstr "Ausgangsname"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+msgid "Dashboard"
+msgstr "Armaturenbrett"
+
+msgid "Orders"
+msgstr "Aufträge"
+
+msgid "Outlet"
+msgstr "Auslauf"
+
+msgid "Loading Outlet"
+msgstr "Outlet laden"
+
+msgid "Make Main"
+msgstr "Main machen"
+
+msgid "Add Role"
+msgstr "Rolle hinzufügen"
+
+msgid "Loading Roles"
+msgstr "Rollen laden"
+
+msgid "Role Description"
+msgstr "Rollenbeschreibung"
+
+msgid "Role Name"
+msgstr "Rollenname"
+
+msgid "Edit Role"
+msgstr "Rolle bearbeiten"
+
+msgid "Roles"
+msgstr "Rollen"
+
+msgid "Role List"
+msgstr "Rollenliste"
+
+msgid "Role Access"
+msgstr "Rollenzugriff"
+
+msgid "Loading Role Access"
+msgstr "Rollenzugriff wird geladen"
+
+msgid "Action"
+msgstr "Aktion"
+
+msgid "Main Branch"
+msgstr "Hauptniederlassung"
+
+msgid "Counters"
+msgstr "Zähler"
+
+msgid "Counter"
+msgstr "Zähler"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Customers"
+msgstr "Kunden"
+
+msgid "Home"
+msgstr "Heim"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
+
+msgid "Print Settings"
+msgstr "Druckeinstellungen"
+
+msgid "License Info"
+msgstr "Lizenzinformationen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "View POS"
+msgstr "POS anzeigen"
+
+msgid "Viewing %{ startRecord } to %{ endRecord } of %{ totalRecord } records"
+msgstr ""
+"Anzeigen von %{ startRecord } bis %{ endRecord } von %{ totalRecord } "
+"Datensätzen"
+
+msgid "%{ row } rows"
+msgstr "%{ row } Zeilen"
+
+msgid "No record found"
+msgstr "Kein Eintrag gefunden"
+
+msgid "Version"
+msgstr "Ausführung"
+
+msgid "Barcode Field"
+msgstr "Barcode-Feld"
+
+msgid "Page Settings"
+msgstr "Seiteneinstellungen"
+
+msgid "Header Panel"
+msgstr "Kopfzeile"
+
+msgid "Product ID"
+msgstr "Produkt ID"
+
+msgid "SKU"
+msgstr "Artikelnummer"
+
+msgid "Custom Field"
+msgstr "Benutzerdefinierte Feld"
+
+msgid "Loading Settings"
+msgstr "Einstellungen laden"
+
+msgid "Select"
+msgstr "Auswählen"
+
+msgid "%{fld_name} is required"
+msgstr "%{fld_name} ist erforderlich"
+
+msgid "Are you sure to delete this outlet: %{outlet}?"
+msgstr "Möchten Sie diesen Outlet wirklich löschen: %{outlet}?"
+
+msgid "Are you sure to delete this counter: %{counter}?"
+msgstr "Möchten Sie diesen Zähler wirklich löschen: %{counter}?"
+
+msgid "Are you sure to remove access from %{role}?"
+msgstr "Möchten Sie den Zugriff von %{role} wirklich entfernen?"
+
+msgid "Are you sure to give access to %{role}?"
+msgstr "Möchten Sie %{role} wirklich Zugriff gewähren?"
+
+msgid "Are you sure to %{status}?"
+msgstr "Bist du sicher, dass %{status}?"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgid "Page Width"
+msgstr "Seitenbreite"
+
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+msgid "Show Logo"
+msgstr "Logo anzeigen"
+
+msgid "mm"
+msgstr "mm"
+
+msgid "px"
+msgstr "px"
+
+msgid "Recommend logo height %{logoHeight}."
+msgstr "Empfehlen Sie die Logohöhe %{logoHeight}."
+
+msgid "Best size is %{logoWidth} in width and %{logoHeight} in height."
+msgstr ""
+"Die beste Größe ist %{logoWidth} in der Breite und %{logoHeight} in der Höhe."
+
+msgid "Show Header"
+msgstr "Kopfzeile anzeigen"
+
+msgid "Show Vat Reg no"
+msgstr "USt-IdNr. anzeigen"
+
+msgid "Vat/Tax No Label"
+msgstr "Mehrwertsteuer/Steuernr.-Etikett"
+
+msgid "Vat/Tax No"
+msgstr "Umsatzsteuer-/Steuernummer"
+
+msgid "Outlet Info"
+msgstr "Outlet-Info"
+
+msgid "Show outlet info"
+msgstr "Outlet-Info anzeigen"
+
+msgid "Outlet Email"
+msgstr "Outlet-E-Mail"
+
+msgid "Outlet Phone"
+msgstr "Outlet-Telefon"
+
+msgid "Outlet Address"
+msgstr "Outlet-Adresse"
+
+msgid "Counter Info"
+msgstr "Zählerinfo"
+
+msgid "Show Counter info"
+msgstr "Zählerinfo anzeigen"
+
+msgid "Counter Operator Label"
+msgstr "Counter-Operator-Etikett"
+
+msgid "Show Counter No"
+msgstr "Zähler Nr. anzeigen"
+
+msgid "Counter No Label"
+msgstr "Zähler Kein Etikett"
+
+msgid "License Status"
+msgstr "Lizenzstatus"
+
+msgid "License Type"
+msgstr "Lizenz-Typ"
+
+msgid "Support Expired on"
+msgstr "Support abgelaufen am"
+
+msgid "License Expired on"
+msgstr "Lizenz abgelaufen am"
+
+msgid "Your License Key"
+msgstr "Ihr Lizenzschlüssel"
+
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+msgid "Valid"
+msgstr "Gültig"
+
+msgid "No expiry"
+msgstr "Kein Ablauf"
+
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+msgid "Show order no"
+msgstr "Bestell-Nr. anzeigen"
+
+msgid "Order no label"
+msgstr "Bestellen Sie kein Etikett"
+
+msgid "Customer Info"
+msgstr "Kundeninformation"
+
+msgid "Show customer info"
+msgstr "Kundeninfo anzeigen"
+
+msgid "Customer Info Label"
+msgstr "Kundeninfo-Etikett"
+
+msgid "Customer Name"
+msgstr "Kundenname"
+
+msgid "Customer Id"
+msgstr "Kundennummer"
+
+msgid "Customer Id Label"
+msgstr "Kunden-ID-Etikett"
+
+msgid "Customer Phone"
+msgstr "Kundentelefon"
+
+msgid "Customer Phone Label"
+msgstr "Telefonetikett des Kunden"
+
+msgid "Customer Address"
+msgstr "Kundenadresse"
+
+msgid "Item Details"
+msgstr "Artikeldetails"
+
+msgid "Show Item Serial"
+msgstr "Artikelserie anzeigen"
+
+msgid "Show Unit Cost"
+msgstr "Einheitskosten anzeigen"
+
+msgid "Show Discount Row"
+msgstr "Rabattzeile anzeigen"
+
+msgid "Show Tax Row"
+msgstr "Steuerzeile anzeigen"
+
+msgid "Show Fee Row"
+msgstr "Gebührenzeile anzeigen"
+
+msgid "Show Payment Method"
+msgstr "Zahlungsmethode anzeigen"
+
+msgid "Footer Panel"
+msgstr "Fußbereich"
+
+msgid "Show Footer"
+msgstr "Fußzeile anzeigen"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "SL"
+msgstr "SL"
+
+msgid "Item"
+msgstr "Artikel"
+
+msgid "Qty:"
+msgstr "Menge:"
+
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Tax"
+msgstr "Steuer"
+
+msgid "Order Total"
+msgstr "Auftragssumme"
+
+msgid "Given Amount"
+msgstr "Gegebener Betrag"
+
+msgid "Return"
+msgstr "Zurückkehren"
+
+msgid "Payment Method"
+msgstr "Zahlungsmethode"
+
+msgid "Order No"
+msgstr "Best.-Nr"
+
+msgid "Processed By"
+msgstr "Verarbeitet von"
+
+msgid "Basic Help"
+msgstr "Grundlegende Hilfe"
+
+msgid "Videos"
+msgstr "Videos"
+
+msgid "About VitePos"
+msgstr "Über VitePos"
+
+msgid "Contact Author"
+msgstr "Autor kontaktieren"
+
+msgid "Offline Order"
+msgstr "Offline-Bestellung"
+
+msgid "Enable"
+msgstr "Ermöglichen"
+
+msgid "Disable"
+msgstr "Deaktivieren"
+
+msgid "POS Login Type"
+msgstr "POS-Anmeldetyp"
+
+msgid "Vitepos Login"
+msgstr "Vitepos-Anmeldung"
+
+msgid "WordPress Login"
+msgstr "WordPress-Anmeldung"
+
+msgid "WordPress Login URL"
+msgstr "WordPress-Anmelde-URL"
+
+msgid "POS Color"
+msgstr "POS-Farbe"
+
+msgid "POS Link Type"
+msgstr "POS-Link-Typ"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Page"
+msgstr "Buchseite"
+
+msgid "POS Link"
+msgstr "POS-Link"
+
+msgid "POS Page"
+msgstr "POS-Seite"
+
+msgid "Video Tutorial"
+msgstr "Videoanleitung"
+
+msgid "More Details"
+msgstr "Mehr Details"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Search/Choose Page"
+msgstr "Seite suchen/wählen"
+
+msgid "Keep blank to use default WordPress login."
+msgstr ""
+"Lassen Sie das Feld leer, um die standardmäßige WordPress-Anmeldung zu "
+"verwenden."
+
+msgid "To watch our all video tutorial click on the button"
+msgstr ""
+"Um unser gesamtes Video-Tutorial anzusehen, klicken Sie auf die Schaltfläche"
+
+msgid ""
+"In case of any problem, get in touch with the Vitepos team. We always "
+"support our clients until their satisfaction comes. And that is our "
+"responsibility and duty."
+msgstr ""
+"Wenden Sie sich bei Problemen an das Vitepos-Team. Wir unterstützen unsere "
+"Kunden immer, bis sie zufrieden sind. Und das ist unsere Verantwortung und "
+"Pflicht."
+
+msgid "Contact Support Team"
+msgstr "Wenden Sie sich an das Support-Team"
+
+msgid ""
+"To delete role, you need to move current users of this roles to another role."
+" Please choose move to role below"
+msgstr ""
+"Um eine Rolle zu löschen, müssen Sie aktuelle Benutzer dieser Rolle in eine "
+"andere Rolle verschieben. Bitte wählen Sie unten „Zur Rolle wechseln“ aus"
+
+msgid "User Move to"
+msgstr "Benutzer verschieben nach"
+
+msgid "Delete Role"
+msgstr "Rolle löschen"
+
+msgid "Delete Role Details"
+msgstr "Rollendetails löschen"
+
+msgid "Updating Role Details"
+msgstr "Rollendetails aktualisieren"
+
+msgid "Adding Role"
+msgstr "Rolle hinzufügen"
+
+msgid "Move to Role "
+msgstr "Wechseln Sie zu Rolle"
+
+msgid "Loading Outlet Details"
+msgstr "Outlet-Details werden geladen"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Are you sure to make this main branch?"
+msgstr "Sind Sie sicher, dass Sie diesen Hauptzweig erstellen werden?"
+
+msgid "Search/Select Country"
+msgstr "Land suchen/wählen"
+
+msgid "Search/Choose Time Zone"
+msgstr "Zeitzone suchen/wählen"
+
+msgid "Invoice Print Settings"
+msgstr "Rechnungsdruckeinstellungen"
+
+msgid "POS Logo"
+msgstr "POS-Logo"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Favicon"
+msgstr "Favicon"
+
+msgid "Click the box to select or remove %{fileName}."
+msgstr ""
+"Klicken Sie auf das Kästchen, um %{fileName} auszuwählen oder zu entfernen."
+
+msgid "Best size is 166px in width and 60px in height."
+msgstr "Die beste Größe ist 166 Pixel in der Breite und 60 Pixel in der Höhe."
+
+msgid "Build :"
+msgstr "Bauen :"
+
+msgid "Visit"
+msgstr "Besuch"
+
+msgid "for more details please visit"
+msgstr "Weitere Informationen finden Sie unter"
+
+msgid "Click here"
+msgstr "Klick hier"
+
+msgid "To get a complete idea of what your agent needs to do to run an outlet "
+msgstr ""
+"Um eine vollständige Vorstellung davon zu bekommen, was Ihr Agent tun muss, "
+"um eine Verkaufsstelle zu betreiben"
+
+msgid ""
+"On the other hand, on the client side, you can set the outlet agents you "
+"want, according to their role."
+msgstr ""
+"Andererseits können Sie auf der Client-Seite die gewünschten Outlet-Agenten "
+"entsprechend ihrer Rolle festlegen."
+
+msgid "have two sides. One admin panel and another is client panel."
+msgstr ""
+"zwei Seiten haben. Ein Admin-Panel und ein anderes ist das Client-Panel."
+
+msgid ""
+"The admin can add some settings in the admin panel, such as: Outlet Create, "
+"Counter Create, Roll Access Management, Custom Invoice, Barcode Settings and "
+"License Panel."
+msgstr ""
+"Der Administrator kann einige Einstellungen im Admin-Panel hinzufügen, wie z."
+" B.: Outlet Create, Counter Create, Roll Access Management, Custom Invoice, "
+"Barcode Settings und License Panel."
+
+msgid "Welcome to"
+msgstr "Willkommen zu"
+
+msgid ""
+"Warning, offline orders are stored in the database of browser (Chrome, "
+"Firefox, Opera, etc.) . And as soon as the app comes online, it syncs with "
+"the main server. If someone deletes the database  of browser before syncing, "
+"the order will no longer sync. In this case, the order information will be "
+"deleted forever."
+msgstr ""
+"Achtung, Offline-Bestellungen werden in der Datenbank des Browsers (Chrome, "
+"Firefox, Opera usw.) gespeichert. Und sobald die App online geht, "
+"synchronisiert sie sich mit dem Hauptserver. Wenn jemand die Datenbank des "
+"Browsers vor der Synchronisierung löscht, wird die Bestellung nicht mehr "
+"synchronisiert. In diesem Fall werden die Bestellinformationen für immer "
+"gelöscht."
+
+msgid "Empowering Your WooCommerce Store with Vitepos"
+msgstr "Stärken Sie Ihren WooCommerce-Shop mit Vitepos"
+
+msgid "Total Income"
+msgstr "Gesamteinkünfte"
+
+msgid "Total Orders"
+msgstr "Bestellungen insgesamt"
+
+msgid "Total Outlets"
+msgstr "Verkaufsstellen insgesamt"
+
+msgid "Total Amount"
+msgstr "Gesamtsumme"
+
+msgid "Based on outlet order(s)"
+msgstr "Basierend auf Outlet-Bestellung(en)"
+
+msgid "Custom Barcode"
+msgstr "Benutzerdefinierter Barcode"
+
+msgid "Enable reCaptcha V3"
+msgstr "Aktivieren Sie reCaptcha V3"
+
+msgid "Site Key"
+msgstr "Standortschlüssel"
+
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+msgid "Can create & manage unlimited outlets"
+msgstr "Kann unbegrenzte Verkaufsstellen erstellen und verwalten"
+
+msgid "Can create & manage unlimited counter for each outlet"
+msgstr "Kann unbegrenzte Zähler für jede Steckdose erstellen und verwalten"
+
+msgid "Split payment support in pro version"
+msgstr "Geteilte Zahlungsunterstützung in der Pro-Version"
+
+msgid "Offline sale allowed in pro version"
+msgstr "Offline-Verkauf in der Pro-Version erlaubt"
+
+msgid "Hold cart applicable in pro version"
+msgstr "Haltewagen in der Pro-Version anwendbar"
+
+msgid "Customization of color support in pro version"
+msgstr "Anpassung der Farbunterstützung in der Pro-Version"
+
+msgid "Easy product manage (add,update,delete) based on role"
+msgstr ""
+"Einfache Produktverwaltung (Hinzufügen, Aktualisieren, Löschen) basierend "
+"auf der Rolle"
+
+msgid "Premium Support"
+msgstr "Premium-Support"
+
+msgid "And More.."
+msgstr "Und mehr.."
+
+msgid "Pro version required"
+msgstr "Pro-Version erforderlich"
+
+msgid "Go pro"
+msgstr "Werde Profi"
+
+msgid "For add more than two counter it requires pro version."
+msgstr ""
+"Um mehr als zwei Zähler hinzuzufügen, ist die Pro-Version erforderlich."
+
+msgid "For multiple outlet you need to active pro version."
+msgstr "Für Mehrfachsteckdosen benötigen Sie die aktive Pro-Version."
+
+msgid "Offline feature support in pro version only."
+msgstr "Offline-Funktionsunterstützung nur in der Pro-Version."
+
+msgid "To change color you need pro version"
+msgstr "Um die Farbe zu ändern, benötigen Sie die Pro-Version"
+
+msgid "Warning, all role access will be deleted for this role."
+msgstr "Achtung, alle Rollenzugriffe werden für diese Rolle gelöscht."
+
+msgid "Reset Role"
+msgstr "Rolle zurücksetzen"
+
+msgid "Select a Role to Reset"
+msgstr "Wählen Sie eine Rolle zum Zurücksetzen aus"
+
+msgid "Copy Role Permission"
+msgstr "Rollenberechtigung kopieren"
+
+msgid "Copy role"
+msgstr "Rolle kopieren"
+
+msgid "Copy from"
+msgstr "Kopie von"
+
+msgid "Copy to"
+msgstr "Kopieren nach"
+
+msgid "The role user can create any outlets user if get this access"
+msgstr ""
+"Der Rollenbenutzer kann jeden Ausgangsbenutzer erstellen, wenn er diesen "
+"Zugriff erhält"
+
+msgid "The role user can change any users password"
+msgstr "Der Rollenbenutzer kann das Kennwort eines beliebigen Benutzers ändern"
+
+msgid "This roles user can change their password"
+msgstr "Der Benutzer dieser Rolle kann sein Passwort ändern"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Outlet Manager"
+msgstr "Outlet-Manager"
+
+msgid "Cashier"
+msgstr "Kassierer"
+
+msgid "Built-in"
+msgstr "Eingebaut"
+
+msgid "outlet"
+msgstr "Auslauf"
+
+msgid "No %{type} found"
+msgstr "Kein %{type} gefunden"
+
+msgid "Outlet User List"
+msgstr "Outlet-Benutzerliste"
+
+msgid "Add to this outlet"
+msgstr "Zu dieser Steckdose hinzufügen"
+
+msgid "Users"
+msgstr "Benutzer"
+
+msgid "Getting user list"
+msgstr "Benutzerliste erhalten"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Set the duration in days for new badge on product"
+msgstr ""
+"Legen Sie die Dauer in Tagen für das neue Abzeichen auf dem Produkt fest"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "New Product Badge Duration"
+msgstr "Dauer des neuen Produkt-Badges"
+
+msgid ""
+"The new badge will display up to %{dayset} days from product creation date."
+msgstr ""
+"Das neue Abzeichen wird bis zu %{dayset} Tage ab dem Datum der "
+"Produkterstellung angezeigt."
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Cash"
+msgstr "Kasse"
+
+msgid "Loading Data"
+msgstr "Lade Daten"
+
+msgid "Select/Search Role"
+msgstr "Rolle auswählen/suchen"
+
+msgid "Select/Search role copy from"
+msgstr "Rollenkopie auswählen/suchen von"
+
+msgid "Select/Search role copy to"
+msgstr "Rollenkopie auswählen/suchen nach"
+
+msgid "POS Products Per Row"
+msgstr "POS-Produkte pro Reihe"
+
+msgid "Default Customer (Optional)"
+msgstr "Standardkunde (optional)"
+
+msgid "Search/Choose customer"
+msgstr "Kunde suchen/wählen"
+
+msgid ""
+"You can select the default customer for order processing. If not selected "
+"then the order will be processed as a guest user. Note that, if the customer "
+"is selected from the POS, that customer will remain in the selected state."
+msgstr ""
+"Sie können den Standardkunden für die Auftragsabwicklung auswählen. Wenn "
+"nicht ausgewählt, wird die Bestellung als Gastbenutzer bearbeitet. Beachten "
+"Sie, dass, wenn der Kunde vom POS ausgewählt wird, dieser Kunde im "
+"ausgewählten Status verbleibt."
+
+msgid "%{col} Products Per Row"
+msgstr "%{col} Produkte pro Zeile"
+
+msgid "Max Discount"
+msgstr "Maximaler Rabatt"
+
+msgid "Refresh App"
+msgstr "App aktualisieren"
+
+msgid "POS Link:"
+msgstr "POS-Link:"
+
+msgid "Generated by"
+msgstr "Erstellt von"
+
+msgid ""
+"Warning, vitepos lock screen might not work properly if 2FA is enabled on "
+"login."
+msgstr ""
+"Warnung, der Vitepos-Sperrbildschirm funktioniert möglicherweise nicht "
+"richtig, wenn 2FA bei der Anmeldung aktiviert ist."
+
+msgid "Branding"
+msgstr "Branding"
+
+msgid "Download PDF"
+msgstr "PDF Herunterladen"
+
+msgid "Loaded"
+msgstr "Geladen"
+
+msgid "Category Loading"
+msgstr "Kategorie wird geladen"
+
+msgid "Product Loading"
+msgstr "Produkt laden"
+
+msgid "Scan"
+msgstr "Scan"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Search Product"
+msgstr "Produkt suchen"
+
+msgid "Are you sure clear cart?"
+msgstr "Sind Sie sicher, dass der Warenkorb gelöscht ist?"
+
+msgid "Are you sure?"
+msgstr "Bist du dir sicher?"
+
+msgid "Are you sure to remove item from cart?"
+msgstr "Möchten Sie den Artikel wirklich aus dem Einkaufswagen entfernen?"
+
+msgid "Checkout"
+msgstr "Kasse"
+
+msgid "Watch tutorial"
+msgstr "Schaue das Tutorial an"
+
+msgid "Pay"
+msgstr "Zahlen"
+
+msgid "Add Discount"
+msgstr "Rabatt hinzufügen"
+
+msgid "Add Fee"
+msgstr "Gebühr hinzufügen"
+
+msgid "Add Note"
+msgstr "Notiz hinzufügen"
+
+msgid "Note"
+msgstr "Notiz"
+
+msgid "Note:"
+msgstr "Notiz:"
+
+msgid "Hold"
+msgstr "Halt"
+
+msgid "Calculator"
+msgstr "Taschenrechner"
+
+msgid "Go Back"
+msgstr "Geh zurück"
+
+msgid "Empty"
+msgstr "Leer"
+
+msgid "Clear"
+msgstr "Klar"
+
+msgid "Order # %{ordNumber}"
+msgstr "Bestellnummer %{ordNumber}"
+
+msgid "Enter amount"
+msgstr "Menge eingeben"
+
+msgid "Remove from cart?"
+msgstr "Aus Warenkorb entfernen?"
+
+msgid "Note :"
+msgstr "Notiz :"
+
+msgid "Pay Now"
+msgstr "Zahlen Sie jetzt"
+
+msgid "All Category"
+msgstr "Alle Kategorie"
+
+msgid "Select Variations"
+msgstr "Wählen Sie Variationen aus"
+
+msgid "Scan barcode..."
+msgstr "Barcode scannen..."
+
+msgid "Search products..."
+msgstr "Produktsuche..."
+
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+msgid "Add Variations"
+msgstr "Variationen hinzufügen"
+
+msgid "Add Attributes"
+msgstr "Attribute hinzufügen"
+
+msgid "Item Name"
+msgstr "Artikelname"
+
+msgid "Select Category"
+msgstr "Kategorie wählen"
+
+msgid "Up Sells"
+msgstr "Verkauft"
+
+msgid "Product Unit"
+msgstr "Produkteinheit"
+
+msgid "Cross Sells"
+msgstr "Cross-Sells"
+
+msgid "Purchase Price"
+msgstr "Kaufpreis"
+
+msgid "Regular Price"
+msgstr "Regulärer Preis"
+
+msgid "Sale Price"
+msgstr "Verkaufspreis"
+
+msgid "Manage Stock"
+msgstr "Bestand verwalten"
+
+msgid "Manage Product"
+msgstr "Produkt verwalten"
+
+msgid "Stock Quantity"
+msgstr "Bestandsmenge"
+
+msgid "Stock Alert"
+msgstr "Lageralarm"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Feature Image"
+msgstr "Feature-Bild"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Bar Code"
+msgstr "Barcode"
+
+msgid "Slug"
+msgstr "Schnecke"
+
+msgid "Select Options"
+msgstr "Optionen wählen"
+
+msgid "Add Options"
+msgstr "Optionen hinzufügen"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "Add Variation"
+msgstr "Variante hinzufügen"
+
+msgid "Use For Variation"
+msgstr "Verwenden Sie für Variation"
+
+msgid "Add to cart"
+msgstr "In den Warenkorb legen"
+
+msgid "Manage Customer"
+msgstr "Kunden verwalten"
+
+msgid "Add Customer"
+msgstr "Kunde hinzufügen"
+
+msgid "Edit Customer"
+msgstr "Kunde bearbeiten"
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Username"
+msgstr "Nutzername"
+
+msgid "Mobile"
+msgstr "Handy, Mobiltelefon"
+
+msgid "Street Address"
+msgstr "Adresse"
+
+msgid "Post Code"
+msgstr "Postleitzahl"
+
+msgid "Create Purchase"
+msgstr "Einkauf erstellen"
+
+msgid "Select Supplier"
+msgstr "Wählen Sie Lieferant aus"
+
+msgid "Select Outlet"
+msgstr "Wählen Sie Ausgang"
+
+msgid "Select/Search Product"
+msgstr "Produkt auswählen/suchen"
+
+msgid "Orders Item*"
+msgstr "Bestellungen Artikel*"
+
+msgid "Net Unit Cost"
+msgstr "Nettostückkosten"
+
+msgid "Stock"
+msgstr "Aktie"
+
+msgid "Quantity"
+msgstr "Menge"
+
+msgid "Order Tax"
+msgstr "Bestellsteuer"
+
+msgid "Shipping Cost"
+msgstr "Versandkosten"
+
+msgid "Shipping"
+msgstr "Versand"
+
+msgid "Grand Total"
+msgstr "Gesamtsumme"
+
+msgid "Create"
+msgstr "Schaffen"
+
+msgid "Manage Vendor"
+msgstr "Anbieter verwalten"
+
+msgid "Vendor Description"
+msgstr "Anbieterbeschreibung"
+
+msgid "Add Vendor"
+msgstr "Anbieter hinzufügen"
+
+msgid "Product List"
+msgstr "Produktliste"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Customer List"
+msgstr "Kundenliste"
+
+msgid "Manage Purchases"
+msgstr "Einkäufe verwalten"
+
+msgid "Purchase List"
+msgstr "Einkaufsliste"
+
+msgid "Add Purchase"
+msgstr "Kauf hinzufügen"
+
+msgid "Vendor"
+msgstr "Verkäufer"
+
+msgid "Total Cost"
+msgstr "Gesamtkosten"
+
+msgid "Supplier List"
+msgstr "Lieferantenliste"
+
+msgid "Add Supplier"
+msgstr "Lieferant hinzufügen"
+
+msgid "Products"
+msgstr "Produkte"
+
+msgid "Purchase"
+msgstr "Kaufen"
+
+msgid "Shipment"
+msgstr "Sendung"
+
+msgid "Swipe Machine"
+msgstr "Swipe-Maschine"
+
+msgid "Others"
+msgstr "Andere"
+
+msgid "Loading.."
+msgstr "Wird geladen.."
+
+msgid "No Customer found"
+msgstr "Kein Kunde gefunden"
+
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+msgid "Add/Search Customer.."
+msgstr "Kunde hinzufügen/suchen.."
+
+msgid "Add payment note"
+msgstr "Zahlungshinweis hinzufügen"
+
+msgid "Last Four Digit of card"
+msgstr "Letzte vier Ziffern der Karte"
+
+msgid "Credentials not matched ! !"
+msgstr "Anmeldedaten nicht abgeglichen! !"
+
+msgid "Sign In"
+msgstr "Einloggen"
+
+msgid "Username or Email address"
+msgstr "Benutzername oder E-mail Adresse"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Select Role"
+msgstr "Rolle auswählen"
+
+msgid "Role"
+msgstr "Rolle"
+
+msgid ""
+"I agree to delete the %{rolename} and move all users of %{rolename} to the "
+"selected role"
+msgstr ""
+"Ich stimme zu, %{rolename} zu löschen und alle Benutzer von %{rolename} in "
+"die ausgewählte Rolle zu verschieben"
+
+msgid "Designation"
+msgstr "Bezeichnung"
+
+msgid "Add User"
+msgstr "Nutzer hinzufügen"
+
+msgid "Edit User"
+msgstr "Benutzer bearbeiten"
+
+msgid "Manage User"
+msgstr "Benutzer verwalten"
+
+msgid "User List"
+msgstr "Benutzerliste"
+
+msgid "User"
+msgstr "Benutzer"
+
+msgid "Sale History"
+msgstr "Verkaufshistorie"
+
+msgid "Hold Sale"
+msgstr "Verkauf halten"
+
+msgid "Offline Sale"
+msgstr "Offline-Verkauf"
+
+msgid "Brand"
+msgstr "Marke"
+
+msgid "Contact Info"
+msgstr "Kontaktinformation"
+
+msgid "Sub Total"
+msgstr "Zwischensumme"
+
+msgid "customer"
+msgstr "Kunde"
+
+msgid "Total Quantity"
+msgstr "Gesamtmenge"
+
+msgid "%{qty} of %{items}"
+msgstr "%{qty} von %{items}"
+
+msgid "Weight"
+msgstr "Gewicht"
+
+msgid "Height"
+msgstr "Höhe"
+
+msgid "Width"
+msgstr "Breite"
+
+msgid "Length"
+msgstr "Länge"
+
+msgid "Tax Status"
+msgstr "Steuerstatus"
+
+msgid "Tax Class"
+msgstr "Steuerklasse"
+
+msgid "products"
+msgstr "Produkte"
+
+msgid "Loading ..."
+msgstr "Wird geladen ..."
+
+msgid "Up Sale"
+msgstr "Up-Sale"
+
+msgid "Upload a Feature Image"
+msgstr "Laden Sie ein Funktionsbild hoch"
+
+msgid "Barcode"
+msgstr "Strichcode"
+
+msgid "Seller"
+msgstr "Verkäufer"
+
+msgid "Customer info"
+msgstr "Kundeninformation"
+
+msgid "Order Details"
+msgstr "Bestelldetails"
+
+msgid "Print"
+msgstr "Drucken"
+
+msgid "Manage Orders"
+msgstr "Bestellungen verwalten"
+
+msgid "Customer Loading ..."
+msgstr "Kunde lädt ..."
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Logout"
+msgstr "Ausloggen"
+
+msgid "Lock"
+msgstr "Sperren"
+
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+msgid "Sync from database"
+msgstr "Von Datenbank synchronisieren"
+
+msgid "You are Connected"
+msgstr "Sie sind verbunden"
+
+msgid "You Need To Check Your Connection"
+msgstr "Sie müssen Ihre Verbindung überprüfen"
+
+msgid "Change Outlet"
+msgstr "Steckdose wechseln"
+
+msgid "Close fullscreen"
+msgstr "Vollbild schließen"
+
+msgid "Open fullscreen"
+msgstr "Vollbild öffnen"
+
+msgid "new"
+msgstr "Neu"
+
+msgid "Select Counter"
+msgstr "Zähler auswählen"
+
+msgid "Hello,"
+msgstr "Hallo,"
+
+msgid "Submit"
+msgstr "Einreichen"
+
+msgid "Change"
+msgstr "Veränderung"
+
+msgid "Cash Drawer Balance"
+msgstr "Saldo der Kassenlade"
+
+msgid "Cash Drawer Balance:"
+msgstr "Guthaben in der Kassenlade:"
+
+msgid "Go to Pos"
+msgstr "Gehen Sie zu Pos"
+
+msgid "Go With Current Balance"
+msgstr "Gehen Sie mit aktuellem Guthaben"
+
+msgid "Help and info"
+msgstr "Hilfe und Infos"
+
+msgid "Active Barcode Search"
+msgstr "Aktive Barcode-Suche"
+
+msgid "Active Product Search"
+msgstr "Aktive Produktsuche"
+
+msgid "Pos Menu"
+msgstr "Pos-Menü"
+
+msgid "Checkout Page"
+msgstr "Checkout-Seite"
+
+msgid "Full-screen/Normal-screen"
+msgstr "Vollbild/Normalbild"
+
+msgid "Lock Screen"
+msgstr "Bildschirm sperren"
+
+msgid "Shortcut"
+msgstr "Abkürzung"
+
+msgid "About"
+msgstr "Um"
+
+msgid "Profile Info"
+msgstr "Profil Information"
+
+msgid "Manage Profile"
+msgstr "Profil verwalten"
+
+msgid "Role :"
+msgstr "Rolle :"
+
+msgid "Current Outlet:"
+msgstr "Stromausgang:"
+
+msgid "Address:"
+msgstr "Adresse:"
+
+msgid "User Name:"
+msgstr "Nutzername:"
+
+msgid "Designation:"
+msgstr "Bezeichnung:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Contact:"
+msgstr "Kontakt:"
+
+msgid "Total Outlet:"
+msgstr "Gesamtauslass:"
+
+msgid "Current password"
+msgstr "Jetziges Passwort"
+
+msgid "New password"
+msgstr "Neues Passwort"
+
+msgid "Re-type New password"
+msgstr "Geben Sie Neues Passwort erneut ein"
+
+msgid "Search/Choose country"
+msgstr "Land suchen/wählen"
+
+msgid "Oops !! "
+msgstr "Hoppla !!"
+
+msgid "No item found for this category or search"
+msgstr "Kein Artikel für diese Kategorie oder Suche gefunden"
+
+msgid "Menu"
+msgstr "Speisekarte"
+
+msgid "Cart"
+msgstr "Wagen"
+
+msgid "Product Details"
+msgstr "Produktdetails"
+
+msgid "Hold List"
+msgstr "Warteliste"
+
+msgid "Last 4 Digit:"
+msgstr "Letzte 4 Ziffern:"
+
+msgid "Details"
+msgstr "Einzelheiten"
+
+msgid "Choose property"
+msgstr "Grundstück wählen"
+
+msgid "Property"
+msgstr "Eigentum"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Amount:"
+msgstr "Menge:"
+
+msgid "Search or add a tag"
+msgstr "Suchen oder fügen Sie ein Tag hinzu"
+
+msgid "Search/Choose Category"
+msgstr "Kategorie suchen/wählen"
+
+msgid "Dimension and Tax"
+msgstr "Dimension und Steuer"
+
+msgid "None"
+msgstr "Keiner"
+
+msgid "Taxable"
+msgstr "Steuerpflichtig"
+
+msgid "Shipping only"
+msgstr "Nur Versand"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Reduced rate"
+msgstr "Reduzierte Rate"
+
+msgid "Zero rate"
+msgstr "Nullsatz"
+
+msgid "Select / Custom Attributes"
+msgstr "Wählen Sie / Benutzerdefinierte Attribute aus"
+
+msgid "Example `Color`"
+msgstr "Beispiel `Farbe`"
+
+msgid "Example Red|Blue|Green "
+msgstr "Beispiel Rot|Blau|Grün"
+
+msgid "No Variants Selected"
+msgstr "Keine Varianten ausgewählt"
+
+msgid "Attributes List"
+msgstr "Liste der Attribute"
+
+msgid "Any Options"
+msgstr "Alle Optionen"
+
+msgid "Dimension as Parent"
+msgstr "Dimension als übergeordnetes Element"
+
+msgid "Shipping and Tax Will be same as Parent"
+msgstr "Versand und Steuern sind die gleichen wie bei Parent"
+
+msgid "Manage Barcode"
+msgstr "Strichcode verwalten"
+
+msgid "Generate Barcodes"
+msgstr "Barcodes generieren"
+
+msgid "Choose a Outlet"
+msgstr "Wählen Sie eine Steckdose"
+
+msgid "Paper Size"
+msgstr "Papier größe"
+
+msgid "Choose a paper settings"
+msgstr "Wählen Sie eine Papiereinstellung"
+
+msgid "Add Stock"
+msgstr "Stock hinzufügen"
+
+msgid "Select Vendor"
+msgstr "Wählen Sie Anbieter aus"
+
+msgid "Choose Outlet"
+msgstr "Wählen Sie Ausgang"
+
+msgid "Choose/Search Product"
+msgstr "Produkt auswählen/suchen"
+
+msgid "Choose Role"
+msgstr "Wählen Sie Rolle"
+
+msgid "Update Status?"
+msgstr "Update Status?"
+
+msgid "Add to Cart"
+msgstr "in den Warenkorb legen"
+
+msgid "Remove from hold"
+msgstr "Aus der Warteschleife entfernen"
+
+msgid "Created Time"
+msgstr "Geschaffene Zeit"
+
+msgid "Edit Vendor"
+msgstr "Anbieter bearbeiten"
+
+msgid "Successfully Updated"
+msgstr "Erfolgreich aktualisiert"
+
+msgid "Purchase List Loading ..."
+msgstr "Einkaufsliste wird geladen ..."
+
+msgid "Order List Loading ..."
+msgstr "Bestellliste wird geladen ..."
+
+msgid "Product Loading ..."
+msgstr "Produkt wird geladen ..."
+
+msgid "Stock List Loading ..."
+msgstr "Lagerliste wird geladen ..."
+
+msgid "Vendor List Loading ..."
+msgstr "Lieferantenliste wird geladen ..."
+
+msgid "User List Loading ..."
+msgstr "Benutzerliste wird geladen ..."
+
+msgid "Are you sure to delete this user: %{user}?"
+msgstr "Möchten Sie diesen Benutzer wirklich löschen: %{user}?"
+
+msgid "Are you sure to delete this Customer: %{customer}?"
+msgstr "Möchten Sie diesen Kunden wirklich löschen: %{customer}?"
+
+msgid "Are you sure to remove item from Holds?"
+msgstr "Möchten Sie das Element wirklich aus Holds entfernen?"
+
+msgid "Are you sure to remove all item from cart?"
+msgstr "Möchten Sie wirklich alle Artikel aus dem Einkaufswagen entfernen?"
+
+msgid "Loading Product Details..."
+msgstr "Produktdetails werden geladen..."
+
+msgid "Order Details Loading..."
+msgstr "Bestelldetails Laden..."
+
+msgid "Loading Vendor Details..."
+msgstr "Lieferantendetails werden geladen..."
+
+msgid "Loading Customer Details..."
+msgstr "Kundendaten werden geladen..."
+
+msgid "Loading User Details..."
+msgstr "Benutzerdetails werden geladen..."
+
+msgid "Are you sure to delete this vendor: %{vendor}?"
+msgstr "Möchten Sie diesen Anbieter wirklich löschen: %{vendor}?"
+
+msgid "Restore From Hold"
+msgstr "Aus Hold wiederherstellen"
+
+msgid "Want You like to do with current cart ?"
+msgstr "Möchten Sie gerne mit dem aktuellen Warenkorb machen?"
+
+msgid "Hold cart"
+msgstr "Wagen halten"
+
+msgid "Clear Cart"
+msgstr "Warenkorb löschen"
+
+msgid "To POS"
+msgstr "Der POS"
+
+msgid "Payment Note"
+msgstr "Zahlungshinweis"
+
+msgid "Payment Amount"
+msgstr "Zahlungsbetrag"
+
+msgid "Card"
+msgstr "Karte"
+
+msgid "Type to search"
+msgstr "Tippe um zu suchen"
+
+msgid "Show Details"
+msgstr "Zeige Details"
+
+msgid "Loading Purchase Details..."
+msgstr "Kaufdetails werden geladen..."
+
+msgid "Purchase Details"
+msgstr "Einzelheiten zum Kauf"
+
+msgid "Outlet:"
+msgstr "Auslauf:"
+
+msgid "Supplier:"
+msgstr "Anbieter:"
+
+msgid "Purchased Date:"
+msgstr "Gekauftes Datum:"
+
+msgid "Purchased No:"
+msgstr "Gekaufte Nr.:"
+
+msgid "Purchased By:"
+msgstr "Erworben von:"
+
+msgid "Payment Status:"
+msgstr "Zahlungsstatus:"
+
+msgid "Paid"
+msgstr "Bezahlt"
+
+msgid "Unpaid"
+msgstr "Unbezahlt"
+
+msgid "Purchased Items"
+msgstr "Gekaufte Artikel"
+
+msgid "Items Price"
+msgstr "Artikelpreis"
+
+msgid "Total cost"
+msgstr "Gesamtkosten"
+
+msgid "Print Receipt"
+msgstr "Druckeingang"
+
+msgid "New sale"
+msgstr "Neuer Verkauf"
+
+msgid "Payment processing ..."
+msgstr "Zahlungsabwicklung ..."
+
+msgid "User loading ..."
+msgstr "Benutzer lädt ..."
+
+msgid "Loading From"
+msgstr "Laden von"
+
+msgid "Pro Version Required for this feature"
+msgstr "Für diese Funktion ist die Pro-Version erforderlich"
+
+msgid "Hold Cart Supported In Pro Version"
+msgstr "Hold Cart wird in der Pro-Version unterstützt"
+
+msgid "Notification details"
+msgstr "Benachrichtigungsdetails"
+
+msgid "Go To Purchase"
+msgstr "Gehen Sie zum Einkaufen"
+
+msgid "Stock Alert!"
+msgstr "Lageralarm!"
+
+msgid "Stock is running low Please purchase item to increase stock"
+msgstr ""
+"Der Lagerbestand geht zur Neige. Bitte kaufen Sie den Artikel, um den "
+"Lagerbestand zu erhöhen"
+
+msgid "Personal Information"
+msgstr "Persönliche Informationen"
+
+msgid "Outlet Information"
+msgstr "Outlet-Informationen"
+
+msgid "Current Cash Drawer Information"
+msgstr "Aktuelle Informationen zur Kassenschublade"
+
+msgid "Cash Information"
+msgstr "Bargeldinformationen"
+
+msgid "Opening Cash"
+msgstr "Eröffnungskasse"
+
+msgid "Current Cash"
+msgstr "Aktuelles Bargeld"
+
+msgid "Counter Information"
+msgstr "Zählerinformationen"
+
+msgid "Counter Number"
+msgstr "Zählernummer"
+
+msgid "Want to close cash drawer?"
+msgstr "Möchten Sie die Kassenlade schließen?"
+
+msgid "Need to close cash drawer to change outlet. Do you want to close now?"
+msgstr ""
+"Kassenschublade muss geschlossen werden, um die Steckdose zu wechseln. "
+"Möchten Sie jetzt schließen?"
+
+msgid "Cash Drawer"
+msgstr "Kassenschublade"
+
+msgid "No name found"
+msgstr "Kein Name gefunden"
+
+msgid "No number found"
+msgstr "Keine Nummer gefunden"
+
+msgid "No designation found"
+msgstr "Keine Bezeichnung gefunden"
+
+msgid "No cash drawer information found"
+msgstr "Keine Informationen zur Kassenschublade gefunden"
+
+msgid "Download "
+msgstr "Download"
+
+msgid "Add To Cart ("
+msgstr "In den Warenkorb legen ("
+
+msgid "Add To Cart"
+msgstr "In den Warenkorb legen"
+
+msgid "Changed Amount"
+msgstr "Geänderter Betrag"
+
+msgid "Other"
+msgstr "Sonstiges"
+
+msgid "Cash Summary"
+msgstr "Kassenübersicht"
+
+msgid "Close & Create New"
+msgstr "Schließen & neu erstellen"
+
+msgid "Close & Logout"
+msgstr "Schließen & Abmelden"
+
+msgid "Current cash drawer order list"
+msgstr "Aktuelle Kassenladen-Bestellliste"
+
+msgid "Hold no : %{holdNo}"
+msgstr "Halten nein : %{holdNo}"
+
+msgid "Upload Image For This Variation"
+msgstr "Bild für diese Variante hochladen"
+
+msgid "Do you want to close cash drawer & logout?"
+msgstr "Kassenschublade schließen & abmelden?"
+
+msgid "Do you want to close current cash drawer & create new cash drawer?"
+msgstr ""
+"Möchten Sie die aktuelle Kassenschublade schließen und eine neue "
+"Kassenschublade erstellen?"
+
+msgid "Cash drawer loading..."
+msgstr "Laden der Kassenschublade..."
+
+msgid "Thank You For Purchasing"
+msgstr "Danke für Ihren Einkauf"
+
+msgid "Sign in using another account."
+msgstr "Melden Sie sich mit einem anderen Konto an."
+
+msgid "click here"
+msgstr "Klick hier"
+
+msgid "Regular unit price: %{reg_price}, sale price: %{sale}"
+msgstr "Regulärer Stückpreis: %{reg_price}, Verkaufspreis: %{sale}"
+
+msgid "You are not connected"
+msgstr "Sie sind nicht verbunden"
+
+msgid "This module is not support in offline"
+msgstr "Dieses Modul wird offline nicht unterstützt"
+
+msgid "Update Note"
+msgstr "Hinweis aktualisieren"
+
+msgid "Selected Product"
+msgstr "Ausgewähltes Produkt"
+
+msgid "Product Name"
+msgstr "Produktname"
+
+msgid "Product Syncing"
+msgstr "Produktsynchronisierung"
+
+msgid "Last sync :"
+msgstr "Letzte Synchronisierung:"
+
+msgid ""
+"To process order offline please ask your admin to enable offline order "
+"feature."
+msgstr ""
+"Um die Bestellung offline zu bearbeiten, bitten Sie Ihren Administrator, die "
+"Offline-Bestellfunktion zu aktivieren."
+
+msgid "Upload More Images For This Product"
+msgstr "Laden Sie weitere Bilder für dieses Produkt hoch"
+
+msgid "No barcode found for this product"
+msgstr "Für dieses Produkt wurde kein Barcode gefunden"
+
+msgid "This product already added in the list"
+msgstr "Dieses Produkt wurde bereits in die Liste aufgenommen"
+
+msgid "Set Password"
+msgstr "Passwort festlegen"
+
+msgid "Change password required"
+msgstr "Passwort ändern erforderlich"
+
+msgid ""
+"This would be a temporary password.The user have to change their password on "
+"first login."
+msgstr ""
+"Dies wäre ein temporäres Passwort. Der Benutzer muss sein Passwort bei der "
+"ersten Anmeldung ändern."
+
+msgid "%{fld_name} does not match with its password"
+msgstr "%{fld_name} stimmt nicht mit seinem Passwort überein"
+
+msgid "Set password"
+msgstr "Passwort festlegen"
+
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+msgid "Loading"
+msgstr "Wird geladen"
+
+msgid "Roles Loading"
+msgstr "Rollen werden geladen"
+
+msgid "Attributes Loading"
+msgstr "Attribute werden geladen"
+
+msgid "Edit Product"
+msgstr "Produkt bearbeiten"
+
+msgid "Are you sure to delete this product: %{product}?"
+msgstr "Möchten Sie dieses Produkt wirklich löschen: %{product}?"
+
+msgid "Customer add not supported in offline"
+msgstr "Kunden hinzufügen wird offline nicht unterstützt"
+
+msgid "Click to see offline order"
+msgstr "Klicken Sie hier, um die Offline-Bestellung anzuzeigen"
+
+msgid "Syncing offline orders"
+msgstr "Offline-Bestellungen synchronisieren"
+
+msgid ""
+"You do not have permission of add customer, contact your admin to get this "
+"permission."
+msgstr ""
+"Sie haben keine Berechtigung zum Hinzufügen von Kunden. Wenden Sie sich an "
+"Ihren Administrator, um diese Berechtigung zu erhalten."
+
+msgid "Settings Loading"
+msgstr "Einstellungen werden geladen"
+
+msgid "POS"
+msgstr "Pos"
+
+msgid "Create New"
+msgstr "Erstelle neu"
+
+msgid "No address found"
+msgstr "Keine Adresse gefunden"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "hold items"
+msgstr "Gegenstände halten"
+
+msgid "Supplier"
+msgstr "Anbieter"
+
+msgid "Select variation"
+msgstr "Variation auswählen"
+
+msgid "Drawer Log"
+msgstr "Schubladenprotokoll"
+
+msgid "Customer View"
+msgstr "Kundenansicht"
+
+msgid "Product Syncing."
+msgstr "Produktsynchronisierung."
+
+msgid "Select Sub-category"
+msgstr "Unterkategorie auswählen"
+
+msgid "Last 7 days cash drawer logs"
+msgstr "Kassenschubladenprotokolle der letzten 7 Tage"
+
+msgid "Opened By"
+msgstr "Geöffnet von"
+
+msgid "CLOSED BY"
+msgstr "GESCHLOSSEN DURCH"
+
+msgid "drawer logs"
+msgstr "Schubladenprotokolle"
+
+msgid "Operate By"
+msgstr "Betrieb von"
+
+msgid "Outlet - Counter"
+msgstr "Ausgang - Zähler"
+
+msgid "Balance"
+msgstr "Gleichgewicht"
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+msgid "Show Price"
+msgstr "Preis anzeigen"
+
+msgid "Show price on barcode label"
+msgstr "Preis auf Barcodeetikett anzeigen"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Order Status :"
+msgstr "Bestellstatus :"
+
+msgid "Drawer Log Loading ..."
+msgstr "Schubladenprotokoll wird geladen ..."
+
+msgid "Opening - Closing"
+msgstr "Öffnen - Schließen"
+
+msgid "Opening time"
+msgstr "Öffnungszeit"
+
+msgid "Closing Time"
+msgstr "Geschäftsschluss"
+
+msgid "Open :"
+msgstr "Offen :"
+
+msgid "Close :"
+msgstr "Nah dran :"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Previous Balance :"
+msgstr "Vorherige Balance :"
+
+msgid "Amount"
+msgstr "Menge"
+
+msgid "Opening Balance"
+msgstr "Anfangsbestand"
+
+msgid "Closing Balance"
+msgstr "Schlussbilanz"
+
+msgid "On going"
+msgstr "Weiter gehts"
+
+msgid "No permission to add discount"
+msgstr "Keine Berechtigung zum Hinzufügen von Rabatten"
+
+msgid "You can not add this much of discount"
+msgstr "Sie können nicht so viel Rabatt hinzufügen"
+
+msgid ""
+"Vitepos is a POS specialized software which is the right solution for your "
+"business."
+msgstr ""
+"Vitepos ist eine POS-spezialisierte Software, die die richtige Lösung für "
+"Ihr Unternehmen ist."
+
+msgid "Cash Drawer details"
+msgstr "Einzelheiten zur Kassenschublade"
+
+msgid "Drawer Opened"
+msgstr "Schublade geöffnet"
+
+msgid "Make favorite"
+msgstr "Favorit machen"
+
+msgid "Add items to give discount"
+msgstr "Fügen Sie Artikel hinzu, um Rabatt zu gewähren"
+
+msgid "Add items to add fee"
+msgstr "Fügen Sie Artikel hinzu, um die Gebühr hinzuzufügen"
+
+msgid "Role wise discount manage"
+msgstr "Rollenweise Rabattverwaltung"
+
+msgid "Email already exist."
+msgstr "E-Mail existiert bereits."
+
+msgid "Username already exist."
+msgstr "Der Benutzername existiert bereits."
+
+msgid "Contact no already exist."
+msgstr "Kontaktnummer existiert bereits."
+
+msgid "This email already exist"
+msgstr "Diese Email existiert bereits"
+
+msgid "This username already exist"
+msgstr "Dieser Benutzername existiert bereits"
+
+msgid "This contact no already exist"
+msgstr "Dieser Kontakt existiert noch nicht"
+
+msgid "Email already exist"
+msgstr "E-Mail existiert bereits"
+
+msgid "Username already exist"
+msgstr "Der Benutzername existiert bereits"
+
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+msgid "Successfully added"
+msgstr "Erfolgreich hinzugefügt"
+
+msgid "Delete is temporary disabled"
+msgstr "Löschen ist vorübergehend deaktiviert"
+
+msgid "Delete failed try again"
+msgstr "Löschen fehlgeschlagen, versuchen Sie es erneut"
+
+msgid "Purchase Item"
+msgstr "Artikel kaufen"
+
+msgid "View All Purchase Item"
+msgstr "Alle Kaufartikel anzeigen"
+
+msgid "Are you sure to delete?"
+msgstr "Bist du sicher, das du das löschen möchtest?"
+
+msgid "Pos Purchase"
+msgstr "Pos. Kauf"
+
+msgid "View All Purchase"
+msgstr "Alle Käufe anzeigen"
+
+msgid "User Role"
+msgstr "Benutzer-Rolle"
+
+msgid "View all Role List"
+msgstr "Alle Rollenlisten anzeigen"
+
+msgid "Non editable role"
+msgstr "Nicht bearbeitbare Rolle"
+
+msgid "No role data found"
+msgstr "Keine Rollendaten gefunden"
+
+msgid "Administrator can not be reset"
+msgstr "Administrator kann nicht zurückgesetzt werden"
+
+msgid "Reset has been successfully done"
+msgstr "Zurücksetzen wurde erfolgreich durchgeführt"
+
+msgid "Failed to reset try again"
+msgstr "Fehler beim Zurücksetzen. Versuchen Sie es erneut"
+
+msgid "Role copied successfully"
+msgstr "Rolle erfolgreich kopiert"
+
+msgid "Update failed"
+msgstr "Update fehlgeschlagen"
+
+msgid "No role found with this request param"
+msgstr "Keine Rolle mit diesem Anforderungsparameter gefunden"
+
+msgid "Move to role does not exists"
+msgstr "In Rolle verschieben existiert nicht"
+
+msgid "Role does not exists"
+msgstr "Rolle existiert nicht"
+
+msgid "Update failed try again"
+msgstr "Update fehlgeschlagen, versuchen Sie es erneut"
+
+msgid "Failed to update"
+msgstr "Fehler beim Aktualisieren"
+
+msgid "It is custom barcode data of woocommerce for vitepos"
+msgstr ""
+"Es handelt sich um benutzerdefinierte Barcode-Daten von WooCommerce für "
+"Vitepos"
+
+msgid "Barcode Value"
+msgstr "Barcode-Wert"
+
+msgid "Captcha error, please try again"
+msgstr "Captcha-Fehler, bitte versuchen Sie es erneut"
+
+msgid "Successfully refreshed"
+msgstr "Erfolgreich aufgefrischt"
+
+msgid "View All Settings"
+msgstr "Alle Einstellungen anzeigen"
+
+msgid "View All Outlet"
+msgstr "Alle Outlets anzeigen"
+
+msgid "Update Failed"
+msgstr "Update fehlgeschlagen"
+
+msgid "This Property Should not be update"
+msgstr "Diese Eigenschaft sollte nicht aktualisiert werden"
+
+msgid "Invalid request3"
+msgstr "Ungültige Anfrage3"
+
+msgid "No counter found with these ids"
+msgstr "Kein Zähler mit diesen IDs gefunden"
+
+msgid "No Outlet found with these ids"
+msgstr "Kein Outlet mit diesen IDs gefunden"
+
+msgid "Outlet removed successfully"
+msgstr "Ausgang erfolgreich entfernt"
+
+msgid "Outlet added successfully"
+msgstr "Outlet erfolgreich hinzugefügt"

@@ -32,7 +32,7 @@ if ( ! class_exists( __NAMESPACE__ . '\Vitepos_Dependency' ) ) {
 			$this->plugin_file            = 'vitepos/vitepos.php';
 			$this->lite_plugin_file       = 'vitepos-lite/vitepos-lite.php';
 			$this->lite_version_file_link = 'https://downloads.wordpress.org/plugin/vitepos-lite.latest-stable.zip';
-			$this->lite_min_version       = '3.5.0';
+			$this->lite_min_version       = '3.3.0';
 			$this->lite_slug              = 'vitepos-lite';
 			$this->lite_title             = 'Vitepos Lite';
 		}

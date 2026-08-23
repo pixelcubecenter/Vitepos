@@ -18,17 +18,17 @@
 
 
 
-require_once 'vitepos/helper/app-plugin-helper.php';
+require_once 'vitepos/helper/plugin-helper.php';
+require_once 'vitepos/core/class-vitepos.php';
 require_once 'vitepos/libs/class-vitepos-dependency.php';
-
+use VitePos\Core\VitePos;
 
 if ( true === \VitePos\Libs\Vitepos_Dependency::is_met_requirements( __FILE__ ) ) {
 
-	require_once 'vitepos/core/class-vitepos.php';
 	
 
 
-	$vtpos = new \VitePos\Core\VitePos( __FILE__ );
+	$vtpos = new VitePos( __FILE__ );
 	
 
 	$vtpos->start_plugin();

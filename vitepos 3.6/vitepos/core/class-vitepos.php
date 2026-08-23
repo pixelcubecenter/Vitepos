@@ -12,7 +12,6 @@ use Appsbd\V1\libs\AppInput;
 use VitePos\Api\V1\heartbit_api;
 use VitePos\Api\V1\Pos_Addon_Api;
 use VitePos\Api\V1\pos_api_config;
-use VitePos\Api\V1\Pos_Credit_Api;
 use VitePos\Api\V1\pos_customer_api;
 use VitePos\Api\V1\pos_order_api;
 use VitePos\Api\V1\pos_outlet_api;
@@ -57,7 +56,6 @@ class VitePos extends Kernel {
 		add_filter( 'appsbd/vitepos/update-icons', array( $this, 'update_icon' ) );
 		$this->skip_cache();
 		add_action( 'admin_init', array( $this, 'dci_init' ) );
-
 	}
 
 	/**
@@ -74,10 +72,9 @@ class VitePos extends Kernel {
 		if ( appsbd_is_activated_plugin( 'woocommerce/woocommerce.php' ) ) {
 			add_action(
 				'rest_pre_serve_request',
-				function ($served) {
+				function () {
 					header( 'Access-Control-Allow-Origin: *' );
 					header( 'Access-Control-Allow-Headers: VITE_POS_TOKEN,outlet', false );
-					return $served;
 				}
 			);
 
@@ -115,7 +112,6 @@ class VitePos extends Kernel {
 					new pos_addon_api( $namespace, $this );
 					new Pos_Table_Api( $namespace, $this );
 					new Pos_Report_Api( $namespace, $this );
-					new Pos_Credit_Api( $namespace, $this );
 					/**
 					 * Its for initial 3rd party api.
 					 *
@@ -190,7 +186,7 @@ class VitePos extends Kernel {
 	 * @return array
 	 */
 	public function stop_order_email( $email_list ) {
-		if ( vitepos_is_rest( array( 'order/make-payment', 'order/make-exchange-payment', 'order/sync-offline-order' ) ) ) {
+		if ( vitepos_is_rest( array( 'order/make-payment', 'order/sync-offline-order' ) ) ) {
 			return array();
 		}
 		return $email_list;
@@ -281,7 +277,6 @@ class VitePos extends Kernel {
 		$this->add_module( 'VitePos\Modules\POS_Role' );
 		$this->add_module( 'VitePos\Modules\POS_Warehouse' );
 		$this->add_module( 'VitePos\Modules\POS_Payment' );
-		$this->add_module( 'VitePos\Modules\POS_Credit' );
 		$this->add_module( 'VitePos\Modules\POS_Settings' );
 		$this->add_module( 'VitePos\Modules\Pos_Restaurant' );
 		$this->add_module( 'VitePos\Modules\Pos_Addon' );
@@ -342,7 +337,6 @@ class VitePos extends Kernel {
 		$jv_object->ajax_url                                   = wp_nonce_url( admin_url( 'admin-ajax.php' ),
 			'vitepos' );
 		$jv_object->base_slug                                  = $this->plugin_base;
-		$jv_object->store_name                                 = get_bloginfo( 'name' );
 		$jv_object->pos_link                                   = site_url( 'vitepos' );
 		$jv_object->time_format                                = get_option( 'time_format' );
 		$jv_object->currency_symbol                            = get_woocommerce_currency_symbol();
