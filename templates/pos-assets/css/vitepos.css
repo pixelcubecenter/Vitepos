@@ -16,3 +16,5 @@
 /* PixelCube: collapsible cart totals + buttons */
 .vt-collapse-btn{display:block;margin:0 auto 4px;border:1px solid #ddd;background:#fff;border-radius:10px;line-height:1;padding:2px 16px;font-size:14px;color:#555;cursor:pointer}
 body.vt-cart-collapsed .cart-footer .price-title,body.vt-cart-collapsed .cart-footer .button-group{display:none!important}
+
+.vt-drag-handle{display:inline-flex;flex-direction:column;justify-content:center;gap:3px;width:22px;height:22px;padding:2px 3px;margin-right:6px;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;flex:0 0 auto;border-radius:4px;opacity:.75}.vt-drag-handle:hover{opacity:1;background:rgba(0,0,0,.05)}.vt-drag-handle i{display:block;height:2px;width:100%;border-radius:2px;background:#222}.vt-cart-sorting,.vt-cart-sorting *{cursor:grabbing!important;user-select:none!important}.cart-product-list.vt-dragging{position:relative;z-index:20;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.18);transition:none!important;opacity:.95}
