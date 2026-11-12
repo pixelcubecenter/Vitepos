@@ -18,6 +18,7 @@ use VitePos\Libs\API_Base;
 use VitePos\Libs\POS_Product;
 use Vitepos\Models\Database\Mapbd_Pos_Purchase;
 use Vitepos\Models\Database\Mapbd_Pos_Purchase_Item;
+use Vitepos\Models\Database\Mapbd_Pos_Stock_Log;
 use Vitepos\Models\Database\Mapbd_Pos_Warehouse;
 use VitePos\Modules\POS_Settings;
 
@@ -1338,8 +1339,11 @@ class Pos_Product_Api extends API_Base {
 		if ( is_array( $this->payload ) && array_key_exists( 'vt_bought_from', $this->payload ) ) {
 			$bought_product = wc_get_product( $product_id );
 			if ( $bought_product ) {
-				$bought_product->update_meta_data( '_vt_bought_from', sanitize_text_field( wp_unslash( (string) $this->payload['vt_bought_from'] ) ) );
+				$bought_from_val = sanitize_text_field( wp_unslash( (string) $this->payload['vt_bought_from'] ) );
+				$bought_product->update_meta_data( '_vt_bought_from', $bought_from_val );
 				$bought_product->save();
+				// Stock rows already written by this save (Product Added / Edited) get it too.
+				Mapbd_Pos_Stock_Log::vt_set_request_bought_from( $bought_from_val );
 			}
 		}
 		// "Hide In Website": catalog visibility hidden, otherwise "Shop and search results".
