@@ -1285,6 +1285,23 @@ class Pos_Product_Api extends API_Base {
 	 * @param int $product_id Product id.
 	 */
 	public static function vt_story_auto_queue( $product_id ) {
+		// Never let the Story step break the product save response.
+		ob_start();
+		try {
+			self::vt_story_auto_queue_inner( $product_id );
+		} catch ( \Throwable $e ) {
+			error_log( 'VitePOS Story auto post: ' . $e->getMessage() ); // phpcs:ignore
+		}
+		ob_end_clean();
+	}
+
+	/**
+	 * See vt_story_auto_queue().
+	 *
+	 * @param int $product_id Product id.
+	 */
+	private static function vt_story_auto_queue_inner( $product_id ) {
+		clean_post_cache( $product_id );
 		if ( ! class_exists( 'PCC_SP_Story' ) || '1' === get_post_meta( $product_id, PCC_SP_Story::META_DONE, true ) ) {
 			return;
 		}
@@ -1331,8 +1348,31 @@ class Pos_Product_Api extends API_Base {
 			$this->response->set_response( false, null );
 			return $this->response->get_response();
 		}
-		$res  = PCC_SP_Story::post_now( $id );
-		$last = POS_Product::vt_story_last( $id );
+		// The plugin's own button runs in wp-admin, where these are always loaded.
+		require_once ABSPATH . 'wp-admin/includes/file.php';
+		require_once ABSPATH . 'wp-admin/includes/image.php';
+		require_once ABSPATH . 'wp-admin/includes/media.php';
+		if ( function_exists( 'set_time_limit' ) ) {
+			@set_time_limit( 300 ); // phpcs:ignore
+		}
+		ignore_user_abort( true );
+		ob_start();
+		try {
+			$res = PCC_SP_Story::post_now( $id );
+		} catch ( \Throwable $e ) {
+			$res = array(
+				'ok'      => false,
+				'message' => 'Error: ' . $e->getMessage(),
+			);
+		}
+		ob_end_clean();
+		if ( ! is_array( $res ) ) {
+			$res = array(
+				'ok'      => false,
+				'message' => 'No result returned.',
+			);
+		}
+		$last = ! empty( $res['ok'] ) ? POS_Product::vt_story_last( $id ) : null;
 		if ( ! $last ) {
 			$last = array(
 				'when' => wp_date( 'j M H:i' ),
@@ -1417,13 +1457,8 @@ class Pos_Product_Api extends API_Base {
 			$story_on = 'Y' === (string) $this->payload['vt_story_auto'];
 			update_post_meta( $product_id, PCC_SP_Story::META_AUTO, $story_on ? '1' : '0' );
 			if ( $story_on ) {
-				// Wait until the end of the request so the image and price are saved.
-				add_action(
-					'shutdown',
-					function () use ( $product_id ) {
-						self::vt_story_auto_queue( $product_id );
-					}
-				);
+				// The feature image was saved at the top of this method, so queue now.
+				self::vt_story_auto_queue( $product_id );
 			}
 		}
 		// "Bought From": the product's current supplier. Orders copy it onto each line when created.
