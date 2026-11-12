@@ -65,6 +65,7 @@ class Pos_Product_Api extends API_Base {
 		$this->register_rest_route( 'POST', 'delete-product', array( $this, 'delete_product' ) );
 		$this->register_rest_route( 'POST', 'make-favorite', array( $this, 'make_favorite' ) );
 		$this->register_rest_route( 'POST', 'make-hidden', array( $this, 'make_hidden' ) );
+		$this->register_rest_route( 'POST', 'story-post', array( $this, 'story_post' ) );
 		$this->register_rest_route( 'POST', 'add-category', array( $this, 'add_category' ) );
 		$this->register_rest_route( 'POST', 'update-category', array( $this, 'update_category' ) );
 		$this->register_rest_route( 'POST', 'delete-category', array( $this, 'delete_category' ) );
@@ -85,6 +86,8 @@ class Pos_Product_Api extends API_Base {
 	 */
 	public function set_route_permission( $route ) {
 		switch ( $route ) {
+			case 'story-post':
+				return current_user_can( 'product-add' ) || current_user_can( 'product-edit' );
 			case 'update':
 				return current_user_can( 'product-edit' );
 			case 'make-favorite':
@@ -1273,6 +1276,80 @@ class Pos_Product_Api extends API_Base {
 	 * @param mixed $product_id Its product id.
 	 */
 	public function call_product_action( $product_id ) {
+		$this->vt_call_product_action( $product_id );
+	}
+
+	/**
+	 * PCC Social Poster: queue this product's Story once (same checks as the plugin's own Auto Post).
+	 *
+	 * @param int $product_id Product id.
+	 */
+	public static function vt_story_auto_queue( $product_id ) {
+		if ( ! class_exists( 'PCC_SP_Story' ) || '1' === get_post_meta( $product_id, PCC_SP_Story::META_DONE, true ) ) {
+			return;
+		}
+		if ( 'publish' !== get_post_status( $product_id ) || ! PCC_SP_Story::is_template_ready() || empty( PCC_SP_Story::platforms() ) ) {
+			return;
+		}
+		$product = wc_get_product( $product_id );
+		if ( ! $product || ! $product->get_image_id() ) {
+			return;
+		}
+		$queued = PCC_SP_Story::queue_product( $product_id );
+		if ( is_wp_error( $queued ) ) {
+			return;
+		}
+		update_post_meta( $product_id, PCC_SP_Story::META_DONE, '1' );
+		if ( class_exists( 'PCC_SP_Queue' ) && method_exists( 'PCC_SP_Queue', 'kick' ) ) {
+			PCC_SP_Queue::kick();
+		}
+	}
+
+	/**
+	 * PCC Social Poster: "Post to Story" button on the Edit Product and Manage Products screens.
+	 *
+	 * @return \Appsbd\V1\libs\API_Response
+	 */
+	public function story_post() {
+		$id = is_array( $this->payload ) && ! empty( $this->payload['id'] ) ? intval( $this->payload['id'] ) : 0;
+		if ( ! class_exists( 'PCC_SP_Story' ) ) {
+			$this->add_error( 'PCC Social Poster is not active.' );
+			$this->response->set_response( false, null );
+			return $this->response->get_response();
+		}
+		$product = $id ? wc_get_product( $id ) : null;
+		if ( ! $product ) {
+			$this->add_error( 'Product not found.' );
+			$this->response->set_response( false, null );
+			return $this->response->get_response();
+		}
+		if ( $product->get_parent_id() ) {
+			$id = $product->get_parent_id();
+		}
+		if ( 'publish' !== get_post_status( $id ) ) {
+			$this->add_error( 'Only published products can be posted to Story.' );
+			$this->response->set_response( false, null );
+			return $this->response->get_response();
+		}
+		$res  = PCC_SP_Story::post_now( $id );
+		$last = POS_Product::vt_story_last( $id );
+		if ( ! $last ) {
+			$last = array(
+				'when' => wp_date( 'j M H:i' ),
+				'ok'   => ! empty( $res['ok'] ),
+				'msg'  => (string) $res['message'],
+			);
+		}
+		$this->response->set_response( ! empty( $res['ok'] ), (string) $res['message'], array( 'vt_story_last' => $last ) );
+		return $this->response->get_response();
+	}
+
+	/**
+	 * The product actions run after a product is created or updated.
+	 *
+	 * @param mixed $product_id Its product id.
+	 */
+	private function vt_call_product_action( $product_id ) {
 		/**
 		 * Its for product feature update
 		 *
@@ -1332,6 +1409,20 @@ class Pos_Product_Api extends API_Base {
 						'ID'          => $product_id,
 						'post_author' => $new_author,
 					)
+				);
+			}
+		}
+		// "Auto Post" (PCC Social Poster), sent only by the Add Product screen.
+		if ( class_exists( 'PCC_SP_Story' ) && is_array( $this->payload ) && array_key_exists( 'vt_story_auto', $this->payload ) ) {
+			$story_on = 'Y' === (string) $this->payload['vt_story_auto'];
+			update_post_meta( $product_id, PCC_SP_Story::META_AUTO, $story_on ? '1' : '0' );
+			if ( $story_on ) {
+				// Wait until the end of the request so the image and price are saved.
+				add_action(
+					'shutdown',
+					function () use ( $product_id ) {
+						self::vt_story_auto_queue( $product_id );
+					}
 				);
 			}
 		}
@@ -1879,6 +1970,11 @@ class Pos_Product_Api extends API_Base {
 	 */
 	public function create_product() {
 		if ( ! empty( $this->payload ) ) {
+			if ( class_exists( 'PCC_SP_Story' ) && is_array( $this->payload ) && array_key_exists( 'vt_story_auto', $this->payload ) ) {
+				// The "Auto Post" checkbox decides, not PCC Social Poster's own POS setting.
+				remove_action( 'woocommerce_new_product', array( 'PCC_SP_Story', 'on_pos_product' ), 20 );
+				remove_action( 'woocommerce_update_product', array( 'PCC_SP_Story', 'on_pos_product' ), 20 );
+			}
 			$is_max = apply_filters( "appsbd/vitepos/filter/is-max-product", false );
 			if ( $is_max ) {
 				$this->add_error( 'Product creation limit exceeded' );
