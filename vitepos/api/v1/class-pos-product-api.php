@@ -1302,23 +1302,23 @@ class Pos_Product_Api extends API_Base {
 	 */
 	private static function vt_story_auto_queue_inner( $product_id ) {
 		clean_post_cache( $product_id );
-		if ( ! class_exists( 'PCC_SP_Story' ) || '1' === get_post_meta( $product_id, PCC_SP_Story::META_DONE, true ) ) {
+		if ( ! class_exists( 'PCC_SP_Story' ) || '1' === get_post_meta( $product_id, \PCC_SP_Story::META_DONE, true ) ) {
 			return;
 		}
-		if ( 'publish' !== get_post_status( $product_id ) || ! PCC_SP_Story::is_template_ready() || empty( PCC_SP_Story::platforms() ) ) {
+		if ( 'publish' !== get_post_status( $product_id ) || ! \PCC_SP_Story::is_template_ready() || empty( \PCC_SP_Story::platforms() ) ) {
 			return;
 		}
 		$product = wc_get_product( $product_id );
 		if ( ! $product || ! $product->get_image_id() ) {
 			return;
 		}
-		$queued = PCC_SP_Story::queue_product( $product_id );
+		$queued = \PCC_SP_Story::queue_product( $product_id );
 		if ( is_wp_error( $queued ) ) {
 			return;
 		}
-		update_post_meta( $product_id, PCC_SP_Story::META_DONE, '1' );
+		update_post_meta( $product_id, \PCC_SP_Story::META_DONE, '1' );
 		if ( class_exists( 'PCC_SP_Queue' ) && method_exists( 'PCC_SP_Queue', 'kick' ) ) {
-			PCC_SP_Queue::kick();
+			\PCC_SP_Queue::kick();
 		}
 	}
 
@@ -1358,7 +1358,7 @@ class Pos_Product_Api extends API_Base {
 		ignore_user_abort( true );
 		ob_start();
 		try {
-			$res = PCC_SP_Story::post_now( $id );
+			$res = \PCC_SP_Story::post_now( $id );
 		} catch ( \Throwable $e ) {
 			$res = array(
 				'ok'      => false,
@@ -1455,7 +1455,7 @@ class Pos_Product_Api extends API_Base {
 		// "Auto Post" (PCC Social Poster), sent only by the Add Product screen.
 		if ( class_exists( 'PCC_SP_Story' ) && is_array( $this->payload ) && array_key_exists( 'vt_story_auto', $this->payload ) ) {
 			$story_on = 'Y' === (string) $this->payload['vt_story_auto'];
-			update_post_meta( $product_id, PCC_SP_Story::META_AUTO, $story_on ? '1' : '0' );
+			update_post_meta( $product_id, \PCC_SP_Story::META_AUTO, $story_on ? '1' : '0' );
 			if ( $story_on ) {
 				// The feature image was saved at the top of this method, so queue now.
 				self::vt_story_auto_queue( $product_id );
