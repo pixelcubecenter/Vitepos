@@ -711,6 +711,8 @@ class POS_Settings extends Vitepos_Module {
 			'delete_product'       => $vitepos_base . 'product/delete-product',
 			'make_favorite'        => $vitepos_base . 'product/make-favorite',
 			'make_hidden'          => $vitepos_base . 'product/make-hidden',
+			// "Story Post" (PCC Social Poster): only when that plugin is active.
+			'story_post'           => class_exists( 'PCC_SP_Story' ) ? $vitepos_base . 'product/story-post' : '',
 			'outlet_list'          => $vitepos_base . 'outlet/list',
 			'all_outlet_list'      => $vitepos_base . 'outlet/all-outlet-list',
 			'cash_drawer_info'     => $vitepos_base . 'outlet/cash-drawer-info',

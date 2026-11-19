@@ -656,7 +656,7 @@ class Pos_Order_Api extends API_Base {
 		return array(
 			'pending'    => 'Pending payment',
 			'processing' => 'Processing',
-			'on-hold'    => 'On hold',
+			'on-hold'    => 'On The Way',
 			'completed'  => 'Completed',
 			'cancelled'  => 'Cancelled',
 			'refunded'   => 'Refunded',

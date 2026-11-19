@@ -928,6 +928,10 @@ class Pos_Purchase_Api extends API_Base {
 				$log->entry_date  = appsbd_get_wp_date_with_format( $log->entry_date );
 				$log->user_name   = POS_Settings::get_user_name_by_id( $log->user_id );
 				$log->bought_from = '';
+				// Product Added / Edited rows: the "Bought From" stored on the row when it was written.
+				if ( in_array( $log->ref_type, array( 'PA', 'PE' ), true ) ) {
+					$log->bought_from = (string) $log->ex2_param;
+				}
 				// For order rows: the "Bought From" saved on that order's line when it was sold.
 				if ( 'OR' === $log->ref_type && ! empty( $log->ref_val ) ) {
 					$order_id = intval( $log->ref_val );

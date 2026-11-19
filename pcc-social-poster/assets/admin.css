@@ -1,0 +1,36 @@
+.pcc-sp-wrap select#pcc-sp-category,
+.pcc-sp-wrap select#pcc-sp-method {
+	min-width: 320px;
+}
+.pcc-sp-inline-form th {
+	width: 140px;
+}
+#pcc-sp-products-table img,
+#pcc-sp-story-products-table img,
+#pcc-sp-queue-table img {
+	max-width: 50px;
+	max-height: 50px;
+	display: block;
+}
+.pcc-sp-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.pcc-sp-status-queued { background: #f0f0f1; color: #50575e; }
+.pcc-sp-status-generating,
+.pcc-sp-status-posting { background: #d4e8ff; color: #0a4b78; }
+.pcc-sp-status-posted { background: #d9f2d9; color: #1e5e1e; }
+.pcc-sp-status-partial { background: #fff3cd; color: #7a5a00; }
+.pcc-sp-status-failed { background: #fbe0e0; color: #8a1f1f; }
+.pcc-sp-status-cancelled { background: #eee; color: #888; }
+.pcc-sp-media-field p { margin: 6px 0; }
+#pcc-sp-select-count { margin-left: 8px; color: #666; }
+
+.pcc-sp-manual-thumbs { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+.pcc-sp-manual-thumb { position: relative; width: 90px; height: 90px; border: 1px solid #ccd0d4; border-radius: 4px; overflow: hidden; background: #f6f7f7; }
+.pcc-sp-manual-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pcc-sp-manual-remove { position: absolute; top: 2px; right: 2px; width: 22px; height: 22px; line-height: 20px; padding: 0; border: 0; border-radius: 50%; background: rgba(0,0,0,.65); color: #fff; cursor: pointer; font-size: 12px; }
